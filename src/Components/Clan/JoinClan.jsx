@@ -1,4 +1,5 @@
-import './joinClan.css'
+import './JoinClan.css'
+
 // import joinClanVect from '../../assets/Clan/joinclanheading.svg'
 import joinClanVect from '../../assets/Clan/joinclanheading.svg'
 import sicarioVect from '../../assets/Clan/sicario.svg'
