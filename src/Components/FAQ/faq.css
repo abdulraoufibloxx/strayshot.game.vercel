@@ -1,0 +1,155 @@
+.faq-container{
+    margin-top: 8%;
+    /* height: 1200px; */
+    /* background-color: rgb(39, 39, 39); */
+}
+
+.faq-main-container{
+    position: relative;
+}
+
+.faq-main-title{
+    font-family: var(--secondary-font-medium);
+    letter-spacing: 1px;
+}
+
+
+
+.accordion{
+    box-shadow: 5px 11px 8px 0px rgba(0,0,0,0.75) !important;
+}
+
+
+
+.accordion-button{
+    font-family: var(--secondary-font-medium);
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #E7E8E8;
+    letter-spacing: 2px;
+    
+}
+
+.accordion-body{
+    text-align: left;
+    font-family: var(--secondary-font-normal);
+    letter-spacing: 1px;
+    background-color: #111214 !important;
+    color: white !important;
+}
+    
+
+.accordion .item .accordion-header button{
+    background-color: transparent;
+    box-shadow: none;
+    line-height: 5rem;
+}
+
+.accordion-button {
+    background-color: #151619 !important ;
+    color: white !important;
+}
+
+.accordion-button:focus{
+    color: #FFB503 !important;
+}
+
+.accordion-item{
+    border-bottom: 1px solid gray !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black !important;
+    color: inherit;
+  }
+
+button.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+
+
+.accordion-description{
+    background-color: #1e20239e ;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.duke-faq{
+    position: absolute;
+    left: -347px;
+    top: 45px;
+    z-index: -1;
+}
+
+.duke-faq img {
+    width: 65%;
+}
+
+.faq-bottom-line{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+.faq-bottom-line img{
+    width: 120%;
+}
+
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E%0A") !important;
+   
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E%0A") !important;
+
+}
+
+.numbered-list {
+    list-style: none; /* Remove default list style */
+    counter-reset: list-counter; /* Reset the counter for the list */
+  }
+  
+  .numbered-list li {
+    position: relative; /* Position relative for pseudo-element */
+    margin-bottom: 10px; /* Adjust margin bottom as needed */
+  }
+  
+  .numbered-list li::before {
+    content: counter(list-counter); /* Use the counter value as content */
+    counter-increment: list-counter; /* Increment the counter for each list item */
+    position: absolute; /* Position absolute for the pseudo-element */
+    left: -30px; /* Adjust left position as needed */
+    width: 25px; /* Adjust width as needed */
+    text-align: center; /* Align numbers to the right */
+  }
+
+  .custom-list-faq{
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .custom-list-faq li::before{
+    content: "-";
+    margin-right: 5px;
+  }
+
+
+
+@media (max-width: 768px){
+    .faq-header-img-container img{
+        width: 474px;
+        height: auto;
+    }
+
+    .faq-main-title{
+        display: none;
+    }
+
+    .duke-faq{
+        display: none;
+    }
+}

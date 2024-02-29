@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Montage';
+    src: local('Montage Grunge'), local('Montage-Grunge'),
+        url('Montage-Grunge.woff2') format('woff2'),
+        url('Montage-Grunge.woff') format('woff'),
+        url('Montage-Grunge.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

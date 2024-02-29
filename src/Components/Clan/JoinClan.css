@@ -1,0 +1,85 @@
+.join-clain-container{
+    position: relative;
+    margin-top: 10%;
+}
+
+.clan-name{
+    font-family: var(--secondary-font-medium);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+.clan-description{
+    font-family: var(--secondary-font-normal);
+    font-size: 0.9rem;
+    color: #E7E8E8;
+}
+
+.clan-text-container{
+    width: 75%;
+}
+
+
+.clan-text-content{
+    text-align: left ;
+}
+.join-clain-card-container{
+    margin-top: 8%;
+}
+
+.skull-img-left{
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+}
+
+
+
+.skull-img-right{
+    position: absolute;
+    top: 15%;
+    z-index: -1;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.join-clan-cta{
+    width: 75%;
+    margin-top: 5%;
+}
+.join-clan-header-img img{
+    width: 50%;
+}
+
+@media (max-width: 768px){
+    .join-clan-header-img img{
+        width: 150% !important;
+        /* height: auto; */
+    }
+
+    .skull-img-left{
+        display: none;
+    }
+
+    .skull-img-right{
+        display: none;
+    }
+
+    .game-modes-subtitle{
+        display: none;
+    }
+
+    .clan-text-content{
+        text-align: center !important;
+    }
+
+    .join-clan-description{
+        font-size: 0.9rem;
+    }
+}
+
+/* 1.3331 */
+

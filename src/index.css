@@ -1,0 +1,50 @@
+@import url('./clash-display.css');
+@import url('./Montage-Grunge.css');
+
+html{
+  overflow-x: hidden;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #1E1E1E;
+  color: white;
+}
+
+:root {
+  --primary-color: #FFB503; /* Define primary color */
+  --secondary-color:#000; /* Define secondary color */
+  --text-color: #E7E8E8; /* Define background color */
+  --main-heading-font: Montage, sans-serif; /* Define main heading font */
+  --secondary-font-normal: ClashDisplay-Variable, sans-serif; /* Define secondary font */
+  --secondary-font-extra-light: ClashDisplay-Extralight, sans-serif; /* Define secondary font */
+  --secondary-font-normal-light: ClashDisplay-Light, sans-serif; /* Define secondary font */
+  --secondary-font-medium: ClashDisplay-Medium, sans-serif; /* Define secondary font */
+  --secondary-font-semi-bold: ClashDisplay-Semibold, sans-serif; /* Define secondary font */
+  --secondary-font-bold: ClashDisplay-Bold, sans-serif; /* Define secondary font */
+  --secondary-font-regular: ClashDisplay-Regular, sans-serif; /* Define secondary font */
+}
+
+
+.download-btn{
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+  cursor: pointer; /* Default cursor */
+  transition: color 0.3s ease;
+}
+
+
+a:hover {
+  color: #b3b3b3; /* Change to your desired hover color */
+}

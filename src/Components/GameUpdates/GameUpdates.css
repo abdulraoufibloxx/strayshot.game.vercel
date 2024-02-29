@@ -1,0 +1,182 @@
+.game-updates-container {
+  margin-top: 8%;
+  background-image: url(../../assets/Layer_1.svg);
+  position: relative;
+}
+
+.game-updates-card-container {
+  margin-top: 3%;
+}
+
+/* .game-updates-card {
+  width: 80%;
+    margin: auto;
+} */
+
+
+
+.game-udpates-card-first::before {
+  z-index: -1;
+  content: ""; /* Ensure content is empty for the pseudo-element */
+  position: absolute; /* Position the pseudo-element absolutely */
+  top: 0; /* Position from the top */
+  left: -245px; /* Position from the left */
+  width: 100%; /* Set width of the left border */
+  height: 100%; /* Set height of the left border */
+  background-image: url("../../assets/GameUpdates/left-border.svg"); /* Specify the URL of the SVG */
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensure the SVG fills the pseudo-element */
+}
+
+.game-udpates-card-last::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -245px;
+  width: 100%;
+  height: 100%;
+  background-image: url(/src/assets/GameUpdates/left-border.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.game-update-card-title {
+  color: white !important;
+}
+
+.game-update-card-read-more{
+  font-family: var(--secondary-font-regular);
+  letter-spacing: 1px;
+}
+.game-update-card-date {
+  margin-bottom: 1px;
+  font-family: var(--secondary-font-medium);
+  color: var(--primary-color);
+}
+
+.game-update-card-img {
+  position: relative;
+}
+
+.game-update-card-line {
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+}
+
+.game-updates-header-sm{
+    display: none;
+}
+
+.game-updates-sm{
+  display: none;
+}
+
+.game-update-card-line img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ibloxx news section css */
+
+.ibloxx-news-container {
+  margin-top: 5%;
+}
+
+.ibloxx-news-card-container {
+  margin-top: 3%;
+}
+
+.ibloxx-news-header-sm{
+    display: none;
+}
+
+.ibloxx-news-sm{
+  display: none;
+}
+
+.iboxx-news-lg{
+  display: block;
+}
+
+
+.game-updates-header{
+  position: relative;
+}
+.game-updates-header p{
+  font-family: var(--main-heading-font);
+  font-size: 3rem;
+  color:var(--primary-color) ;
+}
+
+.game-updates-header p::before {
+  content: url('../../assets/text-left-graphic.svg');
+  z-index: -1;
+    position: absolute;
+    top: -5px;
+    left: -245px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+  
+  
+}
+
+.game-updates-header p::after {
+  content: url('../../assets/text-left-graphic.svg');
+  z-index: -1;
+    position: absolute;
+    top: -5px;
+    right: -245px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    transform: scaleX(-1);
+  
+  
+}
+
+@media (max-width: 768px){
+    .game-updates-header-sm{
+        display: block;
+    }
+
+    .game-updates-lg{
+        display: none;
+    }
+
+    .game-updates-header-lg{
+        display: none;
+    }
+
+    .game-udpates-card-first::before {
+        display: none;
+      }
+
+      .game-udpates-card-last::after{
+        display: none;
+      }
+
+      .game-updates-sm{
+        display: block;
+      }
+
+    .ibloxx-news-header-lg{
+        display: none;
+    }
+
+    .ibloxx-news-header-sm{
+        display: block;
+    }
+
+    .ibloxx-news-lg{
+      display: none;
+    }
+
+    .ibloxx-news-sm{
+      display: block;
+    }
+
+}

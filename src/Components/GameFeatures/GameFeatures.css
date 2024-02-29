@@ -1,0 +1,166 @@
+.game-features-container{
+    margin-top: 8rem;
+}
+
+
+.header-text{
+    /* font-family: Montage, sans-serif; */
+    font-family: var(--main-heading-font);
+}
+
+.game-features-heading{
+    color: #fff;
+    
+    letter-spacing: 0.03rem;
+    font-size: 2.625rem;
+}
+
+.map-header{
+    color: var(--primary-color);
+    font-size: 4.3331em;
+}
+
+
+.map-container{
+    /* height: 500px; */
+    /* background-color: red; */
+    width: 100%;
+    position: relative;
+}
+
+.map-container .vect-top img{
+    
+    height: 2.5rem;
+    width: 100vw;
+  
+    
+}
+
+.map-container .map-img .vect-top{
+    position: absolute;
+    top: 10px;
+    transform: scaleY(-1);
+    height: 1.5rem;
+}
+
+.map-img{
+    width: 100%;
+    position: relative;
+}
+
+.map-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 39.625rem;
+}
+
+.map-name{
+    width: 25.6663rem;
+    height: 16.6663rem;
+    background-color: white;
+    position: absolute;
+    left: 2rem;
+    top: 5rem;
+    z-index: 1;
+}
+
+.map-name{
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    height: 15.6663rem;
+    width: 24.6663rem;
+    background-image: url('../../assets/map-name.svg');
+    background-size: cover;
+}
+
+.map-name h3{
+    font-family: var(--main-heading-font);
+    color: black;
+}
+
+.map-name p{
+    font-family: var(--secondary-font-regular);
+    color: black;
+}
+
+.vect-bottom-game{
+    position: absolute;
+    height: 1.5rem;
+    bottom: 15px;
+    /* transform: scaleY(-1) */
+
+}
+
+.vect-bottom-game img{
+    width: 100vw;
+}
+.map-item-container{
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: -4.6875rem;
+    left: 0;
+    right: 0;
+}
+
+.map-items{
+    position: relative;
+}
+
+.map-item-img{
+    /* width: 272px; */
+    height: 10.3313rem;
+}
+
+.map-item-title {
+    font-family: var(--main-heading-font);
+    color: white;
+    font-size: 2.000rem;
+}
+
+.map-item-name{
+    color: #B6B6B7;
+    font-family: var(--secondary-font-regular);
+    letter-spacing: 0.1rem;
+    margin-top: -1rem !important;
+}
+
+
+@media (max-width: 768px){
+
+    .map-header{
+        font-size: 2.333rem;
+    }
+
+    .vect-top{
+        top: 0 !important;
+    }
+
+    .vect-bottom-game{
+        bottom: -7px !important;
+    }
+    
+    .map-item-name{
+        font-size: 0.8rem;
+    }
+
+    .map-item-title{
+        font-size: 1.2rem;
+    }
+
+    .map-item-name{
+        font-size: 0.5rem;
+        font-family: var(--secondary-font-normal);
+        white-space: nowrap;
+    }
+
+    .map-item-container{
+        top: -2.5rem;
+    }
+
+    .map-name-container{
+        display: none;
+    }
+
+}

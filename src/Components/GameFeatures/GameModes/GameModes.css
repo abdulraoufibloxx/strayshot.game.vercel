@@ -1,0 +1,106 @@
+.game-modes-container{
+    margin-top: 25rem;
+    background-image: url('../../../assets/Layer_1.svg');
+
+}
+
+.game-modes-text-container{
+    max-width: 66.665rem;
+    margin: auto;
+}
+
+.game-modes-carousel-sm{
+    display: none;
+}
+
+.game-modes-card-container{
+    position: relative;
+}
+
+.game-modes-heading{
+    font-family: var(--main-heading-font);
+    font-size: 4.3331rem;
+    color: var(--primary-color);
+}
+
+.game-modes-subtitle{
+    font-family: var(--secondary-font-medium);
+    color: #E7E8E8;
+    letter-spacing: 1px;
+}
+
+.game-modes-description{
+    color: #E7E8E8;
+    font-family: var(--secondary-font-normal);
+}
+
+.game-modes-card{
+    background-color: black;
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 1rem;
+    height: 24.4163rem ;
+    width: 100%;
+    /* height: 295px ;
+    width: 245px; */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.game-modes-title{
+    font-family: var(--main-heading-font);
+    font-size: 1.7rem;
+}
+
+.game-modes-description{
+    font-size: 0.9rem;
+}
+
+
+.game-modes-splash{
+    position: absolute;
+    top: -146px;
+    right: -128px;
+    z-index: -1;
+}
+
+.game-modes-bottom-line{
+    position: absolute;
+    bottom: -29px;
+    left: -17px;
+    z-index: -1;    
+}
+
+.game-modes-seperator{
+    width: 100vw;
+}
+
+@media (max-width: 768px){
+    .game-modes-container{
+        margin-top: 10rem;
+    }
+
+    .game-modes-card-lg{
+        display: none;
+    }
+
+    .game-modes-carousel-sm{
+        display: block;
+    }
+
+    .game-modes-card-carousel{
+        margin: 0 20px;
+        
+    }
+
+    .game-modes-splash{
+        display: none;
+    }
+
+    .game-modes-heading{
+        font-size: 2.6669rem;
+    }
+
+  
+}

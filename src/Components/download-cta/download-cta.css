@@ -1,0 +1,93 @@
+.download-cta-container {
+  /* font-size: 10rem; */
+  position: relative;
+  margin-top: 5%;
+}
+
+.download-cta-header-img {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.download-cta-text-container {
+  max-width: 66.665rem;
+  margin: auto;
+}
+
+.download-cta-heading {
+  font-family: var(--main-heading-font);
+  font-size: 4.3331rem;
+  color: white;
+}
+
+.download-cta-subtitle {
+  font-family: var(--secondary-font-medium);
+  color: #e7e8e8;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.donwload-cta-bottom-line img {
+  width: 100vw;
+  height: auto;
+}
+
+.download-cta-inner-container {
+  position: relative;
+}
+
+.power-hand {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 9.0625rem;
+  z-index: -1;
+}
+
+.splash-left {
+  position: absolute;
+  bottom: -15px;
+  left: -7.1875rem;
+  z-index: -1;
+}
+
+.splash-left img {
+  height: auto;
+}
+
+.splash-right {
+  position: absolute;
+  top: -161px;
+  right: -60px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .download-cta-header-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .download-cta-heading {
+    font-size: 3.33rem;
+  }
+
+  .splash-right {
+    top: -90px;
+    right: -110px;
+  }
+
+  .splash-left{
+    left: -183px;
+    bottom: -87px;
+  }
+
+  .power-hand{
+    bottom: 0;
+    right: -78px;
+  }
+
+  .power-hand img{
+    width: 80%;
+    height: auto;
+  }
+}

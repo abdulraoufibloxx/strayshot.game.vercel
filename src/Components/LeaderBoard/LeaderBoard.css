@@ -1,0 +1,87 @@
+.leader-board-container{
+
+    background-color: #E8A503;
+    margin-top: 10%;
+    position: relative;
+}
+
+.leader-board-title{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.leader-board-score{
+    z-index: 1000;
+}
+
+
+.player-1{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+
+.player-2{
+    position: absolute;
+    bottom: -24px;
+    right: 542px;
+    z-index: 1000;
+}
+
+.top-line{
+    position: absolute;
+    top: -45px;
+}
+
+.top-line img{
+    width: 100vw;
+}
+
+.leaderboard-bottom-line{
+    position: absolute;
+    bottom: -45px;
+    
+}
+
+.leaderboard-bottom-line img{
+    width: 100vw;
+}
+
+.strayshot-logo{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    z-index: 1000;
+}
+
+.strayshot-logo img{
+    width: 150px;
+}
+
+@media (max-width: 768px){
+    .leader-board-score-img{
+        width: 100% ;
+        height: auto;
+    }
+
+    .strayshot-logo{
+        display: none;
+    }
+
+    .player-1{
+        display: none;
+    }
+
+    .player-2{
+        display: none;
+    }
+
+    .top-line{
+        top: -17px;
+    }
+
+    .leaderboard-bottom-line{
+        bottom:-10px ;
+    }
+}

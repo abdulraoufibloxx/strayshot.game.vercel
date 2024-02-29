@@ -1,0 +1,109 @@
+.charactersandweapons-container{
+    position: relative;
+    margin-top: 10%;
+}
+
+/* .character-card-container{
+    width: 50%;
+    margin: auto;
+} */
+
+.card {
+    background-color: black !important;
+    border: 2px solid #3c3d3f !important;
+    color: white !important;
+}
+
+.card-title{
+    font-family: var(--main-heading-font);
+    color: var(--primary-color) !important;
+    font-size: 2.3331rem;
+}
+
+.cart-subtitle{
+    font-family: var(--secondary-font-semi-bold);
+}
+
+.card-text{
+    font-family: var(--secondary-font-normal);
+}
+
+.character-inner-container{
+    position: relative;
+}
+
+.bg-vect{
+    position: absolute;
+    left: -45px;
+    top: 25%;
+    z-index: -1;
+}
+
+.character-splash-icon-right{
+    position: absolute;
+    top: 275px;
+    right: -50px;
+}
+
+.character-splash-icon-left{
+    position: absolute;
+    bottom: -139px;
+    left: -104px;
+}
+
+.nav-link{
+    text-decoration: none !important;
+    color: #929394 !important;
+    font-family: var(--main-heading-font);
+    font-size: 1.5rem !important;
+}
+
+.tab-content {
+    border-top: 1px solid #dee2e6; /* Add a border at the top of the tab content */
+  }
+
+  .nav-tabs .nav-item .nav-link.active {
+    background-color: transparent; /* Remove the background color of the active tab */
+    border: 3px solid rgb(40, 40, 40); /* Add a border at the top of the active tab */
+    border-radius: 0; /* Optional: Remove any border radius */
+  }
+
+  .nav-link.active {
+    color: white !important; /* Set font color to white */
+  }
+  
+  .nav-tabs {
+    border-bottom: 3px solid rgb(40, 40, 40) !important;
+  }
+
+  #justify-tab-example-tab-characters{
+    border-bottom: none !important;
+  }
+  
+
+@media (max-width: 768px){
+
+
+    .character-splash-icon-right{
+        display: none;
+    }
+
+    .bg-vect{
+        display: none;
+    }
+
+    .character-splash-icon-left {
+        z-index: -1;
+        bottom: -18px;
+    left: -101px;
+    }
+
+    .character-card-container{
+        width: 80% !important;
+        margin: auto;
+    }
+
+   
+
+
+}

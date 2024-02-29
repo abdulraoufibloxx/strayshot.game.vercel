@@ -1,0 +1,124 @@
+
+.epic-action{
+    /* background-color: 1E1E1E; */
+    /* height: 1000px; */
+    color: white;
+    background-image: url('../../assets/Layer_1.svg');
+    font-family: 'ClashDisplay-Light', sans-serif;
+}
+
+.epic-action-container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.epic-action-header{
+    padding: 90px;
+}
+
+.epic-action-text{
+    margin-top: 2rem;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.epic-action-text span{
+    color: var(--primary-color);
+}
+
+.epic-action-text-container{
+    position: relative;
+}
+
+.underline-text{
+    position: relative;
+    
+}
+
+.underline-text::after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+	 left: -0.5rem;
+	 right: -0.5rem;
+     height:0.25rem;
+     background-image: url('../../assets/underline.svg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.epic-img-container img{
+
+    height: auto;
+    width: 100%;
+}
+
+.team-up-header img{
+   margin-top: -70px;
+}
+
+.epic-img-sm{
+    display: none;
+}
+
+
+.img{
+    width: 85px;
+    height: 85px;
+}
+
+.text-heading{
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+
+.teamup-header-img-sm{
+    display: none;
+}
+
+.epic-action-header-img{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .epic-action-header{
+        padding: 0;
+    }
+
+    
+
+    .epic-action-text{
+        font-size: 0.7em;
+    }
+
+    .epic-action-header-img{
+        width: 100% !important;
+    }
+    .epic-img-lg{
+        display: none;
+    }
+
+    .epic-img-sm{
+        display: block;
+    }
+
+    /* .img-fluid {
+    
+        max-width: 150% !important; 
+        height: auto; 
+      } */
+
+      .teamup-header-img-sm{
+        display: block;
+      }
+
+      .teamup-header-img-lg{
+        display: none;
+      }
+
+}
