@@ -96,7 +96,23 @@
         font-size: 0.7em;
     }
 
-   
+    /* .epic-action-header-img{
+        width: 100% !important;
+    } */
+    .epic-img-lg{
+        display: none;
+    }
+
+    .epic-img-sm{
+        display: block;
+    }
+
+    /* .img-fluid {
+    
+        max-width: 150% !important; 
+        height: auto; 
+      } */
+
       .teamup-header-img-sm{
         display: block;
       }
