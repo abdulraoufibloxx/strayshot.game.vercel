@@ -18,7 +18,7 @@ function EpicAction() {
       <div className="epic-action-container">
         <div className="epic-action-header d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
             <div className="row justify-content-center container">
-            <img className="epic-action-header-img epic-action-header-img-lg img-fluid" src={epicActioHeader} alt="Epic Action Header SVG" />
+            <img className="epic-action-header-img img-fluid" src={epicActioHeader} alt="Epic Action Header SVG" />
            
         
         <div className=" epic-action-text-container">

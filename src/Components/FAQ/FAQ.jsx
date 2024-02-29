@@ -107,7 +107,7 @@ function FAQ() {
             <img src={dukePng} alt="" />
           </div>
 
-          <div className=" faq-bottom-line">
+          <div className="faq-bottom-line">
             <img src={bottomLine} alt="" />
           </div>
         </div>

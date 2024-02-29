@@ -24,12 +24,12 @@ function downloadCta() {
             </p>
           </div>
           <div className="mt-3 ">
-            <img src={downloadBtn} alt="" />
+          <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer"> <img src={downloadBtn} alt="" /></a>
           </div>
           </div>
         </div>
         <div className="mt-5 row donwload-cta-bottom-line">
-          <img src={downloadCTABottomLine} alt="" />
+           <img src={downloadCTABottomLine} alt="" />
         </div>
 
         <div className="power-hand">

@@ -25,22 +25,22 @@ function Footer() {
             </div>
             <div className="row gx-0 footer-socials-logo mt-3 ">
               <div className="col">
-                <img src={instagramIcon} alt="" />
+                <a href="https://www.instagram.com/strayshotgame/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
               </div>
               <div className="col">
-                <img src={discordIcon} alt="" />
+                <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={discordIcon} alt="" /> </a>
               </div>
               <div className="col">
-                <img src={xIcon} alt="" />
+               <a href="https://twitter.com/StrayShotGame" target="_blank" rel="noopener noreferrer">  <img src={xIcon} alt="" /> </a>
               </div>
               <div className="col">
-                <img src={facebookIcon} alt="" />
+                <a href="https://www.facebook.com/groups/strayshotchathttps://www.facebook.com/groups/strayshotchat" target="_blank" rel="noopener noreferrer"> <img src={facebookIcon} alt="" /></a>
               </div>
               <div className="col">
-                <img src={tiktokIcon} alt="" />
+                <a href="https://www.tiktok.com/@strayshot.game" target="_blank" rel="noopener noreferrer"> <img src={tiktokIcon} alt="" /></a>
               </div>
               <div className="col">
-                <img src={youtubeIcon} alt="" />
+                <a href="https://www.youtube.com/@StrayShotgame" target="_blank" rel="noopener noreferrer"> <img src={youtubeIcon} alt="" /></a>
               </div>
             </div>
             <div className="row mt-4 text-start">
@@ -58,14 +58,14 @@ function Footer() {
                 <span>
                   <img src={emailIcon} alt="" />
                 </span>{" "}
-                info@strayshot.game.com
+                info@strayshot.game
               </a>
             </div>
           </div>
 
           <div className="col text-start mbc-3">
             <div className="row">
-              <p className="text-uppercase footer-heading">
+              <p className="text-uppercase mt-3 footer-heading">
                 Strayshot inc
               </p>
             </div>
