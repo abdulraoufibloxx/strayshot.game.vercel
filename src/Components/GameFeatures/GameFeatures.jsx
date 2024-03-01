@@ -33,7 +33,7 @@ const handleImageClick = (imageSrc) => {
           <img src={GameFeatureSvg} alt="GameFeatureSVG" />
         </div>
         <div className="mt-5 container">
-          <p className="game-features-heading text-center header-text text-uppercase lh-sm fs-2">
+          <p className="game-features-heading text-center header-text text-uppercase lh-sm fst-italic">
             Armed with your skills, and an insatiable hunger for wealth,
              you must outmanoeuvre and outgun your opponents if you
             hope to survive and claim the ultimate prize.

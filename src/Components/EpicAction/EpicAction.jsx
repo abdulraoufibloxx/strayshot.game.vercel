@@ -17,8 +17,8 @@ function EpicAction() {
     <div className="epic-action" id="Epic-Action">
       <div className="epic-action-container">
         <div className="epic-action-header d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
-            <div className="row justify-content-center">
             <img className="epic-action-header-img" src={epicActioHeader} alt="Epic Action Header SVG" />
+            <div className="row justify-content-center">
            
         
         <div className=" epic-action-text-container">
@@ -40,7 +40,7 @@ function EpicAction() {
       <div className="team-up-header d-flex justify-content-center align-items-center">
         <div className="row">
           <img src={teamUp} className="img-fluid teamup-header-img-lg" alt="" />
-          <img className="epic-action-header-img teamup-header-img-sm img-fluid" src={epicActioHeaderSm} alt="Epic Action Header SVG" />
+          <img className="team-up-dominate-img teamup-header-img-sm img-fluid" src={epicActioHeaderSm} alt="Epic Action Header SVG" />
         </div>
       </div>
       <div className="teanm-rewards-container mt-5">

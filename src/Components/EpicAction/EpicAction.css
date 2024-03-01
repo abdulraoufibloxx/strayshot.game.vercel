@@ -97,7 +97,12 @@
     }
 
     .epic-action-header-img{
-        width: 150% !important;
+       min-width: 600px !important;
+    }
+
+    .team-up-dominate-img{
+       min-width: 400px !important;
+
     }
     .epic-img-lg{
         display: none;
