@@ -24,12 +24,12 @@ function LeaderBoard(){
                 <img src={leaderBoardLine} alt="vector-line-img" />
             </div>
 
-            <div className='player-1'>
+            {/* <div className='player-1'>
                 <img src={player1} alt="player-1-image" />
-            </div>
-            <div className='player-2'>
+            </div> */}
+            {/* <div className='player-2'>
                 <img src={player2} alt="player-2-image" />
-            </div>
+            </div> */}
 
             <div className='leaderboard-bottom-line'>
                 <img src={leaderBoardLine} alt="vector-line-img" />

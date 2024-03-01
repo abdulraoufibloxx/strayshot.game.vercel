@@ -15,10 +15,11 @@
 }
 
 .epic-action-header{
-    padding: 90px;
+    padding: 40px 90px;
 }
 
 .epic-action-text{
+    width: 75%;
     margin-top: 2rem;
     text-align: center;
     text-transform:uppercase;
@@ -82,17 +83,20 @@
 }
 
 .epic-action-header-img{
-    width: 50%;
+    min-width: 800px!important;
+    max-width: 800px!important;
 }
 
 @media (max-width: 768px) {
     .epic-action-header{
         padding: 0;
+        margin: 50px 0;
     }
 
     
 
     .epic-action-text{
+        width: 100%;
         font-size: 0.7em;
     }
 

@@ -11,7 +11,22 @@
 }
 
 .leader-board-score{
+    position: relative;
     z-index: 1000;
+}
+
+.leader-board-score::before{
+    position: absolute;
+    content: url('../../assets/LeaderBoard/player1.png');
+    left: -320px;
+    z-index: -1;
+}
+
+.leader-board-score::after{
+    content: url('../../assets/LeaderBoard/player2.png');
+    position: absolute;
+    right: -300px;
+    bottom: -80px;
 }
 
 
@@ -31,7 +46,7 @@
 
 .top-line{
     position: absolute;
-    top: -45px;
+    top: -35px;
 }
 
 .top-line img{
@@ -40,7 +55,7 @@
 
 .leaderboard-bottom-line{
     position: absolute;
-    bottom: -45px;
+    bottom: -35px;
     
 }
 
@@ -51,7 +66,7 @@
 .strayshot-logo{
     position: absolute;
     bottom: 5%;
-    right: 10%;
+    right: 30px;
     z-index: 1000;
 }
 
@@ -60,6 +75,9 @@
 }
 
 @media (max-width: 768px){
+    .leader-board-score::before, .leader-board-score::after{
+        display: none;
+    }
     .leader-board-score-img{
         width: 100% ;
         height: auto;

@@ -120,7 +120,7 @@
   color:var(--primary-color) ;
 }
 
-.game-updates-header::before {
+/* .game-updates-header::before {
   content: url('../../assets/text-left-graphic.svg');
   z-index: -1;
     position: absolute;
@@ -145,7 +145,7 @@
     transform: scaleX(-1);
   
   
-}
+} */
 
 
 

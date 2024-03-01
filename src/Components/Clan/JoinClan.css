@@ -24,6 +24,7 @@
 
 
 .clan-text-content{
+    margin-top: 40px;
     text-align: left ;
 }
 .join-clain-card-container{
@@ -48,16 +49,29 @@
 
 .join-clan-cta{
     width: 75%;
-    margin-top: 5%;
+    margin-top: 10px;
 }
 .join-clan-header-img img{
-    width: 50%;
+    width: 70%;
+}
+
+.clan-container{
+    border: 1px solid #FFB503;
+    border-radius: 10px;
+    padding: 20px;
+    height: 380px;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px){
     .join-clan-header-img img{
-        width: 150% !important;
+        min-width:650px!important;
         /* height: auto; */
+    }
+
+    .clan-container{
+        border:0;
+        height: auto;
     }
 
     .skull-img-left{
@@ -73,6 +87,7 @@
     }
 
     .clan-text-content{
+        margin-top: 10px;
         text-align: center !important;
     }
 

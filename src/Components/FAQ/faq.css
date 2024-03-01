@@ -16,7 +16,10 @@
 
 
 .accordion{
-    box-shadow: 5px 11px 8px 0px rgba(0,0,0,0.75) !important;
+    width: 70%;
+    margin:auto;
+    border-radius: 10px;
+    /* box-shadow: 5px 11px 8px 0px rgba(0,0,0,0.75) !important; */
 }
 
 
@@ -45,6 +48,11 @@
     line-height: 5rem;
 }
 
+.accordion .item .accordion-body:focus-visible{
+    border: 0;
+    outline: none;
+}
+
 .accordion-button {
     background-color: #151619 !important ;
     color: white !important;
@@ -55,7 +63,7 @@
 }
 
 .accordion-item{
-    border-bottom: 1px solid gray !important;
+    border-bottom: 1px solid rgb(31, 31, 31) !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -73,14 +81,14 @@ button.accordion-button:focus{
     background-color: #1e20239e ;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75); */
 }
 
 .duke-faq{
     position: absolute;
-    left: -347px;
-    top: 45px;
-    z-index: -1;
+    left:10px;
+    bottom: 0;
+    z-index: 100;
 }
 
 .duke-faq img {
@@ -89,7 +97,7 @@ button.accordion-button:focus{
 
 .faq-bottom-line{
     position: absolute;
-    bottom: -50px;
+    bottom: -10px;
     left: 0;
 }
 
@@ -140,8 +148,12 @@ button.accordion-button:focus{
 
 
 @media (max-width: 768px){
+    .accordion{
+        width: 100%;
+
+    }
     .faq-header-img-container img{
-        width: 474px;
+        min-width: 750px;
         height: auto;
     }
 

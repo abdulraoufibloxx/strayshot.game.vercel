@@ -54,6 +54,8 @@
     z-index: -1;
 }
 
+
+
 .nav-link{
     text-decoration: none !important;
     color: #929394 !important;
@@ -61,27 +63,45 @@
     font-size: 1.5rem !important;
 }
 
-.tab-content {
-    border-top: 1px solid #dee2e6; /* Add a border at the top of the tab content */
+  .character-inner-container .nav-tabs .nav-item .nav-link{
+    border-bottom: 1px solid rgb(40, 40, 40);
+    padding: 3px;
   }
 
-  .nav-tabs .nav-item .nav-link.active {
+ .character-inner-container .nav-tabs .nav-item .nav-link.active {
     background-color: transparent; /* Remove the background color of the active tab */
-    border: 3px solid rgb(40, 40, 40); /* Add a border at the top of the active tab */
-    border-radius: 0; /* Optional: Remove any border radius */
-  }
-
-  .nav-link.active {
+    border: 1px solid rgb(40, 40, 40); /* Add a border at the top of the active tab */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 0;
     color: white !important; /* Set font color to white */
   }
-  
-  .nav-tabs {
-    border-bottom: 3px solid rgb(40, 40, 40) !important;
+
+  .character-inner-container .nav-tabs .nav-item .nav-link{
+    width: 50%;
   }
 
-  #justify-tab-example-tab-characters{
+  .character-inner-container .nav-justified .nav-item:first-child {
+    display: flex;
+    justify-content: flex-end;}
+
+.character-inner-container .nav-justified .nav-item:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.character-inner-container .nav-justified{
+  border-bottom: 0;
+}
+
+
+  /* .nav-tabs {
+    border-bottom: 3px solid rgb(40, 40, 40) !important;
+  } */
+
+  /* #justify-tab-example-tab-characters{
     border-bottom: none !important;
-  }
+  } */
 
   .char-img-contianer{
     position: relative;

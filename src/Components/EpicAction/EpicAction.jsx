@@ -16,15 +16,15 @@ function EpicAction() {
   return (
     <div className="epic-action" id="Epic-Action">
       <div className="epic-action-container">
-        <div className="epic-action-header d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
+        <div className="epic-action-header d-flex flex-column justify-content-center align-items-center">
             <img className="epic-action-header-img" src={epicActioHeader} alt="Epic Action Header SVG" />
             <div className="row justify-content-center">
            
         
         <div className=" epic-action-text-container">
-          <p className="epic-action-text">
+          <p className="epic-action-text mx-auto">
             In a big ocean, there's a mysterious island known as the Isle of
-            Death. <br /> Bounty hunters flock there hoping to find{" "}
+            Death. Bounty hunters flock there hoping to find{" "}
             <span className="underline-text">the Ultimate Prize Pool</span>{" "}
           </p>
         </div>
