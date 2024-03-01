@@ -1,4 +1,6 @@
 import "./GameFeatures.css";
+import {useState} from 'react'
+
 import GameFeatureSvg from "../../assets/GameFeature-g.svg";
 import mapImg from "../../assets/Rookie League-map.png";
 import vectLine from "../../assets/vector-bottom.svg";
@@ -16,6 +18,13 @@ import GameModes from "./GameModes/GameModes.jsx";
 import CharactersandWeapons from "./CharactersandWeapons/charactersandweapons.jsx";
 
 function GameFeatures() {
+
+const [mapBackgroundImage, setMapBackgroundImage] = useState('');
+
+const handleImageClick = (imageSrc) => {
+  setMapBackgroundImage(imageSrc);
+};
+
   return (
     <>
     <div className="game-features-container" id="Game-Features">
@@ -62,7 +71,7 @@ function GameFeatures() {
           <div className="vect-top ">
             <img  src={vectLine} className="vect-top-game-features" alt="" />
           </div>
-            <img src={mapImg} alt="" />
+            <img className="map-main-background" src={mapImg} alt="" />
           </div>
 
           <div className="vect-bottom-game-features">
@@ -75,7 +84,7 @@ function GameFeatures() {
               <div class="row ">
                 <div class="col">
                     <div className="row">
-                        <img className="map-item-img img-fluid" src={map1} alt="" />
+                       <a href=""> <img className="map-item-img img-fluid" src={map1} alt="" /></a>
                     </div>
                     <div className="row map-item-title mt-3">
                         <p className="">TROPICAL ISLAND</p>

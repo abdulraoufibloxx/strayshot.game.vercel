@@ -98,7 +98,11 @@
 
   .img-line-container{
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
+  }
+
+  .img-line-container img{
+    width: 100%;
   }
 
   .c-and-w-body{
@@ -123,6 +127,10 @@
     display: none;
   }
   
+
+  /* .swiper-custom{
+    margin-right: -200px !important;
+  } */
 
 @media (max-width: 768px){
 
