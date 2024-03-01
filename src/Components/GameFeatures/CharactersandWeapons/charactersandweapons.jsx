@@ -68,7 +68,13 @@ function CharactersandWeapons() {
                 {/* char-sm-starts here */}
 
                 <div className="char-sm">
-                  <Swiper>
+                  <Swiper
+                  modules={[Autoplay]}
+                  loop
+                  autoplay={{
+                    delay: 1000, // Adjust this value to control the autoplay speed
+                    disableOnInteraction: false,
+                  }}>
                     <SwiperSlide>
                       <div className="card">
                         <div className="char-img-contianer">
@@ -293,7 +299,13 @@ function CharactersandWeapons() {
                 {/* weapon-mb-starts here */}
 
                 <div className="weapon-sm">
-                  <Swiper>
+                  <Swiper
+                  modules={[Autoplay]}
+                  loop
+                  autoplay={{
+                    delay: 1000, // Adjust this value to control the autoplay speed
+                    disableOnInteraction: false,
+                  }}>
                     <SwiperSlide>
                       <div className="card">
                         <div className="char-img-contianer">

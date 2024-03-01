@@ -24,22 +24,22 @@ function Footer() {
               <img src={strayshotlogo} alt="" />
             </div>
             <div className="row gx-0 footer-socials-logo mt-3 ">
-              <div className="col">
+              <div className="col-1 footer-social">
                 <a href="https://www.instagram.com/strayshotgame/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
               </div>
-              <div className="col">
+              <div className="col-1 footer-social">
                 <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={discordIcon} alt="" /> </a>
               </div>
-              <div className="col">
+              <div className="col-1 footer-social">
                <a href="https://twitter.com/StrayShotGame" target="_blank" rel="noopener noreferrer">  <img src={xIcon} alt="" /> </a>
               </div>
-              <div className="col">
+              <div className="col-1 footer-social">
                 <a href="https://www.facebook.com/groups/strayshotchathttps://www.facebook.com/groups/strayshotchat" target="_blank" rel="noopener noreferrer"> <img src={facebookIcon} alt="" /></a>
               </div>
-              <div className="col">
+              <div className="col-1 footer-social">
                 <a href="https://www.tiktok.com/@strayshot.game" target="_blank" rel="noopener noreferrer"> <img src={tiktokIcon} alt="" /></a>
               </div>
-              <div className="col">
+              <div className="col-1 footer-social">
                 <a href="https://www.youtube.com/@StrayShotgame" target="_blank" rel="noopener noreferrer"> <img src={youtubeIcon} alt="" /></a>
               </div>
             </div>
@@ -52,7 +52,7 @@ function Footer() {
                 info@ibloxx.com
               </a>
             </div>
-            <div className="row text-start">
+            <div className="row text-start mt-2">
               <a className="footer-text" href="mailto:info@strayshot.game.com" target="_blank" rel="nofollow noreferrer">
                 {" "}
                 <span>
@@ -65,7 +65,7 @@ function Footer() {
 
           <div className="col text-start mbc-3">
             <div className="row">
-              <p className="text-uppercase mt-3 footer-heading">
+              <p className="text-uppercase footer-heading">
                 Strayshot inc
               </p>
             </div>
@@ -104,7 +104,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-line mt-4">
+        <div className="footer-line">
           <img src={footerLine} alt="" />
         </div>
 

@@ -1,5 +1,5 @@
 .game-features-container{
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 
@@ -220,7 +220,7 @@
     }
 
     .vect-bottom-game-features{
-        bottom: 152px !important;
+        bottom: 0 !important;
     }
 
     .vect-bottom-game-features img{

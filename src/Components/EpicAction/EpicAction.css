@@ -83,8 +83,8 @@
 }
 
 .epic-action-header-img{
-    min-width: 800px!important;
-    max-width: 800px!important;
+    min-width: 650px!important;
+    max-width: 650px!important;
 }
 
 @media (max-width: 768px) {

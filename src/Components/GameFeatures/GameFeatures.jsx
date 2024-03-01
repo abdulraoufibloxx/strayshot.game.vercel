@@ -79,6 +79,10 @@ function GameFeatures() {
               <div className="vect-top ">
                 <img src={vectLine} className="vect-top-game-features" alt="" />
               </div>
+              <div className="vect-bottom-game-features">
+              <img src={vectLine} alt="" />
+            </div>
+
               {/* <img className="map-main-background" src={mapImg} alt="" /> */}
               <img
                 className="map-main-background"
@@ -87,10 +91,7 @@ function GameFeatures() {
               />
             </div>
 
-            <div className="vect-bottom-game-features">
-              <img src={vectLine} alt="" />
-            </div>
-
+            
             {/* map-items-for-smaller-device starts here */}
             <div className="map-items-for-sm">
             <Swiper className="map-item-sm"

@@ -19,7 +19,8 @@
 
 
 .footer-main{
-    margin-top: 5% !important;
+    margin-top: 70px !important;
+    margin-bottom: 30px !important;
 }
 
 .footer-strayshot-logo img{
@@ -44,7 +45,8 @@
 
 
 .footer-line img{
-    width: 100vw;
+    min-width: 1500px;
+    margin-bottom: 10px;
 }
 
 .footer-links-terms{
@@ -64,6 +66,14 @@
     letter-spacing: 1px;
 }
 
+.footer-social{
+    margin-right: 20px;
+}
+
+.footer-bottom{
+    margin: 15px 0;
+}
+
 @media (max-width: 768px){
     .footer-links-terms{
         justify-content: flex-start;
@@ -79,5 +89,13 @@
 
     .justify-custom-footer{
         justify-content: space-between!important;
+    }
+
+    .footer-social{
+        margin-right: 8px;
+    }
+
+    .footer-text{
+        margin-bottom: 30px;
     }
 }

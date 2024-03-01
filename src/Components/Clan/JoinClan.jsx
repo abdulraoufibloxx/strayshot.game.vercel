@@ -7,8 +7,8 @@ import sentinalsVect from '../../assets/Clan/sentinals.svg'
 import wolfGangVect from '../../assets/Clan/wolfgang.svg'
 import lezdoVect from '../../assets/Clan/lezdo.svg'
 import skullVect from '../../assets/Clan/skull.svg'
-// import joiClanBtn from '../../assets/Clan/join-clan-btn.svg'
-import joiClanBtn from '../../assets/Clan/join-clan-btn.png'
+import joiClanBtn from '../../assets/Clan/join-clan-btn.svg'
+// import joiClanBtn from '../../assets/Clan/join-clan-btn.png'
 
 function JoinClan(){
     return(

@@ -1,6 +1,7 @@
 import "./EpicAction.css";
 import epicActioHeader from "../../assets/epic-action.svg";
-import epicActioHeaderSm from "../../assets/epic-action-header-img-sm.png";
+// import epicActioHeaderSm from "../../assets/epic-action-header-img-sm.png";
+import epicActioHeaderSm from "../../assets/TeamUpDominate-sm.svg";
 import epicAction from "../../assets/epic-action.png";
 import epicActionSmall from "../../assets/epic-action-img-sm.png";
 import teamUp from "../../assets/Team-Up.svg";
@@ -44,7 +45,7 @@ function EpicAction() {
         </div>
       </div>
       <div className="teanm-rewards-container mt-5">
-        <div class="container text-center p-4">
+        <div class="container text-center p-4" style={{ width: "75%"}}>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="col mb-3">
                 <div className="row">
