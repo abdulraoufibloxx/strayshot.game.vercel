@@ -194,7 +194,9 @@
         display: none;
     }
 
-   
+    .character-inner-container .nav-tabs .nav-item .nav-link{
+      width: 100%;
+    }
 
 
 }

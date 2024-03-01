@@ -10,9 +10,10 @@
 
 .game-features-heading{
     color: #fff;
-    
+    width: 70%;
     letter-spacing: 0.03rem;
     font-size: 31px;
+    margin: auto;
 }
 
 .map-header{
@@ -57,16 +58,28 @@
 }
 
 .map-name{
-    width: 25.6663rem;
-    height: 16.6663rem;
+    height: auto;
+    width: 21.6663rem;
     background-color: white;
     position: absolute;
-    left: 2rem;
-    top: 5rem;
+    left: 6rem;
+    top: 10rem;
     z-index: 1;
 }
 
-.map-name{
+.map-name::before{
+    content: url("./../../assets/map-layer-bottom.svg");
+    position: absolute;
+    top: -10px;
+}
+
+.map-name::after{
+    content: url("./../../assets/map-layer-bottom.svg");
+    position: absolute;
+    bottom: -16px;
+}
+
+/* .map-name{
     position: absolute;
     top: 10rem;
     left: 4rem;
@@ -74,7 +87,7 @@
     width: 24.6663rem;
     background-image: url('../../assets/map-name.svg');
     background-size: cover;
-}
+} */
 
 .map-name h3{
     font-family: var(--main-heading-font);
@@ -113,6 +126,12 @@
 .map-item-img{
     /* width: 272px; */
     height: 10.3313rem;
+    padding: 0 !important;
+    
+}
+
+.map-item-img:hover{
+    cursor: pointer;
 }
 
 .map-item-title {
@@ -143,6 +162,23 @@
 .vect-bottom-game-features img{
     width: 100vw;
     height: 2.5rem;
+}
+
+
+.selected-map{
+    border: 3px solid white;
+}
+
+.map-item-sm{
+    display: none;
+}
+
+.map-items-for-sm{
+    display: none;
+}
+
+.map-item-img{
+    border-radius:5px ;
 }
 
 
@@ -184,15 +220,44 @@
     }
 
     .vect-bottom-game-features{
-        bottom: -15px !important;
+        bottom: 152px !important;
     }
 
     .vect-bottom-game-features img{
         height: 2.5rem;
     }
 
+        .map-item-lg{
+            display: none;
+        }
+
+        .map-item-sm{
+            display: block;
+        }
     
 
+        .map-item-img-sm{
+            width: 80%;
+            border-radius: 5px;
+        }
+
+        .map-item-sm-container{
+            width: 50%;
+            position: relative;
+        }
+
+        .map-item-sm{
+            position: absolute;
+            bottom: 60px;
+        }
+        
+        .map-items-for-sm{
+            display: block;
+        }
+
+        .game-features-heading{
+            width: 100%;
+        }
     
 
 }

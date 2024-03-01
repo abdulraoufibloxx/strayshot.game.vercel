@@ -11,6 +11,12 @@ import bottomLine from "../../../assets/GameModes/game-modes-bottom-line.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+// import { Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/autoplay";
+
 function GameModes() {
   const responsive = {
     mobile: {
@@ -42,27 +48,21 @@ function GameModes() {
 
           <div className="game-modes-carousel-sm">
           <div className="row">
-            <Carousel
-            centerMode={true}
-              swipeable={true}
-              draggable={false}
-              showDots={false}
-              responsive={responsive}
-              ssr={true} // means to render carousel on server-side.
-              infinite={true}
-              // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-              // autoPlaySpeed={1000}
-              keyBoardControl={true}
-              customTransition="all .5"
-              transitionDuration={500}
-              
-              // containerClass="carousel-container"
-              removeArrowOnDeviceType={["mobile"]}
-              // deviceType={this.props.deviceType}
-              // dotListClass="custom-dot-list-style"
-              itemClass="game-modes-card-carousel"
-            >
-              <div> 
+           
+          <Swiper
+                    className="swiper-custom"
+                    spaceBetween={10}
+                    slidesPerView={2}
+                    modules={[Autoplay]}
+                    loop
+                    // autoplay={{
+                    //   delay: 1000, // Adjust this value to control the autoplay speed
+                    //   disableOnInteraction: false,
+                    // }}
+                  >
+
+                    <SwiperSlide>
+                    <div className=""> 
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 " >
                   <div className="mt-5">
@@ -78,7 +78,10 @@ function GameModes() {
                 </div>
               </div>
               </div>
-              <div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                    <div>
               <div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="mt-5">
@@ -94,7 +97,10 @@ function GameModes() {
                 </div>
               </div>
               </div>
-              <div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                    <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="mt-5">
@@ -110,7 +116,10 @@ function GameModes() {
                 </div>
               </div>
               </div>
-              <div><div className="game-modes-card mb-3 ">
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                    <div><div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="mt-5">
                     <img className="game-modes-img" src={tdm} alt="" />
@@ -124,8 +133,11 @@ function GameModes() {
                   <div></div>
                 </div>
               </div></div>
+                    </SwiperSlide>
+                
 
-              <div>
+                <SwiperSlide>
+                <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="mt-5">
@@ -141,7 +153,9 @@ function GameModes() {
                 </div>
               </div>
               </div>
-            </Carousel>
+                </SwiperSlide>
+
+                  </Swiper>
             
           </div>
           </div>

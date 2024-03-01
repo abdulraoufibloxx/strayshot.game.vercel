@@ -105,7 +105,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="menu" onClick={handleShow}>
+        <div className="menu mt-2" onClick={handleShow}>
           <span></span>
           <span></span>
           <span></span>
