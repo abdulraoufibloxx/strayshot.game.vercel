@@ -194,7 +194,7 @@ function GameFeatures() {
                           alt=""
                         />
                         <div className="row map-item-title mt-3">
-                      <p className="">URBAN AREA</p>
+                      <p className="">URBAN RUINS</p>
                     </div>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ function GameFeatures() {
                         />
                       </div>
                       <div className="row map-item-title mt-3">
-                        <p className="">URBAN AREAS </p>
+                        <p className="">URBAN RUINS </p>
                       </div>
                     </div>
                   </div>
