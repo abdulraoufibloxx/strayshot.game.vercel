@@ -59,14 +59,14 @@ function GameFeatures() {
          
 
           <div className="map-img">
-          <div className="vect-top">
-            <img src={vectLine} alt="" />
+          <div className="vect-top ">
+            <img  src={vectLine} className="vect-top-game-features" alt="" />
           </div>
             <img src={mapImg} alt="" />
           </div>
 
-          <div className="vect-bottom-game">
-            <img src={vectLine} alt="" />
+          <div className="vect-bottom-game-features">
+            <img  src={vectLine} alt="" />
           </div>
 
 

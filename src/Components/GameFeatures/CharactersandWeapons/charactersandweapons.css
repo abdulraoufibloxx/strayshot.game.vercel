@@ -12,12 +12,13 @@
     background-color: black !important;
     border: 2px solid #3c3d3f !important;
     color: white !important;
+    padding: 0.3rem !important;
 }
 
 .card-title{
     font-family: var(--main-heading-font);
     color: var(--primary-color) !important;
-    font-size: 2.3331rem;
+    font-size: 2rem;
 }
 
 .cart-subtitle{
@@ -43,12 +44,14 @@
     position: absolute;
     top: 275px;
     right: -50px;
+    z-index: -1;
 }
 
 .character-splash-icon-left{
     position: absolute;
     bottom: -139px;
     left: -104px;
+    z-index: -1;
 }
 
 .nav-link{
@@ -79,6 +82,46 @@
   #justify-tab-example-tab-characters{
     border-bottom: none !important;
   }
+
+  .char-img-contianer{
+    position: relative;
+  }
+
+  .img-line-container-weapon{
+    position: absolute;
+    bottom: -7px;
+  }
+
+  .img-line-container-weapon img{
+    width: 100%;
+  }
+
+  .img-line-container{
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .c-and-w-body{
+    /* padding: 0 !important */
+    padding: 10px 0 0 10px !important;
+
+  }
+
+  .weapon-description{
+    font-family: var(--secondary-font-normal-light);
+  }
+
+  .carousel-container{
+    width: 100%;
+  }
+
+  .char-sm{
+    display: none;
+  }
+
+  .weapon-sm{
+    display: none;
+  }
   
 
 @media (max-width: 768px){
@@ -86,6 +129,18 @@
 
     .character-splash-icon-right{
         display: none;
+    }
+
+    .character-card-lg{
+        display: none;
+    }
+
+    .char-sm{
+        display: block;
+    }
+
+    .weapon-sm{
+        display: block;
     }
 
     .bg-vect{
@@ -101,6 +156,14 @@
     .character-card-container{
         width: 80% !important;
         margin: auto;
+    }
+
+    .character-card-lg{
+        display: none;
+    }
+
+    .weapon-container-lg{
+        display: none;
     }
 
    

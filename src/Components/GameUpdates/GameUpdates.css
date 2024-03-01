@@ -50,6 +50,7 @@
   font-family: var(--secondary-font-regular);
   letter-spacing: 1px;
 }
+
 .game-update-card-date {
   margin-bottom: 1px;
   font-family: var(--secondary-font-medium);
@@ -105,13 +106,21 @@
 .game-updates-header{
   position: relative;
 }
-.game-updates-header p{
+
+.game-updates-header{
   font-family: var(--main-heading-font);
   font-size: 3rem;
   color:var(--primary-color) ;
 }
 
-.game-updates-header p::before {
+
+.game-updates-header{
+  font-family: var(--main-heading-font);
+  font-size: 3rem;
+  color:var(--primary-color) ;
+}
+
+.game-updates-header::before {
   content: url('../../assets/text-left-graphic.svg');
   z-index: -1;
     position: absolute;
@@ -124,7 +133,7 @@
   
 }
 
-.game-updates-header p::after {
+.game-updates-header::after {
   content: url('../../assets/text-left-graphic.svg');
   z-index: -1;
     position: absolute;
@@ -137,6 +146,8 @@
   
   
 }
+
+
 
 @media (max-width: 768px){
     .game-updates-header-sm{

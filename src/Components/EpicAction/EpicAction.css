@@ -81,9 +81,9 @@
     display: none;
 }
 
-/* .epic-action-header-img{
+.epic-action-header-img{
     width: 50%;
-} */
+}
 
 @media (max-width: 768px) {
     .epic-action-header{
@@ -96,9 +96,9 @@
         font-size: 0.7em;
     }
 
-    /* .epic-action-header-img{
-        width: 100% !important;
-    } */
+    .epic-action-header-img{
+        width: 150% !important;
+    }
     .epic-img-lg{
         display: none;
     }

@@ -25,7 +25,7 @@ import "react-multi-carousel/lib/styles.css";
 function GameUpdates() {
   const responsive = {
     mobile: {
-      breakpoint: { max: 684, min: 0 },
+      breakpoint: { max: 768, min: 0 },
       items: 1,
     },
   };
@@ -33,18 +33,8 @@ function GameUpdates() {
   return (
     <div className="game-updates-container" id="GameUpdates">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
-        <div className="game-updates-header">
-          {/* <img
-            className="game-updates-header-lg"
-            src={gameUpdatesHeader}
-            alt=""
-          /> */}
-          <p className="text-uppercase">Game news</p>
-          {/* <img
-            className="game-updates-header-sm"
-            src={gameUpdatesHeaderMb}
-            alt=""
-          /> */}
+        <div>
+          <p className="text-uppercase game-updates-header">Game news</p>
         </div>
 
         {/* game updates for smaller screen starts here */}
@@ -353,14 +343,14 @@ function GameUpdates() {
 
         <div className="ibloxx-news-container container mt-5">
           <div className="">
-            <div className="game-updates-header ibloxx-news-header d-flex flex-column justify-content-center align-items-center">
+            <div className="ibloxx-news-header d-flex flex-column justify-content-center align-items-center">
               <div>
                 {/* <img
                   className="ibloxx-news-header-lg"
                   src={ibloxxNews}
                   alt=""
                 /> */}
-                <p className="text-uppercase">IBLOXX NEWS</p>
+                <p className="text-uppercase game-updates-header">IBLOXX NEWS</p>
                 {/* <img
                   className="ibloxx-news-header-sm"
                   src={ibloxxUpdatesHeaderMb}

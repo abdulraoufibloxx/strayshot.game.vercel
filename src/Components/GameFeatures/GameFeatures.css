@@ -32,6 +32,8 @@
     
     height: 2.5rem;
     width: 100vw;
+    position: absolute;
+    bottom: 0;
   
     
 }
@@ -126,6 +128,24 @@
     margin-top: -1rem !important;
 }
 
+.vect-top-game-features{
+    position: absolute;
+    top: 0;
+}
+
+
+.vect-bottom-game-features{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.vect-bottom-game-features img{
+    width: 100vw;
+    height: 2.5rem;
+}
+
+
 
 @media (max-width: 768px){
 
@@ -133,9 +153,9 @@
         font-size: 2.333rem;
     }
 
-    .vect-top{
-        top: 0 !important;
-    }
+    /* .vect-top{
+        top: 16px !important;
+    } */
 
     .vect-bottom-game{
         bottom: -7px !important;
@@ -162,5 +182,17 @@
     .map-name-container{
         display: none;
     }
+
+    .vect-bottom-game-features{
+        bottom: -15px !important;
+    }
+
+    .vect-bottom-game-features img{
+        height: 2.5rem;
+    }
+
+    
+
+    
 
 }
