@@ -131,6 +131,7 @@
   .img-line-container{
     position: absolute;
     bottom: -8px;
+    width: 100%;
   }
 
   .img-line-container img{

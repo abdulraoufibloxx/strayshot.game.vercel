@@ -5,10 +5,10 @@ import splashIcon from "../../../assets/GameModes/GameModeSplash.svg";
 
 import imgLine from "../../../assets/GameUpdates/image-line.svg";
 
-import sam from "../../../assets/characters&weapons/sam.png";
+import sam from "../../../assets/characters&weapons/sam.svg";
 import kane from "../../../assets/characters&weapons/kane.png";
 import hector from "../../../assets/characters&weapons/hector.png";
-import duke from "../../../assets/characters&weapons/duke.png";
+import duke from "../../../assets/characters&weapons/duke.svg";
 import jack from "../../../assets/characters&weapons/jack.png";
 
 import grenadeLauncher from "../../../assets/characters&weapons/grenade-launcher.png";
@@ -57,7 +57,7 @@ function CharactersandWeapons() {
 
         <div className="character-card-container container-fluid mt-5">
           {/* Tab starts here */}
-          <div className="row  character-inner-container ">
+          <div className="row  character-inner-container  justify-content-center">
             <Tabs
               defaultActiveKey="characters"
               id="justify-tab-example"
@@ -74,12 +74,13 @@ function CharactersandWeapons() {
                   autoplay={{
                     delay: 1000, // Adjust this value to control the autoplay speed
                     disableOnInteraction: false,
-                  }}>
+                  }}
+                  >
                     <SwiperSlide>
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={sam}
+                            src="https://webassets.strayshot.game/newstrayshot/character/sam.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -90,14 +91,16 @@ function CharactersandWeapons() {
                         </div>
                         <div class="card-body c-and-w-body">
                           <h5 class="card-title text-start">SAM</h5>
+                          <p class="card-text text-start">Behind Sam's cool gaze is a master strategist. He reads the battlefield like a book, turning data into winning plays. </p>
                         </div>
+                       
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={kane}
+                            src="https://webassets.strayshot.game/newstrayshot/character/kane.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -107,7 +110,8 @@ function CharactersandWeapons() {
                           </div>
                         </div>
                         <div class="card-body c-and-w-body">
-                          <h5 class="card-title text-start">KANE</h5>
+                          <h5 className="card-title text-start">KANE</h5>
+                          <p className="card-text text-start">Kane stands firm on the battlefield as a heavy juggernaut dishing - and absorbing - extreme damage. One look at his face tells you he's here to crush anyone in his way.</p>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -115,7 +119,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={hector}
+                            src="https://webassets.strayshot.game/newstrayshot/character/hector.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -125,7 +129,8 @@ function CharactersandWeapons() {
                           </div>
                         </div>
                         <div class="card-body c-and-w-body">
-                          <h5 class="card-title text-start">HECTOR</h5>
+                          <h5 className="card-title text-start">HECTOR</h5>
+                          <p className="card-text text-start">Wild and fiery, Hector charges in with his massive weapons, leaving enemies in smoldering ruins. No wonder they call him the Demolisher - he's a one-man wrecking crew.</p>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -144,24 +149,7 @@ function CharactersandWeapons() {
                         </div>
                         <div class="card-body c-and-w-body">
                           <h5 class="card-title text-start">DUKE</h5>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="card">
-                        <div className="char-img-contianer">
-                          <img
-                            src={jack}
-                            class="card-img-top"
-                            alt="character-1"
-                          />
-
-                          <div className="img-line-container">
-                            <img src={imgLine} alt="" />
-                          </div>
-                        </div>
-                        <div class="card-body c-and-w-body">
-                          <h5 class="card-title text-start">JACK</h5>
+                          <p className="card-text text-start">Duke's suit blends with the shadows, making him a ghost on the battlefield. He warps through walls, strikes silently, and eliminates enemies before they know what hit them.</p>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -169,11 +157,11 @@ function CharactersandWeapons() {
                 </div>
                 {/* char-sm-ends here */}
 
-                <div className="character-card-lg ">
+                <div className="character-card-lg container">
                   <Swiper
                     className="swiper-custom"
                     spaceBetween={10}
-                    slidesPerView={5}
+                    slidesPerView={4}
                     modules={[Autoplay]}
                     loop
                     autoplay={{
@@ -186,7 +174,7 @@ function CharactersandWeapons() {
                         <div className="card">
                           <div className="char-img-contianer">
                             <img
-                              src={sam}
+                              src="https://webassets.strayshot.game/newstrayshot/character/sam.svg"
                               class="card-img-top"
                               alt="character-1"
                             />
@@ -197,6 +185,7 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">SAM</h5>
+                            <p class="card-text text-start">Behind Sam's cool gaze is a master strategist. He reads the battlefield like a book, turning data into winning plays. </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -204,7 +193,7 @@ function CharactersandWeapons() {
                         <div className="card">
                           <div className="char-img-contianer">
                             <img
-                              src={kane}
+                              src="https://webassets.strayshot.game/newstrayshot/character/kane.svg"
                               class="card-img-top"
                               alt="character-1"
                             />
@@ -215,6 +204,7 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">KANE</h5>
+                            <p class="card-text text-start">Kane stands firm on the battlefield as a heavy juggernaut dishing - and absorbing - extreme damage. One look at his face tells you he's here to crush anyone in his way. </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -222,7 +212,7 @@ function CharactersandWeapons() {
                         <div className="card">
                           <div className="char-img-contianer">
                             <img
-                              src={hector}
+                              src="https://webassets.strayshot.game/newstrayshot/character/hector.svg"
                               class="card-img-top"
                               alt="character-1"
                             />
@@ -233,6 +223,7 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">HECTOR</h5>
+                            <p class="card-text text-start">Wild and fiery, Hector charges in with his massive weapons, leaving enemies in smoldering ruins. No wonder they call him the Demolisher - he's a one-man wrecking crew. </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -240,7 +231,7 @@ function CharactersandWeapons() {
                         <div className="card">
                           <div className="char-img-contianer">
                             <img
-                              src={duke}
+                              src="https://webassets.strayshot.game/newstrayshot/character/duke.svg"
                               class="card-img-top"
                               alt="character-1"
                             />
@@ -251,42 +242,7 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">DUKE</h5>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="card">
-                          <div className="char-img-contianer">
-                            <img
-                              src={jack}
-                              class="card-img-top"
-                              alt="character-1"
-                            />
-
-                            <div className="img-line-container">
-                              <img src={imgLine} alt="" />
-                            </div>
-                          </div>
-                          <div class="card-body c-and-w-body">
-                            <h5 class="card-title text-start">JACK</h5>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="card">
-                          <div className="char-img-contianer">
-                            <img
-                              src={hector}
-                              class="card-img-top"
-                              alt="character-1"
-                            />
-
-                            <div className="img-line-container">
-                              <img src={imgLine} alt="" />
-                            </div>
-                          </div>
-                          <div class="card-body c-and-w-body">
-                            <h5 class="card-title text-start">HECTOR</h5>
+                            <p class="card-text text-start">Duke's suit blends with the shadows, making him a ghost on the battlefield. He warps through walls, strikes silently, and eliminates enemies before they know what hit them.</p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -310,7 +266,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={grenadeLauncher}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/grenade-launcher.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -336,7 +292,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={assaultRifle}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/assault-rifle.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -362,7 +318,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={pistol}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/pistol.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -387,7 +343,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={sniper}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/sniper.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -413,7 +369,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={rocketLauncher}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/rocket-launcher.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -440,7 +396,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={shotgun}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/shotgun.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -466,7 +422,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={revolver}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/revolver.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -508,7 +464,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={grenadeLauncher}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/grenade-launcher.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -534,7 +490,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={assaultRifle}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/assault-rifle.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -560,7 +516,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={pistol}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/pistol.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -585,7 +541,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={sniper}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/sniper.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -611,7 +567,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={rocketLauncher}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/rocket-launcher.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -638,7 +594,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={shotgun}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/shotgun.svg"
                             class="card-img-top"
                             alt="character-1"
                           />
@@ -664,7 +620,7 @@ function CharactersandWeapons() {
                       <div className="card">
                         <div className="char-img-contianer">
                           <img
-                            src={revolver}
+                            src="https://webassets.strayshot.game/newstrayshot/weapons/revolver.svg"
                             class="card-img-top"
                             alt="character-1"
                           />

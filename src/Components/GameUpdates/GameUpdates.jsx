@@ -77,7 +77,7 @@ function GameUpdates() {
 
                   
                   <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer" ><h5 class="card-title game-update-card-title text-uppercase">
-                  FEBRUARY 25 BETA SESSION ROUNDUP
+                  LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
                   </h5></a> 
                   
 
@@ -121,7 +121,7 @@ function GameUpdates() {
 
                   
                   <a href="https:google.com" target="_blank" rel="noopener noreferrer"><h5 class="card-title game-update-card-title text-uppercase">
-                  Keeping the StrayShot Battlefield Fair (and Fun)!
+                  An Insider Look at the TDM Tropical Map
                   </h5></a> 
       
 
@@ -204,11 +204,16 @@ function GameUpdates() {
               <div className="col mb-3">
                 <div class="card game-updates-card text-start game-udpates-card-first">
                   <div className="game-update-card-img">
+                    
+                    <a href="www.google.com" target="_blank" rel="noopener noreferrer" >
                     <img
                       src={news1}
                       class="card-img-top"
                       alt="Fissure in Sandstone"
                     />
+                    </a>
+
+                   
                     <div className="game-update-card-line">
                       <img src={cardImageLine} alt="" />
                     </div>
@@ -216,9 +221,11 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 28, 2024</p>
 
-                    <h5 class="card-title game-update-card-title text-uppercase">
-                    FEBRUARY 25 BETA SESSION ROUNDUP
-                    </h5>
+                    <a href="www.google.com" target="_blank" rel="noopener noreferrer"> <h5 class="card-title game-update-card-title text-uppercase">
+                    LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
+                    </h5></a>
+
+                   
                     {/* <p class="card-text">
                       Lorem ipsum malesuada taciti sollicitudin sagittis lacus
                       himenaeos, ligula pulvinar porta augue ornare himenaeos,
@@ -253,11 +260,16 @@ function GameUpdates() {
               <div className="col mb-3">
                 <div class="card game-updates-card text-start">
                   <div className="game-update-card-img">
-                    <img
+
+                      <a href="">
+                      <img
                       src={news3}
                       class="card-img-top"
                       alt="Fissure in Sandstone"
                     />
+                      </a>
+                    
+                    
                     <div className="game-update-card-line">
                       <img src={cardImageLine} alt="" />
                     </div>
@@ -265,9 +277,12 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 28, 2024</p>
 
-                    <h5 class="card-title game-update-card-title text-uppercase">
-                    Keeping the StrayShot Battlefield Fair (and Fun)!
-                    </h5>
+                     <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                     <h5 class="card-title game-update-card-title text-uppercase">
+                     An Insider Look at the TDM Tropical Map
+                    </h5></a> 
+                    
+                    
                     {/* <p class="card-text">
                       Lorem ipsum malesuada taciti sollicitudin sagittis lacus
                       himenaeos, ligula pulvinar porta augue ornare himenaeos,
@@ -299,11 +314,14 @@ function GameUpdates() {
               <div className="col mb-3">
                 <div class="card game-updates-card text-start game-udpates-card-last">
                   <div className="game-update-card-img">
-                    <img
+                  <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer">
+                  <img
                       src={news2}
                       class="card-img-top"
                       alt="Fissure in Sandstone"
                     />
+                  </a>
+                    
                     <div className="game-update-card-line">
                       <img src={cardImageLine} alt="" />
                     </div>
@@ -311,9 +329,13 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 21, 2024</p>
 
-                    <h5 class="card-title game-update-card-title text-uppercase">
+                      <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer">
+                      <h5 class="card-title game-update-card-title text-uppercase">
                     Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/02/2024
                     </h5>
+                      </a>
+
+                   
                     {/* <p class="card-text">
                       Lorem ipsum malesuada taciti sollicitudin sagittis lacus
                       himenaeos, ligula pulvinar porta augue ornare himenaeos,
@@ -508,8 +530,7 @@ function GameUpdates() {
 
                       <a  href="https://finance.yahoo.com/news/ibloxx-raises-5-million-grow-154700559.html" target="_blank" rel="noopener noreferrer">
                       <h5 class="card-title game-update-card-title text-uppercase">
-                            ibloxx raises $5 million to expand its gaming
-                            studios{" "}
+                      IBLOXX Raises $5 Million to Grow Gaming Division
                           </h5>
                       </a>
 
@@ -548,11 +569,16 @@ function GameUpdates() {
                     <div className="col mb-3 ">
                       <div class="card game-updates-card ibloxx-updates-card text-start game-udpates-card-first">
                         <div className="game-update-card-img">
-                          <img
+
+                        <a href="https://www.khaleejtimes.com/kt-network/strayshot-sets-sights-on-epic-games-store-launch?amp=1" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                        <img
                             src={ibloxxNewsImg1}
                             class="card-img-top"
                             alt="Fissure in Sandstone"
                           />
+                        </a>
+
+                          
                           <div className="game-update-card-line">
                             <img src={cardImageLine} alt="" />
                           </div>
@@ -562,9 +588,13 @@ function GameUpdates() {
                           February 20, 2024
                           </p>
 
+                          <a href="https://www.khaleejtimes.com/kt-network/strayshot-sets-sights-on-epic-games-store-launch?amp=1" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                           <h5 class="card-title game-update-card-title text-uppercase">
                           StrayShot sets sights on epic games store launch{" "}
                           </h5>
+                          </a>
+
+                          
                           {/* <p class="card-text">
                             Lorem ipsum malesuada taciti sollicitudin sagittis
                             lacus himenaeos, ligula pulvinar porta augue ornare
@@ -596,11 +626,16 @@ function GameUpdates() {
                     <div className="col mb-3">
                       <div class="card game-updates-card ibloxx-updates-card text-start">
                         <div className="game-update-card-img">
-                          <img
+                          
+                        <a href="https://finance.yahoo.com/news/nba-stars-lamelo-lonzo-ball-160000516.html" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                        <img
                             src={ibloxxNewsImg2}
                             class="card-img-top"
                             alt="Fissure in Sandstone"
                           />
+                        </a>
+
+                          
                           <div className="game-update-card-line">
                             <img src={cardImageLine} alt="" />
                           </div>
@@ -610,9 +645,13 @@ function GameUpdates() {
                           October 12, 2023
                           </p>
 
+                          <a href="https://finance.yahoo.com/news/nba-stars-lamelo-lonzo-ball-160000516.html" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                           <h5 class="card-title game-update-card-title text-uppercase">
                           NBA Stars LaMelo, Lonzo Ball, and BigBaller Brand Family join iBLOXX's StrayShot Game{" "}
                           </h5>
+                          </a>
+
+                         
                           {/* <p class="card-text">
                             Lorem ipsum malesuada taciti sollicitudin sagittis
                             lacus himenaeos, ligula pulvinar porta augue ornare
@@ -644,11 +683,16 @@ function GameUpdates() {
                     <div className="col mb-3">
                       <div class="card game-updates-card ibloxx-updates-card text-start game-udpates-card-last">
                         <div className="game-update-card-img">
-                          <img
+                          
+                        <a href="https://finance.yahoo.com/news/ibloxx-raises-5-million-grow-154700559.html" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                        <img
                             src={ibloxxNewsImg3}
                             class="card-img-top"
                             alt="Fissure in Sandstone"
                           />
+                        </a>
+
+                         
                           <div className="game-update-card-line">
                             <img src={cardImageLine} alt="" />
                           </div>
@@ -658,10 +702,14 @@ function GameUpdates() {
                           February 24, 2023
                           </p>
 
+                          <a href="https://finance.yahoo.com/news/ibloxx-raises-5-million-grow-154700559.html" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                           <h5 class="card-title game-update-card-title text-uppercase">
-                            ibloxx raises $5 million to expand its gaming
-                            studios{" "}
+                          IBLOXX Raises $5 Million to Grow Gaming Division
+      
                           </h5>
+                          </a>
+
+                          
                           {/* <p class="card-text">
                             Lorem ipsum malesuada taciti sollicitudin sagittis
                             lacus himenaeos, ligula pulvinar porta augue ornare
