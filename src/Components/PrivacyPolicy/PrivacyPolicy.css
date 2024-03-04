@@ -1,0 +1,21 @@
+
+.privacy-policy-sub-heading{
+    font-weight: 500;
+}
+
+.privacy-policy-custom-list{
+    list-style: none;
+    margin-left: 0;
+   padding-left: 1em;
+   text-indent: -1em;
+}
+
+.privacy-policy-custom-list li{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.privacy-policy-custom-list li::before {
+    content: "-"; /* Add hyphen as list item marker */
+    padding-right: 0.5em; /* Add spacing between hyphen and list item text */
+  }

@@ -38,32 +38,32 @@ function Header() {
           style={{ display: "none !important" }}
         >
           <div>
-            <Link to="#Epic-Action" smooth>
+            <Link to="/#Epic-Action" smooth>
               STORY
             </Link>
           </div>
           <div>
-            <Link to="#Game-Features" smooth>
+            <Link to="/#Game-Features" smooth>
               GAME FEATURES
             </Link>
           </div>
           <div>
-            <Link to="#Join-Clan" smooth>
+            <Link to="/#Join-Clan" smooth>
               CLANS
             </Link>
           </div>
           <div>
-            <Link to="#LeaderBoard" smooth>
+            <Link to="/#LeaderBoard" smooth>
               LEADERBOARDS
             </Link>
           </div>
           <div>
-            <Link to="#GameUpdates" smooth>
+            <Link to="/#GameUpdates" smooth>
               UPDATES
             </Link>
           </div>
           <div>
-            <Link to="#FAQ" smooth>
+            <Link to="/#FAQ" smooth>
               FAQS
             </Link>
           </div>

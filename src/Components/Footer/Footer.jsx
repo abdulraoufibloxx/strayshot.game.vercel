@@ -9,6 +9,7 @@ import tiktokIcon from "../../assets/Footer/tiktok.svg";
 import youtubeIcon from "../../assets/Footer/youtube.svg";
 import emailIcon from "../../assets/Footer/email-icon.svg";
 import footerLine from "../../assets/Footer/footer-line.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -99,7 +100,7 @@ function Footer() {
               <p className="text-uppercase footer-heading">strayshot</p>
             </div>
             <div className="row">
-              <p className="mt-2 footer-text">Terms & Conditions</p>
+              <Link to="/termsandconditions" onClick={() => window.scrollTo(0, 0)} className="mt-2 footer-text">Terms & Conditions</Link>
             </div>
           </div>
         </div>
@@ -115,13 +116,13 @@ function Footer() {
         </div>
         <div class="col-md-6 d-flex footer-links-terms footer-copyright justify-custom-footer">
             <div>
-                <p>Terms & Conditions</p>
+                <Link to="/termsandconditions" onClick={() => window.scrollTo(0, 0)}>Terms & Conditions</Link>
             </div>
             <div>
                 <p>Cookies</p>
             </div>
             <div>
-                <p>Privacy Policy</p>
+                <Link to="/privacypolicy/#PrivacyPolicy" onClick={() => window.scrollTo(0, 0)}>Privacy Policy</Link>
             </div>
         </div>
     </div>

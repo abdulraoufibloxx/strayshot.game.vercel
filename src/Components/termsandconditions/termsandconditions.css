@@ -1,0 +1,23 @@
+.terms-and-conditions{
+    margin-top: 5% ;
+}
+
+.terms-and-conditions-main-heading p {
+    font-family: var( --main-heading-font);
+    font-size:40px ;
+}
+
+.terms-and-conditions-sub-heading{
+    font-family: var(--secondary-font-medium);
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.terms-and-conditions-text{
+    font-family: var(--secondary-font-normal);
+    letter-spacing: 0.1rem;
+}
+
+.font-weight-bold{
+    font-weight: 600;
+}

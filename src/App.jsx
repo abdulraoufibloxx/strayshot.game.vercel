@@ -10,17 +10,35 @@ import GameUpdates from './Components/GameUpdates/GameUpdates.jsx'
 import FAQ from './Components/FAQ/FAQ.jsx'
 import DownloadCTA from './Components/download-cta/download-cta.jsx'
 import Footer from './Components/Footer/Footer.jsx'
+import TermsAndConditions from './Components/termsandconditions/termsandconditions.jsx'
 
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom'
 
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
+
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+// } from "react-router-dom";
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Home/>,
+//   },
+//   {
+//     path: "/epicaction",
+//     element: <EpicAction/>
+//   },
+// ]);
 
 function App() {
   const [count, setCount] = useState(0)
 
+
+
   return (
-    <BrowserRouter>
     <div>
       <Header />
       <Home />
@@ -32,8 +50,9 @@ function App() {
       <FAQ />
       <DownloadCTA />
       <Footer />
-    </div>
-    </BrowserRouter>
+      </div>
+    
+  
   )
 }
 
