@@ -25,6 +25,8 @@
   color: #e7e8e8;
   letter-spacing: 1px;
   line-height: 1.5rem;
+  width: 70%;
+  margin: auto;
 }
 
 .donwload-cta-bottom-line img {

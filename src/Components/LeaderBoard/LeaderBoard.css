@@ -12,13 +12,13 @@
 
 .leader-board-score{
     position: relative;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 
 .leader-board-score::before{
     position: absolute;
     content: url('../../assets/LeaderBoard/player1.png');
-    left: -320px;
+    left: -350px;
     z-index: -1;
 }
 
@@ -74,7 +74,161 @@
     width: 150px;
 }
 
+.leaderboard-table{
+    position: relative;
+    background-color: #111214;
+    width: 50%;
+    margin: auto;
+    z-index: 10;
+}
+
+.leaderboard-table td{
+    padding: 0px 0;
+    padding-left: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Montage;
+
+}
+
+.leaderboard-table th{
+    padding: 10px 0;
+    padding-left: 20px;
+    color:#E8A503;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'ClashDisplay-SemiBold', sans-serif;
+    letter-spacing: 1.28px;
+}
+
+.leaderboard-container{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom:70px;
+}
+
+.leaderboard-vector-right{
+    position: absolute;
+    right:-30px;
+    top:-20px;
+    z-index: -1;
+}
+
+.leaderboard-vector-left{
+    position: absolute;
+    left:-25px;
+    top:-20px;
+    z-index: -1;
+}
+
+.leaderboard-vector-bottom{
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom:-20px;
+    z-index: -1;
+}
+
+.leaderboard-vector-top{
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:-20px;
+    z-index: -1;
+}
+
+.leaderboard-heading{
+    font-family: Montage!important;
+}
+
+.leaderboard-heading-tab{
+    position:relative;
+    margin-top: 40px;
+    width: 60%;
+}
+
+.leaderboard-heading-tab::before{
+    position: absolute;
+    content: url("../../assets/LeaderBoard/heading-left.svg");
+    left:-280px;
+    top: 15px;
+}
+
+.leaderboard-heading-tab::after{
+    position: absolute;
+    right:-280px;
+    top: 15px;
+    content: url("../../assets/LeaderBoard/heading-right.svg")
+}
+
+.leaderboard-heading-tab .nav-link{
+    font-family: 'ClashDisplay-SemiBold', sans-serif;
+    color: black!important;
+    font-size: 13px!important;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    z-index: 10;
+}
+
+
+
+.leaderboard-heading-tab .nav-link.active{
+    position: relative;
+    background-color: white!important;
+    border-radius: 0!important;
+}
+
+
+.leaderboard-heading-tab .nav-link.active::after{
+    position: absolute;
+    top: -7px;
+    content: "";
+    left:0;
+    width: 100%;
+    height: 50%; /* Adjust height as needed */
+    background-image: url("../../assets/LeaderBoard/leaderboard-tab-btn-top.svg");
+    background-size: cover; /* Or contain, depending on how you want the image to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    transform: scaleY(-1);
+}
+
+.leaderboard-heading-tab .nav-link.active::before{
+    position: absolute;
+    bottom: -7px;
+    content: "";
+    left:0;
+    width: 100%;
+    height: 50%; /* Adjust height as needed */
+    background-image: url("../../assets/LeaderBoard/leaderboard-tab-btn-top.svg");
+    background-size: cover; /* Or contain, depending on how you want the image to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
 @media (max-width: 768px){
+
+    .leaderboard-col{
+        flex-direction: row;
+    }
+    .leaderboard-heading-tab::before{
+        display: none;
+    }
+    
+    .leaderboard-heading-tab::after{
+        display: none;
+    }
+
+    .leaderboard-heading-tab{
+        width: 80%;
+    }
+
+    .leaderboard-heading-tab .nav-link{
+        font-size: 9.8px!important;
+    }
+
     .leader-board-score::before, .leader-board-score::after{
         display: none;
     }
@@ -101,5 +255,9 @@
 
     .leaderboard-bottom-line{
         bottom:-10px ;
+    }
+
+    .leaderboard-table{
+        width: 90%;
     }
 }

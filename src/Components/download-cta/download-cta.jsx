@@ -15,10 +15,10 @@ function downloadCta() {
           </div>
 
           <div className="container">
-          <div className="mt-5 row">
+          <div className="mt-3 row">
             <h3 className="download-cta-heading">GET THE GAME</h3>
           </div>
-          <div className="mt-5">
+          <div className="mt-1">
             <p className="text-uppercase download-cta-subtitle">
             Embark on Your Bounty-Hunting JOURNEY: Download Now and GET into a World of Adrenaline, Competition, and Rewards!
             </p>
