@@ -27,7 +27,7 @@ function GameModes() {
   };
 
   return (
-    <div className="game-modes-container mb-5">
+    <div className="game-modes-container mb-4">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
         <div className="row">
           <img className="game-modes-seperator" src={vectLine} alt="" />
