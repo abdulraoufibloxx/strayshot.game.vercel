@@ -44,7 +44,7 @@ function Header() {
           </div>
           <div>
             <Link to="#Game-Features" smooth>
-              GAME FEATURE
+              GAME FEATURES
             </Link>
           </div>
           <div>
@@ -158,7 +158,7 @@ function Header() {
                   onClick={handleClose}
                   className="link-style "
                 >
-                  GAME FEATURE
+                  GAME FEATURES
                 </Link>
               </div>
               <div className="mb-3">
@@ -206,22 +206,28 @@ function Header() {
             <div className="d-flex justify-content-center">
               <div className="row mt-5">
                 <div className="col">
-                  <img src={instagramIcon} alt="" />
+                  <a href="https://instagram.com/strayshotgame" target="_blank"
+                    rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
                 </div>
                 <div className="col">
-                  <img src={discordIcon} alt="" />
+                <a href="https://discord.com/invite/strayshot" target="_blank"
+                    rel="noopener noreferrer"><img src={discordIcon} alt="" /></a>
                 </div>
                 <div className="col">
-                  <img src={xIcon} alt="" />
+                <a href="https://x.com/StrayShotGame" target="_blank"
+                    rel="noopener noreferrer"><img src={xIcon} alt="" /></a>
                 </div>
                 <div className="col">
-                  <img src={facebookIcon} alt="" />
+                <a href="https://m.facebook.com/groups/strayshotchat/?ref=share&mibextid=S66gvF" target="_blank"
+                    rel="noopener noreferrer"><img src={facebookIcon} alt="" /></a>
                 </div>
                 <div className="col">
-                  <img src={tiktokIcon} alt="" />
+                <a href="https://www.tiktok.com/@strayshot.game" target="_blank"
+                    rel="noopener noreferrer"><img src={tiktokIcon} alt="" /></a>
                 </div>
                 <div className="col">
-                  <img src={youtubeIcon} alt="" />
+                <a href="https://youtube.com/@StrayShotgame" target="_blank"
+                    rel="noopener noreferrer"><img src={youtubeIcon} alt="" /></a>
                 </div>
               </div>
             </div>

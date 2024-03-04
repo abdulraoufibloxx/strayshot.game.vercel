@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  height: 94vh;
   width: 100%;
   position: relative;
 }
@@ -38,9 +38,11 @@
   color: white;
   font-weight: 400;
   letter-spacing: 1px;
+  line-height: 51px;
+  font-size: 50px;
 }
 
-.overlay-text-main span {
+.overlay-text-main .banner-color-change {
   color: var(--primary-color);
 }
 
@@ -67,7 +69,7 @@
 
 .home .vect-top{
   position: absolute;
-  top: 60px;
+  top: 65px;
   width: 100vw;
   transform: scaleY(-1);
 }
@@ -75,8 +77,17 @@
 
 @media (max-width: 768px) { /* Adjust the max-width as needed */
   .overlay-text-main{
-    font-size: 2.5rem;
-  }
+    font-size: 33px;
+  line-height: 38.02px;
+}
+
+.home {
+  height: 80vh;
+}
+
+.mobile-home-banner-text{
+ display: block;
+}
 
   .home .vect-bottom{
     bottom: -12px;

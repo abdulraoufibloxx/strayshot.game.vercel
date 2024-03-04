@@ -62,7 +62,7 @@ function GameFeatures() {
           </div>
 
           <div className="map-container">
-            <div className="map-name-container">
+            <div className="map-name-container container">
               <div className="map-name d-flex flex-column justify-content-center p-3">
                 <div>
                   <h3>{selectedMap.name}</h3>
@@ -103,8 +103,10 @@ function GameFeatures() {
            
             
             >
-              <SwiperSlide>
-                <div className="row ">
+              <SwiperSlide className="pt-4">
+                <div className={`row ${
+                        selectedMap.map1 == map1 ? "selected-map-pointer" : ""
+                      }`}>
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <img
                       className={`map-item-img-sm img-fluid ${
@@ -126,8 +128,10 @@ function GameFeatures() {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="row">
+              <SwiperSlide className="pt-4">
+                <div className={`row ${
+                        selectedMap.map1 == map2 ? "selected-map-pointer" : ""
+                      }`}>
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <img
                       className={`map-item-img-sm img-fluid ${
@@ -150,8 +154,10 @@ function GameFeatures() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="row">
+              <SwiperSlide className="pt-4">
+                <div className={`row ${
+                        selectedMap.map1 == map3 ? "selected-map-pointer" : ""
+                      }`}>
                   <div className="d-flex flex-column align-items-center justify-content-center">
                     <img
                       className={`map-item-img-sm img-fluid ${
@@ -174,8 +180,10 @@ function GameFeatures() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="row">
+              <SwiperSlide className="pt-4">
+                <div className={`row ${
+                        selectedMap.map1 == map4 ? "selected-map-pointer" : ""
+                      }`}>
                   <div className="d-flex flex-column align-items-center justify-content-center">
                   <img
                           className={`map-item-img-sm img-fluid ${
@@ -208,11 +216,11 @@ function GameFeatures() {
                 <div class="map-item-container container text-center">
                   <div class="row gx-5 ">
                     <div class="col">
-                      <div className="row">
+                      <div className={`row ${
+                        selectedMap.map1 == map1 ? "selected-map" : ""
+                      }`}>
                         <img
-                          className={`map-item-img img-fluid ${
-                            selectedMap.map1 == map1 ? "selected-map" : ""
-                          }`}
+                          className={`map-item-img img-fluid`}
                           src={map1}
                           onClick={() =>
                             handleImageClick(
@@ -230,11 +238,11 @@ function GameFeatures() {
                     </div>
 
                     <div class="col">
-                      <div className="row">
-                        <img
-                          className={`map-item-img img-fluid ${
+                      <div className={`row ${
                             selectedMap.map1 == map2 ? "selected-map" : ""
-                          }`}
+                          }`}>
+                        <img
+                          className={`map-item-img img-fluid`}
                           src={map2}
                           onClick={() =>
                             handleImageClick(
@@ -252,11 +260,11 @@ function GameFeatures() {
                     </div>
 
                     <div class="col">
-                      <div className="row">
-                        <img
-                          className={`map-item-img img-fluid ${
+                      <div className={`row ${
                             selectedMap.map1 == map3 ? "selected-map" : ""
-                          }`}
+                          }`}>
+                        <img
+                          className={`map-item-img img-fluid`}
                           src={map3}
                           onClick={() =>
                             handleImageClick(
@@ -273,11 +281,11 @@ function GameFeatures() {
                       </div>
                     </div>
                     <div class="col">
-                      <div className="row">
-                        <img
-                          className={`map-item-img img-fluid ${
+                      <div className={`row ${
                             selectedMap.map1 == map4 ? "selected-map" : ""
-                          }`}
+                          }`}>
+                        <img
+                          className={`map-item-img img-fluid`}
                           src={map4}
                           onClick={() =>
                             handleImageClick(

@@ -32,7 +32,7 @@ function GameModes() {
         <div className="row">
           <img className="game-modes-seperator" src={vectLine} alt="" />
         </div>
-        <div className="container">
+        <div className="container mt-4">
           <div className="mt-5">
             <h3 className="game-modes-heading">GAME MODES</h3>
           </div>
@@ -43,7 +43,7 @@ function GameModes() {
           </div>
 
         </div>
-        <div className="game-modes-card-container mt-5 container justify-content-center align-items-center text-center">
+        <div className="game-modes-card-container mt-5 container-fluid justify-content-center align-items-center text-center">
           {/* carousel in mobile start  */}
 
           <div className="game-modes-carousel-sm">
@@ -65,7 +65,7 @@ function GameModes() {
                     <div className=""> 
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 " >
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -84,7 +84,7 @@ function GameModes() {
                     <div>
               <div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -103,7 +103,7 @@ function GameModes() {
                     <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={battleRoyale} alt="" />
                   </div>
                   <div>
@@ -121,7 +121,7 @@ function GameModes() {
                     <SwiperSlide>
                     <div><div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -140,7 +140,7 @@ function GameModes() {
                 <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -167,7 +167,7 @@ function GameModes() {
             <div class="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -183,7 +183,7 @@ function GameModes() {
             <div class="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -199,7 +199,7 @@ function GameModes() {
             <div class="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={battleRoyale} alt="" />
                   </div>
                   <div>
@@ -215,7 +215,7 @@ function GameModes() {
             <div class="col">
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
@@ -231,7 +231,7 @@ function GameModes() {
             <div class="col">
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="mt-5">
+                  <div className="">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>

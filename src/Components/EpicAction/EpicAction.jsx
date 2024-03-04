@@ -17,15 +17,14 @@ function EpicAction() {
   return (
     <div className="epic-action" id="Epic-Action">
       <div className="epic-action-container">
-        <div className="epic-action-header d-flex flex-column justify-content-center align-items-center">
+        <div className="container my-5 d-flex flex-column justify-content-center align-items-center">
             <img className="epic-action-header-img" src={epicActioHeader} alt="Epic Action Header SVG" />
             <div className="row justify-content-center">
            
         
         <div className=" epic-action-text-container">
           <p className="epic-action-text mx-auto">
-            In a big ocean, there's a mysterious island known as the Isle of
-            Death. Bounty hunters flock there hoping to find{" "}
+          In a big ocean, there's a mysterious island known as the Isle of Death. Bounty hunters flock there hoping to find {" "}
             <span className="underline-text">the Ultimate Prize Pool</span>{" "}
           </p>
         </div>
@@ -45,7 +44,7 @@ function EpicAction() {
         </div>
       </div>
       <div className="teanm-rewards-container mt-5">
-        <div class="container text-center p-4" style={{ width: "75%"}}>
+        <div class="container text-center pb-4 px-4" style={{ width: "75%"}}>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="col mb-3">
                 <div className="row">
@@ -63,7 +62,7 @@ function EpicAction() {
                     <img className="img" src={surviveImg} alt="" />
                 </div>
                 <div className="row">
-                    <p className="text-heading mt-3">SURVIVE</p>
+                    <p className="text-heading mt-3">SURVIVAL OF THE FITTEST</p>
                 </div>
                 <div className="row ">
                     <p >Survive epic battles! Outsmart, outmaneuver, and outgun your opponents and win rewards. The power’s in your hands!</p>
