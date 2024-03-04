@@ -173,6 +173,7 @@
 .selected-map{
     border: 3px solid white;
     position: relative;
+    border-radius: 5px;
 }
 
 .selected-map::before{

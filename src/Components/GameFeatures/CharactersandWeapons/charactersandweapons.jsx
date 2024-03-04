@@ -448,17 +448,17 @@ function CharactersandWeapons() {
 
                 {/* weapon-mb-ends here */}
 
-                <div className="weapon-container-lg">
+                <div className="weapon-container-lg container">
                   <Swiper
                   className="swiper-custom"
                   spaceBetween={10}
                   slidesPerView={5}
                   modules={[Autoplay]}
                   loop
-                  // autoplay={{
-                  //   delay: 1000, // Adjust this value to control the autoplay speed
-                  //   disableOnInteraction: false,
-                  // }}
+                  autoplay={{
+                    delay: 1000, // Adjust this value to control the autoplay speed
+                    disableOnInteraction: false,
+                  }}
                 >
                     <SwiperSlide>
                       <div className="card">
