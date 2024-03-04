@@ -8,7 +8,7 @@ import vectTop from "../../assets/vector-bottom.svg";
 function Home() {
   return (
     <div className="home" id="Home">
-      <video id="background-video" autoPlay loop>
+      <video id="background-video" autoPlay loop playsinline muted>
         <source src={videoCompressed} type="video/mp4" />
       </video>
       <div className="overlay"></div>
