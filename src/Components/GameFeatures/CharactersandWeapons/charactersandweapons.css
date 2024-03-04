@@ -63,9 +63,13 @@
     font-size: 1.5rem !important;
 }
 
+.character-inner-container .nav-tabs .nav-item .nav-link:hover{
+  border:0;
+}
+
   .character-inner-container .nav-tabs .nav-item .nav-link{
-    border-bottom: 1px solid rgb(40, 40, 40);
-    padding: 3px;
+    /* border-bottom: 1px solid rgb(40, 40, 40); */
+    padding: 4px;
   }
 
  .character-inner-container .nav-tabs .nav-item .nav-link.active {
@@ -73,12 +77,17 @@
     border: 1px solid rgb(40, 40, 40); /* Add a border at the top of the active tab */
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    border-bottom: 0;
+    border-bottom: 3px solid rgb(21 22 25);
     color: white !important; /* Set font color to white */
   }
 
+  .character-inner-container .nav-tabs .nav-link:focus-visible {
+    outline: none !important; /* Remove outline */
+    box-shadow: none !important; /* Remove box-shadow */
+}
+
   .character-inner-container .nav-tabs .nav-item .nav-link{
-    width: 50%;
+    width: 30%;
   }
 
   .character-inner-container .nav-justified .nav-item:first-child {
@@ -91,7 +100,10 @@
 }
 
 .character-inner-container .nav-justified{
-  border-bottom: 0;
+  margin-bottom: 20px!important;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, rgba(40, 40, 40, 0), rgba(40, 40, 40, 1), rgba(40, 40, 40, 0)) 1;     /* border-bottom: 0; */
 }
 
 
@@ -127,12 +139,13 @@
 
   .c-and-w-body{
     /* padding: 0 !important */
-    padding: 10px 0 0 10px !important;
+    padding: 12px !important;
 
   }
 
   .weapon-description{
     font-family: var(--secondary-font-normal-light);
+    margin: 0!important;
   }
 
   .carousel-container{

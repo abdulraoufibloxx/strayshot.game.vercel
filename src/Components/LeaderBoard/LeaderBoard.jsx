@@ -35,9 +35,9 @@ function LeaderBoard(){
                 <img src={leaderBoardLine} alt="vector-line-img" />
             </div>
 
-            <div className='strayshot-logo'>
+            {/* <div className='strayshot-logo'>
                 <img src={strayshot} alt="vector-line-img" />
-            </div>
+            </div> */}
 
         </div>
     )

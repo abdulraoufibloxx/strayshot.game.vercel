@@ -499,10 +499,10 @@ function CharactersandWeapons() {
                   slidesPerView={5}
                   modules={[Autoplay]}
                   loop
-                  autoplay={{
-                    delay: 1000, // Adjust this value to control the autoplay speed
-                    disableOnInteraction: false,
-                  }}
+                  // autoplay={{
+                  //   delay: 1000, // Adjust this value to control the autoplay speed
+                  //   disableOnInteraction: false,
+                  // }}
                 >
                     <SwiperSlide>
                       <div className="card">

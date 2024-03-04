@@ -78,7 +78,7 @@ function JoinClan(){
 
         <div className='d-flex justify-content-center flex-column text-center align-items-center join-clan-cta'>
             <div className='mt-1'>
-                <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={joiClanBtn} alt="join-clan-button" /></a>
+                <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img className='join-clan-button' src={joiClanBtn} alt="join-clan-button" /></a>
             </div>
         </div>
 

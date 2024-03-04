@@ -43,7 +43,7 @@ function GameModes() {
           </div>
 
         </div>
-        <div className="game-modes-card-container mt-5 container-fluid justify-content-center align-items-center text-center">
+        <div className="game-modes-card-container mt-5 container justify-content-center align-items-center text-center">
           {/* carousel in mobile start  */}
 
           <div className="game-modes-carousel-sm">

@@ -86,6 +86,10 @@
         display: none;
     }
 
+    .join-clan-button{
+        width: 90%;
+    }
+
     .clan-text-content{
         margin-top: 10px;
         text-align: center !important;
