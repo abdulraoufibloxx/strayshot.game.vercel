@@ -118,9 +118,7 @@ function Footer() {
             <div>
                 <Link to="/termsandconditions" onClick={() => window.scrollTo(0, 0)}>Terms & Conditions</Link>
             </div>
-            <div>
-                <p>Cookies</p>
-            </div>
+            
             <div>
                 <Link to="/privacypolicy/#PrivacyPolicy" onClick={() => window.scrollTo(0, 0)}>Privacy Policy</Link>
             </div>

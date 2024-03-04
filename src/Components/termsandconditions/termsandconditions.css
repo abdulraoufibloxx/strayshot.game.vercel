@@ -1,5 +1,5 @@
 .terms-and-conditions{
-    margin-top: 5% ;
+    margin-top: 100px ;
 }
 
 .terms-and-conditions-main-heading p {
@@ -20,4 +20,11 @@
 
 .font-weight-bold{
     font-weight: 600;
+}
+
+
+@media (max-width: 768px){
+    /* .terms-and-conditions{
+        margin-top: 100px;
+    } */
 }

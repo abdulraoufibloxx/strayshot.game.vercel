@@ -27,7 +27,7 @@ function Header() {
   return (
     <div className="header" style={{ display: show ? "none" : "" }}>
       <nav className="navbar d-flex   justify-content-between">
-        <Link to="#Home">
+        <Link to="/#Home">
           <div>
             <img className="navbar-image" src={navbarlogo} alt="navbar-image" />
           </div>
@@ -123,12 +123,17 @@ function Header() {
           style={{ color: "white", backgroundColor: "black" }}
         >
           <Offcanvas.Title>
+            <Link to='/#Home' onClick={handleClose}>
             <div>
               <img width={"100px"} src={navbarlogo} alt="" />
             </div>
+            </Link>
           </Offcanvas.Title>
           <div className="d-flex align-items-center justify-content-center">
-            <img src={downloadBtn} alt="" />
+            <a href="https://play.strayshot.game/"
+                target="_blank"
+                rel="noopener noreferrer"><img src={downloadBtn} alt="" />
+                </a>
             <button
               type="button"
               className="btn-close"
@@ -143,7 +148,7 @@ function Header() {
             <div className="row">
               <div className="mb-3">
                 <Link
-                  to="#Epic-Action"
+                  to="/#Epic-Action"
                   smooth
                   onClick={handleClose}
                   className="link-style"
@@ -153,7 +158,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="#Game-Features"
+                  to="/#Game-Features"
                   smooth
                   onClick={handleClose}
                   className="link-style "
@@ -163,7 +168,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="#Join-Clan"
+                  to="/#Join-Clan"
                   smooth
                   onClick={handleClose}
                   className="link-style"
@@ -173,7 +178,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="#LeaderBoard"
+                  to="/#LeaderBoard"
                   smooth
                   onClick={handleClose}
                   className="link-style"
@@ -183,7 +188,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="#GameUpdates"
+                  to="/#GameUpdates"
                   smooth
                   onClick={handleClose}
                   className="link-style"
@@ -193,7 +198,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="#FAQ"
+                  to="/#FAQ"
                   smooth
                   onClick={handleClose}
                   className="link-style"
@@ -234,9 +239,9 @@ function Header() {
 
             <div className="d-flex justify-content-center">
               <div className="row  mt-4 nav-mob-footer">
-                <div className="col nowrap ">Terms &amp; Conditions</div>
-                <div className="col">Cookies</div>
-                <div className="col nowrap">Privacy Policy</div>
+                <div className="col nowrap "><Link to='/termsandconditions' onClick={() => window.scrollTo(0, 0)}> Terms &amp; Conditions</Link></div>
+                {/* <div className="col">Cookies</div> */}
+                <div className="col nowrap"><Link to='/privacypolicy' onClick={() => window.scrollTo(0, 0)}>Privacy Policy</Link> </div>
               </div>
             </div>
           </div>
