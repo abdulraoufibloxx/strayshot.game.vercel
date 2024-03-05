@@ -51,7 +51,7 @@ function GameFeatures() {
           </div>
           <div className="container">
             <p className="game-features-heading text-center header-text text-uppercase my-5">
-            Armed with your skills, and an insatiable hunger for wealth, you must outmanoeuvre and outgun your opponents if you hope to survive and claim valuable rewards.
+            ARMED WITH YOUR SKILLS AND AN INSATIABLE HUNGER TO WIN, YOU MUST OUTMANOEUVRE AND OUTGUN YOUR OPPONENTS IF YOU HOPE TO CLIMB THE LEADERBOARD
             </p>
           </div>
 

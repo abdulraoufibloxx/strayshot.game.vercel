@@ -22,7 +22,7 @@ function Home() {
           </div>
           <div className="row container ">
             <p className="overlay-text text-center">
-              JOIN THE OPEN BETA AND SECURE EXCLUSIVE IN-GAME REWARDS
+              INSTALL STRAYSHOT TO PARTICIPATE IN BETA SESSIONS
             </p>
           </div>
           <div className="row">
