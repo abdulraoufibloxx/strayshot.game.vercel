@@ -75,7 +75,7 @@ function FAQ() {
   return (
     <div className="faq-container mb-5 mt-5" id="FAQ">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
-        <div className="game-updates-header faq-header-img-container row justify-content-center">
+        <div className=" faq-header-img-container row justify-content-center">
           <img className="img-fluid" src={faqTitle} alt="" />
         </div>
 

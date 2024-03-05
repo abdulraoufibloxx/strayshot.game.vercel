@@ -33,7 +33,7 @@ function GameUpdates() {
   return (
     <div className="game-updates-container" id="GameUpdates">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
-        <div>
+        <div className="news-header">
           <p className="text-uppercase game-updates-header">Game news</p>
         </div>
 

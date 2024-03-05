@@ -20,6 +20,7 @@
 
 .clan-text-container{
     width: 75%;
+    margin-bottom: 40px;
 }
 
 
@@ -63,10 +64,21 @@
     margin-top: 20px;
 }
 
+.game-modes-subtitle{
+    font-family: var(--secondary-font-medium);
+    font-size: 16px;
+    letter-spacing: 1.28px;
+
+}
+
 @media (max-width: 768px){
     .join-clan-header-img img{
         min-width:650px!important;
         /* height: auto; */
+    }
+
+    .clan-text-container{
+        margin-bottom: 5px;
     }
 
     .clan-container{
@@ -87,7 +99,7 @@
     }
 
     .join-clan-button{
-        width: 90%;
+        width: 96%;
     }
 
     .clan-text-content{

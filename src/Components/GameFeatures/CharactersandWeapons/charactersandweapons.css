@@ -8,6 +8,14 @@
     margin: auto;
 } */
 
+.characters-and-weapons-header{
+  font-size: 16px;
+  font-family: var(--secondary-font-medium);
+  letter-spacing: 1.28px;
+  width: 70%;
+  margin: auto;
+}
+
 .card {
     background-color: black !important;
     border: 2px solid #3c3d3f !important;
@@ -210,6 +218,11 @@
 
     .character-inner-container .nav-tabs .nav-item .nav-link{
       width: 100%;
+    }
+
+    .characters-and-weapons-header{
+      width: 90%;
+      font-size: 14px;
     }
 
 

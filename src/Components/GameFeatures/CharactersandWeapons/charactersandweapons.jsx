@@ -48,7 +48,7 @@ function CharactersandWeapons() {
           </div>
 
           <div>
-            <p className="text-center game-modes-description">
+            <p className="text-center text-uppercase game-modes-description characters-and-weapons-header">
               Explore your Arsenal of Characters and Weapons, Each with Unique
               Abilities, in the World of Bounty Hunting
             </p>

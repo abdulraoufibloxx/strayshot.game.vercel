@@ -92,4 +92,9 @@
     width: 80%;
     height: auto;
   }
+
+  .download-cta-subtitle{
+    font-size: 12px;
+    width: 90%;
+  }
 }
