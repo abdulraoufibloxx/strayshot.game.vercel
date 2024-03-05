@@ -30,7 +30,7 @@ function GameFeatures() {
     map1,
     name: "TROPICAL ISLAND",
     description:
-      "A cityscape that has looted downtown towers, empty neighborhoods, and crashed aircraft for you to fight through. ",
+      "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through. ",
   });
 
   const handleImageClick = (imageSrc, mapName, mapDescription) => {
@@ -226,7 +226,7 @@ function GameFeatures() {
                             handleImageClick(
                               map1,
                               "TROPICAL ISLAND",
-                              "A cityscape that has looted downtown towers, empty neighborhoods, and crashed aircraft for you to fight through."
+                              "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through."
                             )
                           }
                           alt=""
