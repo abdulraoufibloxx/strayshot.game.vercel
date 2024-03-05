@@ -26,7 +26,7 @@ import Tabs from "react-bootstrap/Tabs";
 import "react-multi-carousel/lib/styles.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 // import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -67,7 +67,7 @@ function CharactersandWeapons() {
               <Tab eventKey="characters" title="CHARACTERS">
                 {/* char-sm-starts here */}
 
-                <div className="char-sm">
+                {/* <div className="char-sm">
                   <Swiper
                   modules={[Autoplay]}
                   loop
@@ -154,16 +154,33 @@ function CharactersandWeapons() {
                       </div>
                     </SwiperSlide>
                   </Swiper>
-                </div>
+                </div> */}
                 {/* char-sm-ends here */}
 
-                <div className="character-card-lg container">
+                <div className="character-card-lg container mx-auto">
                   <Swiper
                     className="swiper-custom"
                     spaceBetween={10}
-                    slidesPerView={4}
-                    modules={[Autoplay]}
+                    slidesPerView={1}
+                    modules={[Autoplay, Pagination]}
+                    pagination={{
+                      clickable: true,
+                    }}
                     loop
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      768: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                      },
+                      992:{
+                        slidesPerView: 4,
+                        spaceBetween: 10,
+                      },
+                    }}
                     autoplay={{
                       delay: 1000, // Adjust this value to control the autoplay speed
                       disableOnInteraction: false,
@@ -254,7 +271,7 @@ function CharactersandWeapons() {
               <Tab eventKey="profile" title="WEAPONS">
                 {/* weapon-mb-starts here */}
 
-                <div className="weapon-sm">
+                {/* <div className="weapon-sm">
                   <Swiper
                   modules={[Autoplay]}
                   loop
@@ -444,7 +461,7 @@ function CharactersandWeapons() {
                       </div>
                     </SwiperSlide>
                   </Swiper>
-                </div>
+                </div> */}
 
                 {/* weapon-mb-ends here */}
 
@@ -452,13 +469,35 @@ function CharactersandWeapons() {
                   <Swiper
                   className="swiper-custom"
                   spaceBetween={10}
-                  slidesPerView={5}
-                  modules={[Autoplay]}
-                  loop
-                  autoplay={{
-                    delay: 1000, // Adjust this value to control the autoplay speed
-                    disableOnInteraction: false,
+                  slidesPerView={1}
+                  modules={[Autoplay, Pagination]}
+                  pagination={{
+                    clickable: true,
                   }}
+                  loop
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 10,
+                    },
+                    992:{
+                      slidesPerView: 4,
+                      spaceBetween: 10,
+                    },
+                    1200:{
+                      slidesPerView: 5,
+                      spaceBetween: 10,
+                    }
+
+                  }}
+                  // autoplay={{
+                  //   delay: 1000, // Adjust this value to control the autoplay speed
+                  //   disableOnInteraction: false,
+                  // }}
                 >
                     <SwiperSlide>
                       <div className="card">

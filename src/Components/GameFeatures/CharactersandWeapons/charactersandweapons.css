@@ -16,8 +16,18 @@
   margin: auto;
 }
 
+.weapon-container-lg .card{
+  height: 440px;
+
+}
+
+.character-card-lg .card{
+  height: 440px;
+}
+
+
 .card {
-    background-color: black !important;
+    background-color: #141519 !important;
     border: 2px solid #3c3d3f !important;
     color: white !important;
     padding: 0.3rem !important;
@@ -182,7 +192,7 @@
     }
 
     .character-card-lg{
-        display: none;
+        /* display: none; */
     }
 
     .char-sm{
@@ -209,11 +219,16 @@
     }
 
     .character-card-lg{
-        display: none;
+        /* display: none; */
     }
 
-    .weapon-container-lg{
-        display: none;
+    .weapon-container-lg .card{
+        /* display: none; */
+      height: auto;
+    }
+
+    .character-card-lg .card{
+      height: auto;
     }
 
     .character-inner-container .nav-tabs .nav-item .nav-link{
