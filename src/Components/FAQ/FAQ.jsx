@@ -9,7 +9,7 @@ function FAQ() {
     {
       question: "What is StrayShot?",
       answer:
-        "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches. In StrayShot, you'll discover a world of unique characters and engaging game modes. It's all about accumulating points and proving your skills to qualify for exclusive prizes in high-stakes weekly and monthly challenges.StrayShot brings you fast-paced action, deep customization, and a variety of game modes like Hostage Rescue, Extraction Shooter, and Team Deathmatch. So, gear up and get ready for intense gaming adventures in StrayShot.",
+        "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches. In StrayShot, you'll discover a world of unique characters and engaging game modes. It's all about accumulating points and proving your skills to qualify for exclusive prizes in high-stakes weekly and monthly challenges. StrayShot brings you fast-paced action, deep customization, and a variety of game modes like Hostage Rescue, Extraction Shooter, and Team Deathmatch. So, gear up and get ready for intense gaming adventures in StrayShot.",
     },
     {
       question: "How do I play the beta?",
@@ -39,10 +39,10 @@ function FAQ() {
       answer: `
         <p>For Windows users, the minimum system requirements are:</p>
         <ul class="custom-list-faq">
-        <li>CPU: Intel Core i7</li>
+        <li>CPU: Intel Core i5</li>
         <li>RAM: 8 GB</li>
         <li>GPU: NVIDIA GTX 1660</li>
-        <li>Hard drive space: 26 GB</li>
+        <li>Hard drive space: 14 GB</li>
     </ul> 
         `,
     },

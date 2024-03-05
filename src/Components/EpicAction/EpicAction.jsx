@@ -88,7 +88,7 @@ function EpicAction() {
                 <div className="row ">
                   <p>
                     Survive epic battles! Outsmart, outmaneuver, and outgun your
-                    opponents and win rewards. The power’s in your hands!
+                    opponents. The power’s in your hands!
                   </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function EpicAction() {
                 <div className="row">
                   <p>
                     Win battles & earn exclusive rewards, like in-game items and
-                    unique skins.Every collectible shows how good you are!
+                    unique skins. Every collectible shows how good you are!
                   </p>
                 </div>
               </div>

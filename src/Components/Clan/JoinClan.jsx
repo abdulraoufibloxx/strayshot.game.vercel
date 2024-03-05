@@ -32,7 +32,7 @@ function JoinClan(){
                             <div><img src={sicarioVect} alt="" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name '>Sicario</p></div>
-                            <div><p className='clan-description'>The official dev clan of StrayShot, where members get exclusive access to custom gaming sessions with the developers themselves</p></div>
+                            <div><p className='clan-description'>The official dev clan of StrayShot, where members get exclusive access to custom gaming sessions with the developers themselves.</p></div>
                             </div>
                             
                         </div>
@@ -42,7 +42,7 @@ function JoinClan(){
                             <div><img src={lezdoVect} alt="" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>LezDuit</p></div>
-                            <div><p className='clan-description'>The premier clan for ambitious gamers aiming to dominate the competition</p></div>
+                            <div><p className='clan-description'>The premier clan for ambitious gamers aiming to dominate the competition.</p></div>
                             </div>
                             
                         </div>
