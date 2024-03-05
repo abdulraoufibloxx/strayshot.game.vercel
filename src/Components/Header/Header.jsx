@@ -105,7 +105,11 @@ function Header() {
           </div>
         </div>
 
-        <div className="menu mt-2" onClick={handleShow}>
+        {/* <div>
+          <a href=""><img src={downloadBtn} alt="" /></a>
+        </div> */}
+
+        <div className="menu " onClick={handleShow}>
           <span></span>
           <span></span>
           <span></span>
