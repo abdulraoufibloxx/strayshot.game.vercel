@@ -36,14 +36,14 @@ function GameModes() {
           <div className="mt-5">
             <h3 className="game-modes-heading">GAME MODES</h3>
           </div>
-          <div className="mt-3">
+          <div className="mb-5 mt-4">
             <p className="text-uppercase  game-modes-subtitle">
             Learn more about the Game Modes WHERE YOU’ll EXPERIENCE Your Bounty Hunting Journey
             </p>
           </div>
 
         </div>
-        <div className="game-modes-card-container mt-5 container justify-content-center align-items-center text-center">
+        <div className="game-modes-card-container container justify-content-center align-items-center text-center">
           {/* carousel in mobile start  */}
 
           <div className="game-modes-carousel-sm">

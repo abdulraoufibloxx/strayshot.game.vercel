@@ -15,15 +15,15 @@ function downloadCta() {
           </div>
 
           <div className="container">
-          <div className="mt-3 row">
+          <div className="row my-3">
             <h3 className="download-cta-heading">GET THE GAME</h3>
           </div>
-          <div className="mt-1">
+          <div>
             <p className="text-uppercase download-cta-subtitle">
             Embark on Your Bounty-Hunting JOURNEY: Download Now and GET into a World of Adrenaline, Competition, and Rewards!
             </p>
           </div>
-          <div className="mt-3 ">
+          <div className="mt-4 ">
           <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer"> <img src={downloadBtn} alt="" /></a>
           </div>
           </div>

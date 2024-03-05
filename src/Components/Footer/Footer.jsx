@@ -115,11 +115,11 @@ function Footer() {
             <p className="strayshot-reserved">&copy; {new Date().getFullYear()} Strayshot. All rights reserved. By iBLOXX Studios DMCC</p>
         </div>
         <div class="col-md-6 d-flex footer-links-terms footer-copyright justify-custom-footer">
-            <div>
+            <div className="footer-link-item">
                 <Link to="/termsandconditions" onClick={() => window.scrollTo(0, 0)}>Terms & Conditions</Link>
             </div>
             
-            <div>
+            <div className="footer-link-item">
                 <Link to="/privacypolicy/#PrivacyPolicy" onClick={() => window.scrollTo(0, 0)}>Privacy Policy</Link>
             </div>
         </div>

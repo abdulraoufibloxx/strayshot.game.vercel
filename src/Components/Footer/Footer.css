@@ -59,7 +59,11 @@
 }
 
 .justify-custom-footer{
-    justify-content: space-evenly
+    justify-content: end;
+}
+
+.justify-custom-footer .footer-link-item{
+    margin-left: 20px;
 }
 
 .strayshot-reserved{

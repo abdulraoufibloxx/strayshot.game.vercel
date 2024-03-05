@@ -31,9 +31,9 @@ function GameUpdates() {
   };
 
   return (
-    <div className="game-updates-container" id="GameUpdates">
+    <div className="game-updates-container my-5" id="GameUpdates">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
-        <div className="news-header">
+        <div className="news-header mb-4 mt-5">
           <p className="text-uppercase game-updates-header">Game news</p>
         </div>
 
@@ -370,10 +370,10 @@ function GameUpdates() {
 
         {/* ibloxx news section */}
 
-        <div className="ibloxx-news-container container mt-5">
-          <div className="">
+        <div className="ibloxx-news-container container my-5">
+          <div>
             <div className="ibloxx-news-header d-flex flex-column justify-content-center align-items-center">
-              <div>
+              <div className="mt-5 mb-4">
                 {/* <img
                   className="ibloxx-news-header-lg"
                   src={ibloxxNews}

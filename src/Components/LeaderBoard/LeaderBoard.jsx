@@ -52,7 +52,7 @@ function LeaderBoard(){
       ];
 
     return(
-        <div className='leader-board-container ' id='LeaderBoard'>
+        <div className='leader-board-container my-5' id='LeaderBoard'>
             
             <div className='leader-board-inner-container container d-flex flex-column justify-content-center align-items-center'>
                 {/* <div className='leader-board-title'>

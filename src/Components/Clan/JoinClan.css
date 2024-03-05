@@ -1,6 +1,6 @@
 .join-clain-container{
     position: relative;
-    margin-top: 10%;
+    margin-top: 150px;
 }
 
 .clan-name{
@@ -29,7 +29,7 @@
     text-align: left ;
 }
 .join-clain-card-container{
-    margin-top: 8%;
+    /* margin-top: 8%; */
 }
 
 .skull-img-left{
@@ -53,7 +53,7 @@
     margin-top: 10px;
 }
 .join-clan-header-img img{
-    width: 70%;
+    width: 50%;
 }
 
 .clan-container{

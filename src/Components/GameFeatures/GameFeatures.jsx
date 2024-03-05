@@ -49,14 +49,14 @@ function GameFeatures() {
           <div>
             <img src={GameFeatureSvg} alt="GameFeatureSVG" />
           </div>
-          <div className="mt-3 container">
-            <p className="game-features-heading text-center header-text text-uppercase">
+          <div className="container">
+            <p className="game-features-heading text-center header-text text-uppercase my-5">
             Armed with your skills, and an insatiable hunger for wealth, you must outmanoeuvre and outgun your opponents if you hope to survive and claim valuable rewards.
             </p>
           </div>
 
-          <div>
-            <h3 className="map-header text-center header-text mt-5 ">
+          <div className="my-5">
+            <h3 className="map-header text-center header-text">
               STRAYSHOT LOCATIONS
             </h3>
           </div>

@@ -40,14 +40,14 @@ function CharactersandWeapons() {
   };
 
   return (
-    <div className="charactersandweapons-container mb-5">
+    <div className="charactersandweapons-container my-5">
       <div className="d-flex flex-column justify-content-center  align-items-center text-center ">
         <div className="game-modes-text-container container mb-5">
           <div className="mt-5">
             <h3 className="game-modes-heading">CHARACTERS & WEAPONS</h3>
           </div>
 
-          <div>
+          <div className="mb-5 mt-4">
             <p className="text-center text-uppercase game-modes-description characters-and-weapons-header">
               Explore your Arsenal of Characters and Weapons, Each with Unique
               Abilities, in the World of Bounty Hunting
@@ -55,7 +55,7 @@ function CharactersandWeapons() {
           </div>
         </div>
 
-        <div className="character-card-container container-fluid mt-5">
+        <div className="character-card-container container-fluid">
           {/* Tab starts here */}
           <div className="row  character-inner-container  justify-content-center">
             <Tabs

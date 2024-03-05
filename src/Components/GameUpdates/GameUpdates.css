@@ -1,12 +1,9 @@
 .game-updates-container {
-  margin-top: 8%;
+  margin-top: 4%;
   background-image: url(../../assets/Layer_1.svg);
   position: relative;
 }
 
-.game-updates-card-container {
-  margin-top: 3%;
-}
 
 /* .game-updates-card {
   width: 80%;

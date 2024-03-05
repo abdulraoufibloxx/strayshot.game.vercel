@@ -14,6 +14,10 @@
     
 }
 
+.epic-container{
+    margin: 5rem 0;
+}
+
 .epic-action-header{
     padding: 40px 90px;
 }
@@ -55,11 +59,10 @@
 	 background-size: cover;
 }
 
-.epic-img-container img{
-
+/* .epic-img-container img{
     height: auto;
     width: 100%;
-}
+} */
 
 .team-up-header img{
    margin-top: -70px;

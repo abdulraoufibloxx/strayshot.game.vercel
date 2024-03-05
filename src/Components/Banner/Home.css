@@ -1,5 +1,5 @@
 .home {
-  height: 94vh;
+  height: 80vh;
   width: 100%;
   position: relative;
 }
@@ -27,7 +27,7 @@
     right: 0;
     left: 0;
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: 85px;
 
 }
 
@@ -83,6 +83,10 @@
 
 .home {
   height: 80vh;
+}
+
+.home-text{
+    padding-bottom: 35px;
 }
 
 .mobile-home-banner-text{

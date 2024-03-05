@@ -19,8 +19,8 @@ function JoinClan(){
           <div className='row join-clan-header-img justify-content-center'>
             <img className='img-fluid' src={joinClanVect} alt="" />
           </div>
-          <div className="mt-5">
-            <p className="text-uppercase game-modes-subtitle mb-5">
+          <div className="my-5">
+            <p className="text-uppercase game-modes-subtitle">
             Forge Alliances, Coordinate Strategies, and Rise to Bounty-Hunting Glory as a Clan
             </p>
           </div>
@@ -77,7 +77,7 @@ function JoinClan(){
 
 
         <div className='d-flex justify-content-center flex-column text-center align-items-center join-clan-cta'>
-            <div className='mt-1'>
+            <div className='mt-3 mb-5'>
                 <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img className='join-clan-button' src={joiClanBtn} alt="join-clan-button" /></a>
             </div>
         </div>
