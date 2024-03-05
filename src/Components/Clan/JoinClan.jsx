@@ -25,7 +25,7 @@ function JoinClan(){
             </p>
           </div>
 
-          <div className='join-clain-card-container justify-content-center align-items-center text-center'>
+          <div className='join-clain-card-container container justify-content-center align-items-center text-center'>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
                 <div className="col">
                         <div className='clan-container d-flex flex-column justify-content-center align-items-center  text-center '>

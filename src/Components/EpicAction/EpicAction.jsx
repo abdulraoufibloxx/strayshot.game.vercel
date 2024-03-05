@@ -46,9 +46,9 @@ function EpicAction() {
       {/* team up contianer starts here */}
       {/* team up contianer ends here */}
 
-      <div className="team-up-container mb-5">
+      <div className="team-up-container mb-5 mt-5">
         <div className="team-up-header d-flex justify-content-center align-items-center">
-          <div className="row mb-3">
+          {/* <div className="row mb-3">
             <img
               src={teamUp}
               className="img-fluid teamup-header-img-lg"
@@ -59,7 +59,7 @@ function EpicAction() {
               src={epicActioHeaderSm}
               alt="Epic Action Header SVG"
             />
-          </div>
+          </div> */}
         </div>
         <div className="teanm-rewards-container mt-5">
           <div class="container text-center pb-4 px-4" style={{ width: "75%" }}>
