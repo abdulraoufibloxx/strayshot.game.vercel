@@ -20,6 +20,7 @@
     margin:auto;
     border-radius: 10px;
     /* box-shadow: 5px 11px 8px 0px rgba(0,0,0,0.75) !important; */
+    border: 3px solid #ffffff12;
 }
 
 
@@ -80,7 +81,8 @@ button.accordion-button:focus{
 .accordion-description{
     background-color: #1e20239e ;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 2px solid #ffffff12;
     /* box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75); */
 }
 
@@ -97,8 +99,9 @@ button.accordion-button:focus{
 
 .faq-bottom-line{
     position: absolute;
-    bottom: -10px;
+    bottom: -24px;
     left: 0;
+    z-index: -1;
 }
 
 .faq-bottom-line img{
