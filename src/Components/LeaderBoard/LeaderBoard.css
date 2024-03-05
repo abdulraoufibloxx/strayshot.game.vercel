@@ -239,6 +239,10 @@
         justify-content: center;
     }
 
+.leaderboard-table th{
+    font-size: 9px;
+}
+
     .leaderboard-table td{
         font-size: 25px;
     
