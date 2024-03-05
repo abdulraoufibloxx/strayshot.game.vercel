@@ -49,7 +49,7 @@ function JoinClan(){
                 </div>
                 <div className="col">
                     <div className='clan-container d-flex flex-column justify-content-center '>
-                            <div><img src={wolfGangVect} alt="" /></div>
+                            <div><img src={sentinalsVect} alt="" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>The Sentinels</p></div>
                             <div><p className='clan-description'>Dedicated to maximising gaming potential and community engagement. </p></div>
@@ -59,9 +59,9 @@ function JoinClan(){
                 </div>
                 <div className="col">
                     <div className='clan-container d-flex flex-column justify-content-center '>
-                            <div><img src={sentinalsVect} alt="" /></div>
+                            <div><img src={wolfGangVect} alt="" /></div>
                             <div className='clan-text-content'>
-                            <div><p className='clan-name'>Wolf</p></div>
+                            <div><p className='clan-name'>WolfGang</p></div>
                             <div><p className='clan-description'>On a mission to create a thriving community of like-minded individuals.</p></div>
                             </div>
                             
