@@ -54,7 +54,7 @@ function FAQ() {
     {
       question: "is the game available on mobile or console?",
       answer:
-        "We’re currently focused on making StrayShot the best game that it can be on PC however we have plans to expand to different platforms. Follow our socials for updates.",
+        "StrayShot currently exists for PC only but a mobile version is in the works! Follow our socials for more updates!",
     },
     {
       question:
