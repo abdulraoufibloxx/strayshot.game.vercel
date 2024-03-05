@@ -82,7 +82,7 @@ function LeaderBoard(){
                     
                 </div>
                 <div className="tab-content table-width-container" id="pills-tabContent">
-                <div className="tab-pane fade" id="beta" role="tabpanel" aria-labelledby="beta-tab" tabIndex="0">
+                <div className="tab-pane fade  show active" id="beta" role="tabpanel" aria-labelledby="beta-tab" tabIndex="0">
                         <div className='leaderboard-container'>
                         <table className='leaderboard-table leader-board-score'>
                             <thead>
@@ -108,7 +108,7 @@ function LeaderBoard(){
                         </table>
                         </div> 
                     </div>
-                    <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
+                    <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                             <div className='leaderboard-container'>
                                 <table className='leaderboard-table leader-board-score'>
                                 <thead>
