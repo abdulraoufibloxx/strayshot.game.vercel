@@ -51,6 +51,8 @@
 
 .top-line img{
     width: 100vw;
+    position: relative;
+    z-index: -1;
 }
 
 .leaderboard-bottom-line{
@@ -208,7 +210,46 @@
     z-index: 0;
 }
 
+.leaderboard-nav{
+    justify-content: end;
+}
+
+.table-width-container{
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .leaderboard-nav{
+        justify-content: center;
+    }
+
+    .table-width-container{
+        width: 130%;
+    }
+}
+
 @media (max-width: 768px){
+
+    .table-width-container{
+        width: 100%;
+    }
+
+    .leaderboard-nav{
+        justify-content: center;
+    }
+
+    .leaderboard-table td{
+        font-size: 25px;
+    
+    }
+
+    .leaderboard-vector-right{
+        width: 120px;
+    }
+
+    .leaderboard-vector-left{
+        width: 120px;
+    }
 
     .leaderboard-col{
         flex-direction: row;

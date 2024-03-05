@@ -135,8 +135,10 @@
     
 }
 
-.map-item-img:hover{
+.map-hover:hover{
     cursor: pointer;
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
 .map-item-title {

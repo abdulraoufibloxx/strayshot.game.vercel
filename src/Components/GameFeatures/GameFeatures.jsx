@@ -216,7 +216,7 @@ function GameFeatures() {
                 <div class="map-item-container container text-center">
                   <div class="row gx-5 ">
                     <div class="col">
-                      <div className={`row ${
+                      <div className={`row map-hover ${
                         selectedMap.map1 == map1 ? "selected-map" : ""
                       }`}>
                         <img
@@ -238,7 +238,7 @@ function GameFeatures() {
                     </div>
 
                     <div class="col">
-                      <div className={`row ${
+                      <div className={`row map-hover ${
                             selectedMap.map1 == map2 ? "selected-map" : ""
                           }`}>
                         <img
@@ -260,7 +260,7 @@ function GameFeatures() {
                     </div>
 
                     <div class="col">
-                      <div className={`row ${
+                      <div className={`row map-hover ${
                             selectedMap.map1 == map3 ? "selected-map" : ""
                           }`}>
                         <img
@@ -281,7 +281,7 @@ function GameFeatures() {
                       </div>
                     </div>
                     <div class="col">
-                      <div className={`row ${
+                      <div className={`row map-hover ${
                             selectedMap.map1 == map4 ? "selected-map" : ""
                           }`}>
                         <img
