@@ -47,6 +47,7 @@
 .top-line{
     position: absolute;
     top: -35px;
+    z-index: -1;
 }
 
 .top-line img{
@@ -263,7 +264,8 @@
     }
 
     .leaderboard-heading-tab{
-        width: 80%;
+        justify-content: center;
+        width: 130%;
     }
 
     .leaderboard-heading-tab .nav-link{
