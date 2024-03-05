@@ -13,16 +13,16 @@ import strayshot from '../../assets/navbar-img.png'
 function LeaderBoard(){
 
     const closedBeta = [
-        { rank: 1, player: 'Uranium', points: 100 },
-        { rank: 2, player: 'Player', points: 90 },
-        { rank: 3, player: 'Player', points: 80 },
-        { rank: 4, player: 'Player', points: 70 },
-        { rank: 5, player: 'Player', points: 60 },
-        { rank: 6, player: 'Player', points: 50 },
-        { rank: 7, player: 'Player', points: 40 },
-        { rank: 8, player: 'Player', points: 30 },
-        { rank: 9, player: 'Player', points: 20 },
-        { rank: 10, player: 'Player', points: 10 }
+        { rank: 1, player: 'wolfflesprime', points: 1000 },
+        { rank: 2, player: 'buttzilla', points: 900 },
+        { rank: 3, player: 'nikobane218', points: 800 },
+        { rank: 4, player: 'teh_clay', points: 700 },
+        { rank: 5, player: 'snowsleep', points: 600 },
+        { rank: 6, player: 'smoked', points: 500 },
+        { rank: 7, player: 'bleedforfuture', points: 400 },
+        { rank: 8, player: 'ace_ultimate', points: 300 },
+        { rank: 9, player: 'themagician', points: 200 },
+        { rank: 10, player: 'sonic4', points: 100 }
       ];
 
     const tdmData = [
@@ -97,7 +97,7 @@ function LeaderBoard(){
                                 <tr key={index}>
                                 <td>{row.rank}</td>
                                 <td>{row.player}</td>
-                                <td className='d-flex justify-content-center'>{row.points}</td>
+                                <td className='d-flex justify-content-center'>{row.points}$</td>
                                 </tr>
                             ))}
                             </tbody>
