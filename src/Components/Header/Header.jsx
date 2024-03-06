@@ -9,6 +9,7 @@ import { Offcanvas } from "react-bootstrap";
 
 import instagramIcon from "../../assets/Footer/instagram.svg";
 import discordIcon from "../../assets/Footer/discords.svg";
+import telegramIcon from "../../assets/Footer/telegram.svg";
 import xIcon from "../../assets/Footer/x.svg";
 import facebookIcon from "../../assets/Footer/facebook.svg";
 import tiktokIcon from "../../assets/Footer/tiktok.svg";
@@ -223,8 +224,12 @@ function Header() {
                     rel="noopener noreferrer"><img src={discordIcon} alt="" /></a>
                 </div>
                 <div className="col">
+                <a href="https://t.me/StrayShot_Chatt" target="_blank"
+                    rel="noopener noreferrer"><img src={telegramIcon} alt="" /></a>
+                </div>
+                <div className="col">
                 <a href="https://x.com/StrayShotGame" target="_blank"
-                    rel="noopener noreferrer"><img src={xIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img style={{ width: "22px" }} src={xIcon} alt="" /></a>
                 </div>
                 <div className="col">
                 <a href="https://m.facebook.com/groups/strayshotchat/?ref=share&mibextid=S66gvF" target="_blank"

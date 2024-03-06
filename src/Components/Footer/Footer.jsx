@@ -8,6 +8,7 @@ import facebookIcon from "../../assets/Footer/facebook.svg";
 import tiktokIcon from "../../assets/Footer/tiktok.svg";
 import youtubeIcon from "../../assets/Footer/youtube.svg";
 import emailIcon from "../../assets/Footer/email-icon.svg";
+import telegramIcon from "../../assets/Footer/telegram.svg";
 import footerLine from "../../assets/Footer/footer-line.svg";
 import { Link } from "react-router-dom";
 
@@ -25,22 +26,25 @@ function Footer() {
               <img src={strayshotlogo} alt="" />
             </div>
             <div className="row gx-0 footer-socials-logo mt-3 ">
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
                 <a href="https://www.instagram.com/strayshotgame/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
               </div>
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
                 <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={discordIcon} alt="" /> </a>
               </div>
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
+                <a href="https://t.me/StrayShot_Chat" target="_blank" rel="noopener noreferrer"> <img src={telegramIcon} alt="" /> </a>
+              </div>
+              <div className="col footer-social">
                <a href="https://twitter.com/StrayShotGame" target="_blank" rel="noopener noreferrer">  <img src={xIcon} alt="" /> </a>
               </div>
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
                 <a href="https://www.facebook.com/groups/strayshotchathttps://www.facebook.com/groups/strayshotchat" target="_blank" rel="noopener noreferrer"> <img src={facebookIcon} alt="" /></a>
               </div>
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
                 <a href="https://www.tiktok.com/@strayshot.game" target="_blank" rel="noopener noreferrer"> <img src={tiktokIcon} alt="" /></a>
               </div>
-              <div className="col-1 footer-social">
+              <div className="col footer-social">
                 <a href="https://www.youtube.com/@StrayShotgame" target="_blank" rel="noopener noreferrer"> <img src={youtubeIcon} alt="" /></a>
               </div>
             </div>

@@ -31,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/game",
     element: <App/>
+  },
+  {
+    path: '/#leaderboards',
+    element: <Link to="/leaderboards" />,
   }
 ]);
 
