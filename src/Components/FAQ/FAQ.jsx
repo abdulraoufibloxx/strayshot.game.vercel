@@ -68,7 +68,7 @@ function FAQ() {
     },
     {
       question: "Which engine is used in StrayShot?",
-      answer: "Unreal-Engine",
+      answer: "Unreal Engine 5",
     },
   ];
 

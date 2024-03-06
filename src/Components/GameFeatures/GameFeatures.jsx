@@ -22,6 +22,7 @@ import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import "swiper/css/autoplay";
 
+
 function GameFeatures() {
   const [mapBackgroundImage, setMapBackgroundImage] = useState(map1);
 
