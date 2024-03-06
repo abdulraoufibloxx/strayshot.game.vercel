@@ -32,17 +32,17 @@ function Home() {
             <button className="download-btn">
               <a  href="https://play.strayshot.game/"
                 target="_blank"
-                rel="noopener noreferrer"><img src={homeBtn} alt="Download now cta" /></a>
+                rel="noopener noreferrer"><img src={homeBtn} alt="Download strayshot game" /></a>
             </button>
           </div>
           
         </div>
       </div>
       <div>
-        <img className="vect-bottom" src={vectBottom} alt="" />
+        <img className="vect-bottom" src={vectBottom} alt="vector line" />
       </div>
       <div>
-        <img className="vect-top" src={vectTop} alt="headervectorgraphics" />
+        <img className="vect-top" src={vectTop} alt="vector line" />
       </div>
     </div>
   );

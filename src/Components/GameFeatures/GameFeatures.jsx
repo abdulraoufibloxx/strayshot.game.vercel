@@ -213,9 +213,9 @@ function GameFeatures() {
 
             <div className="map-item-lg">
               <div className="map-items">
-                <div class="map-item-container container text-center">
-                  <div class="row gx-5 ">
-                    <div class="col">
+                <div className="map-item-container container text-center">
+                  <div className="row gx-5 ">
+                    <div className="col">
                       <div className={`row map-hover ${
                         selectedMap.map1 == map1 ? "selected-map" : ""
                       }`}>
@@ -237,7 +237,7 @@ function GameFeatures() {
                       </div>
                     </div>
 
-                    <div class="col">
+                    <div className="col">
                       <div className={`row map-hover ${
                             selectedMap.map1 == map2 ? "selected-map" : ""
                           }`}>
@@ -259,7 +259,7 @@ function GameFeatures() {
                       </div>
                     </div>
 
-                    <div class="col">
+                    <div className="col">
                       <div className={`row map-hover ${
                             selectedMap.map1 == map3 ? "selected-map" : ""
                           }`}>
@@ -280,7 +280,7 @@ function GameFeatures() {
                         <p className="">INDUSTRIAL AREA</p>
                       </div>
                     </div>
-                    <div class="col">
+                    <div className="col">
                       <div className={`row map-hover ${
                             selectedMap.map1 == map4 ? "selected-map" : ""
                           }`}>

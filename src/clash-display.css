@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ClashDisplay-Variable';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Variable.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Variable.woff2') format('woff2');
          font-weight: 200 700;
          font-display: swap;
          font-style: normal;
@@ -9,7 +9,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Extralight';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Extralight.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Extralight.woff2') format('woff2');
          font-weight: 200;
          font-display: swap;
          font-style: normal;
@@ -18,7 +18,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Light';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Light.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Light.woff2') format('woff2');
          font-weight: 300;
          font-display: swap;
          font-style: normal;
@@ -27,7 +27,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Regular';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Regular.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Regular.woff2') format('woff2');
          font-weight: 400;
          font-display: swap;
          font-style: normal;
@@ -36,7 +36,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Medium';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Medium.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Medium.woff2') format('woff2');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -45,7 +45,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Semibold';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Semibold.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Semibold.woff2') format('woff2');
          font-weight: 600;
          font-display: swap;
          font-style: normal;
@@ -54,9 +54,11 @@
   
   @font-face {
     font-family: 'ClashDisplay-Bold';
-    src: url('./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Bold.woff2') format('woff2');
+    src: url('https://storage.googleapis.com/strayshotwebassets/newstrayshot/Fonts/clash-display/ClashDisplay-Bold.woff2') format('woff2');
          font-weight: 700;
          font-display: swap;
          font-style: normal;
   }
   
+
+  /* ./assets/fonts/clash-display/WEB/fonts/ClashDisplay-Regular.woff2 */

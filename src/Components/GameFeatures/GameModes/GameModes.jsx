@@ -163,8 +163,8 @@ function GameModes() {
           {/* carousel in mobile end  */}
 
           <div className="game-modes-card-lg">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
-            <div class="col">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
+            <div className="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
@@ -180,7 +180,7 @@ function GameModes() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
@@ -196,7 +196,7 @@ function GameModes() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
@@ -212,7 +212,7 @@ function GameModes() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
@@ -228,7 +228,7 @@ function GameModes() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">

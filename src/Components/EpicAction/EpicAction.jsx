@@ -62,9 +62,9 @@ function EpicAction() {
           </div> */}
         </div>
         <div className="teanm-rewards-container mt-5">
-          <div class="container text-center pb-4 px-4" style={{ width: "75%" }}>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-              <div class="col mb-3">
+          <div className="container text-center pb-4 px-4" style={{ width: "75%" }}>
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+              <div className="col mb-3">
                 <div className="row">
                   <img className="img" src={teamupimg} alt="" />
                 </div>
@@ -78,7 +78,7 @@ function EpicAction() {
                   </p>
                 </div>
               </div>
-              <div class="col mb-3">
+              <div className="col mb-3">
                 <div className="row ">
                   <img className="img" src={surviveImg} alt="" />
                 </div>
@@ -92,7 +92,7 @@ function EpicAction() {
                   </p>
                 </div>
               </div>
-              <div class="col mb-3">
+              <div className="col mb-3">
                 <div className="row ">
                   <img className="img" src={rewardsImg} alt="" />
                 </div>
@@ -106,7 +106,7 @@ function EpicAction() {
                   </p>
                 </div>
               </div>
-              <div class="col mb-3">
+              <div className="col mb-3">
                 <div className="row ">
                   <img className="img" src={sellImg} alt="" />
                 </div>
