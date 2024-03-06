@@ -62,7 +62,7 @@ function GameUpdates() {
             <div className="item-1">
               <div class="card game-updates-card text-start game-udpates-card-first">
                 <div className="game-update-card-img">
-                  <a href="google.com" target="_blank" rel="noopener noreferrer"> <img
+                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer"> <img
                     src={news1}
                     class="card-img-top"
                     alt="Fissure in Sandstone"
@@ -76,12 +76,12 @@ function GameUpdates() {
                   <p className="game-update-card-date">FEBRUARY 28, 2024</p>
 
                   
-                  <a href="google.com" target="_blank" rel="noopener noreferrer" ><h5 class="card-title game-update-card-title text-uppercase">
+                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" ><h5 class="card-title game-update-card-title text-uppercase">
                   LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
                   </h5></a> 
                   
 
-                  <a href="google.com" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                     READ MORE{" "}
                     <span className="ms-1">
                       <svg
@@ -206,7 +206,7 @@ function GameUpdates() {
                 <div class="card game-updates-card text-start game-udpates-card-first">
                   <div className="game-update-card-img">
                     
-                    <a href="www.google.com" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" >
                     <img
                       src={news1}
                       class="card-img-top"
@@ -220,9 +220,9 @@ function GameUpdates() {
                     </div>
                   </div>
                   <div class="card-body">
-                    <p className="game-update-card-date">FEBRUARY 28, 2024</p>
+                    <p className="game-update-card-date">FEBRUARY 28, 2024</p> 
 
-                    <a href="www.google.com" target="_blank" rel="noopener noreferrer"> <h5 class="card-title game-update-card-title text-uppercase">
+                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer"> <h5 class="card-title game-update-card-title text-uppercase">
                     LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
                     </h5></a>
 
@@ -234,7 +234,7 @@ function GameUpdates() {
                     </p> */}
                   
 
-                    <a href="www.google.com" className="game-update-card-read-more text-uppercase">
+                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                       READ MORE{" "}
                       <span className="ms-1">
                         <svg
