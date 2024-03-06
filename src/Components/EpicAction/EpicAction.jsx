@@ -39,8 +39,8 @@ function EpicAction() {
       </div>
 
       <div className="epic-img-container container d-flex flex-column justify-content-center align-items-center">
-        <img className="epic-img-lg" src={epicAction} alt="" />
-        <img className="epic-img-sm" src={epicActionSmall} alt="" />
+        <img className="epic-img-lg" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action.png" alt="" />
+        <img className="epic-img-sm" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action-img-sm.png" alt="" />
       </div>
 
       {/* team up contianer starts here */}
@@ -66,7 +66,7 @@ function EpicAction() {
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
               <div className="col mb-3">
                 <div className="row">
-                  <img className="img" src={teamupimg} alt="" />
+                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/teamupimg.svg" alt="team up icon" />
                 </div>
                 <div className="row">
                   <p className="text-heading mt-3">TEAM UP</p>
@@ -80,7 +80,7 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src={surviveImg} alt="" />
+                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/survive.svg" alt="Survive icon" />
                 </div>
                 <div className="row">
                   <p className="text-heading mt-3">SURVIVAL OF THE FITTEST</p>
@@ -94,7 +94,7 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src={rewardsImg} alt="" />
+                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/rewards.svg" alt="earn rewards icon" />
                 </div>
                 <div className="row mt-3 ">
                   <p className="text-heading ">EARN REWARDS</p>
@@ -108,7 +108,7 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src={sellImg} alt="" />
+                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/collect&sell.svg" alt="collect and sell icon" />
                 </div>
                 <div className="row mt-3 ">
                   <p className="text-heading">COLLECT & SELL</p>

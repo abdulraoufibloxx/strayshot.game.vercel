@@ -65,14 +65,14 @@ function GameModes() {
                     <div className=""> 
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 " >
-                  <div className="">
+                  <div className="mt-5">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2">TEAM DEATHMATCH</h5>
                   </div>
                   <p className="game-modes-description">
-                  Fight other players in a free-for-all battle. Try to kill as many other players as you can before the timer runs out.
+                  Join forces with your team to eliminate opposing teams, secure the most kills before time runs out, and claim victory for your side.
                   </p>
                   <div></div>
                 </div>
@@ -167,14 +167,14 @@ function GameModes() {
             <div className="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div className="mt-4">
                     <img className="game-modes-img" src={tdm} alt="" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2">TEAM DEATHMATCH</h5>
                   </div>
                   <p className="game-modes-description">
-                  Fight other players in a free-for-all battle. Try to kill as many other players as you can before the timer runs out.
+                  Join forces with your team to eliminate opposing teams, secure the most kills before time runs out, and claim victory for your side.
                   </p>
                   <div></div>
                 </div>

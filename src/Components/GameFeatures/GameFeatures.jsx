@@ -167,14 +167,14 @@ function GameFeatures() {
                       onClick={() =>
                         handleImageClick(
                           map3,
-                          "INDUSTRIAL AREA",
+                          "RUST YARD",
                           "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection."
                         )
                       }
                       alt=""
                     />
                     <div className="row map-item-title mt-3">
-                      <p className="">INDUSTRIAL AREA</p>
+                      <p className="">RUST YARD</p>
                     </div>
                   </div>
                 </div>
@@ -269,7 +269,7 @@ function GameFeatures() {
                           onClick={() =>
                             handleImageClick(
                               map3,
-                              "INDUSTRIAL AREA",
+                              "RUST YARD",
                               "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection."
                             )
                           }
@@ -277,7 +277,7 @@ function GameFeatures() {
                         />
                       </div>
                       <div className="row map-item-title mt-3">
-                        <p className="">INDUSTRIAL AREA</p>
+                        <p className="">RUST YARD</p>
                       </div>
                     </div>
                     <div className="col">
