@@ -142,14 +142,14 @@ function GameFeatures() {
                       onClick={() =>
                         handleImageClick(
                           map2,
-                          "DEATH VALLEY",
+                          "GUERRA HILLS",
                           "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match."
                         )
                       }
                       alt=""
                     />
                     <div className="row map-item-title mt-3">
-                      <p className="">DEATH VALLEY</p>
+                      <p className="">GUERRA HILLS</p>
                     </div>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ function GameFeatures() {
                           onClick={() =>
                             handleImageClick(
                               map2,
-                              "DEATH VALLEY",
+                              "GUERRA HILLS",
                               "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match."
                             )
                           }
@@ -256,7 +256,7 @@ function GameFeatures() {
                         />
                       </div>
                       <div className="row map-item-title mt-3">
-                        <p className="">DEATH VALLEY</p>
+                        <p className="">GUERRA HILLS</p>
                       </div>
                     </div>
 
