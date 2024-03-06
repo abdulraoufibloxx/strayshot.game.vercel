@@ -5,10 +5,8 @@ import './index.css'
 import Home from './Components/Banner/Home.jsx'
 import TermsAndConditions from './Components/termsandconditions/termsandconditions.jsx'
 import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy.jsx'
-// import './clash-display.css';
-// import './Montage-Grunge.css';
-import(/* webpackPreload: true */ './clash-display.css');
-import(/* webpackPreload: true */ './Montage-Grunge.css');
+import './clash-display.css';
+import './Montage-Grunge.css';
 import {
   createBrowserRouter,
   RouterProvider,
