@@ -225,11 +225,11 @@ function Header() {
                 </div>
                 <div className="col">
                 <a href="https://t.me/StrayShot_Chatt" target="_blank"
-                    rel="noopener noreferrer"><img src={telegramIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img style={{ width: "22px" }} src={telegramIcon} alt="" /></a>
                 </div>
                 <div className="col">
                 <a href="https://x.com/StrayShotGame" target="_blank"
-                    rel="noopener noreferrer"><img style={{ width: "22px" }} src={xIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img  src={xIcon} alt="" /></a>
                 </div>
                 <div className="col">
                 <a href="https://m.facebook.com/groups/strayshotchat/?ref=share&mibextid=S66gvF" target="_blank"
