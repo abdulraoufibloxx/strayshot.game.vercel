@@ -1,11 +1,14 @@
 import "./Home.css";
 // import video from "../../assets/web-banner-video.mp4";
-import videoCompressed from "../../assets/web-banner-video-compressed.mp4";
+// import videoCompressed from "../../assets/web-banner-video-compressed.mp4";
 import homeBtn from "../../assets/home-btn.svg";
 import vectBottom from "../../assets/vector-bottom.svg";
 import vectTop from "../../assets/vector-bottom.svg";
 
 function Home() {
+
+  const videoCompressed="https://webassets.strayshot.game/newstrayshot/web-banner-video.mp4"
+
   return (
     <div className="home" id="Home">
       <video id="background-video" autoPlay loop playsInline muted>
