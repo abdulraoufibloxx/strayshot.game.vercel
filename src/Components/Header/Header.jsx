@@ -100,7 +100,7 @@ function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={downloadBtn} alt="" />
+                <img src={downloadBtn} alt="download button" />
               </a>
             </button>
           </div>
@@ -130,14 +130,14 @@ function Header() {
           <Offcanvas.Title>
             <Link to='/#Home' onClick={handleClose}>
             <div>
-              <img width={"100px"} src={navbarlogo} alt="" />
+              <img width={"100px"} src={navbarlogo} alt="navbar-logo" />
             </div>
             </Link>
           </Offcanvas.Title>
           <div className="d-flex align-items-center justify-content-center">
             <a href="https://play.strayshot.game/"
                 target="_blank"
-                rel="noopener noreferrer"><img src={downloadBtn} alt="" />
+                rel="noopener noreferrer"><img src={downloadBtn} alt="download button" />
                 </a>
             <button
               type="button"
@@ -217,31 +217,31 @@ function Header() {
               <div className="row mt-5">
                 <div className="col">
                   <a href="https://instagram.com/strayshotgame" target="_blank"
-                    rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img src={instagramIcon} alt="instagram icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://discord.com/invite/strayshot" target="_blank"
-                    rel="noopener noreferrer"><img src={discordIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img src={discordIcon} alt="discord icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://t.me/StrayShot_Chatt" target="_blank"
-                    rel="noopener noreferrer"><img style={{ width: "22px" }} src={telegramIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img style={{ width: "22px" }} src={telegramIcon} alt="telegram icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://x.com/StrayShotGame" target="_blank"
-                    rel="noopener noreferrer"><img  src={xIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img  src={xIcon} alt="x icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://m.facebook.com/groups/strayshotchat/?ref=share&mibextid=S66gvF" target="_blank"
-                    rel="noopener noreferrer"><img src={facebookIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img src={facebookIcon} alt="facebook icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://www.tiktok.com/@strayshot.game" target="_blank"
-                    rel="noopener noreferrer"><img src={tiktokIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img src={tiktokIcon} alt="tiktok icon" /></a>
                 </div>
                 <div className="col">
                 <a href="https://youtube.com/@StrayShotgame" target="_blank"
-                    rel="noopener noreferrer"><img src={youtubeIcon} alt="" /></a>
+                    rel="noopener noreferrer"><img src={youtubeIcon} alt="youtube icon" /></a>
                 </div>
               </div>
             </div>

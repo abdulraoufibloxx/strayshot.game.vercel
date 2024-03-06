@@ -76,7 +76,7 @@ function FAQ() {
     <div className="faq-container my-5" id="FAQ">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
         <div className=" faq-header-img-container row justify-content-center">
-          <img className="img-fluid" src={faqTitle} alt="" />
+          <img className="img-fluid" src={faqTitle} alt="faq title svg" />
         </div>
 
         <div className="my-5">
@@ -104,11 +104,11 @@ function FAQ() {
           </Accordion>
 
           <div className="duke-faq">
-            <img src={dukePng} alt="" />
+            <img src={dukePng} alt="duke character image" />
           </div>
 
           <div className="faq-bottom-line">
-            <img src={bottomLine} alt="" />
+            <img src={bottomLine} alt="faq bottom line" />
           </div>
         </div>
       </div>

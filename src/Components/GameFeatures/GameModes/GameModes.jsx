@@ -30,7 +30,7 @@ function GameModes() {
     <div className="game-modes-container mb-4">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
         <div className="row">
-          <img className="game-modes-seperator" src={vectLine} alt="" />
+          <img className="game-modes-seperator" src={vectLine} alt="vector line" />
         </div>
         <div className="container mt-4">
           <div className="mt-5">
@@ -66,7 +66,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 " >
                   <div className="mt-5">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="team death match icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2">TEAM DEATHMATCH</h5>
@@ -85,7 +85,7 @@ function GameModes() {
               <div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="Rookie League Icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">Rookie League</h5>
@@ -104,7 +104,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={battleRoyale} alt="" />
+                    <img className="game-modes-img" src={battleRoyale} alt="last man standing icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">last man standing</h5>
@@ -122,7 +122,7 @@ function GameModes() {
                     <div><div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="survivor league icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">survivor league</h5>
@@ -141,7 +141,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">clan wars</h5>
@@ -168,7 +168,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="mt-4">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="team death match icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2">TEAM DEATHMATCH</h5>
@@ -184,7 +184,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="Rookie league icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">Rookie League</h5>
@@ -200,7 +200,7 @@ function GameModes() {
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={battleRoyale} alt="" />
+                    <img className="game-modes-img" src={battleRoyale} alt="last man standing icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-3 text-uppercase">last man standing</h5>
@@ -216,7 +216,7 @@ function GameModes() {
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="survivor league icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">survivor league</h5>
@@ -232,7 +232,7 @@ function GameModes() {
               <div className="game-modes-card">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                   <div className="">
-                    <img className="game-modes-img" src={tdm} alt="" />
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
                     <h5 className="game-modes-title mt-2 text-uppercase">clan wars</h5>
@@ -247,11 +247,11 @@ function GameModes() {
           </div>
           </div>
           <div className="game-modes-splash">
-            <img className="game-modes-splash-img" src={splashIcon} alt="" />
+            <img className="game-modes-splash-img" src={splashIcon} alt="splash icon" />
           </div>
 
           <div className="game-modes-bottom-line">
-            <img src={bottomLine} alt="" />
+            <img src={bottomLine} alt="vector line image" />
           </div>
         </div>
       </div>

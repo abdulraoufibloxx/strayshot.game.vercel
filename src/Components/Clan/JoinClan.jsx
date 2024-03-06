@@ -17,7 +17,7 @@ function JoinClan(){
         <div class="d-flex flex-column justify-content-center  align-items-center text-center ">
         <div className="clan-text-container ">
           <div className='row join-clan-header-img justify-content-center'>
-            <img className='img-fluid' src={joinClanVect} alt="" />
+            <img className='img-fluid' src={joinClanVect} alt="vector line" />
           </div>
           <div className="my-5">
             <p className="text-uppercase game-modes-subtitle">
@@ -29,7 +29,7 @@ function JoinClan(){
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
                 <div className="col">
                         <div className='clan-container d-flex flex-column justify-content-center align-items-center  text-center '>
-                            <div><img src={sicarioVect} alt="" /></div>
+                            <div><img src={sicarioVect} alt="Sicario Clan Image" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name '>Sicario</p></div>
                             <div><p className='clan-description'>The official dev clan of StrayShot, where members get exclusive access to custom gaming sessions with the developers themselves.</p></div>
@@ -39,7 +39,7 @@ function JoinClan(){
                 </div>
                 <div className="col">
                     <div className='clan-container d-flex flex-column justify-content-center '>
-                            <div><img src={lezdoVect} alt="" /></div>
+                            <div><img src={lezdoVect} alt="lezdo Clan Image" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>LezDuit</p></div>
                             <div><p className='clan-description'>The premier clan for ambitious gamers aiming to dominate the competition.</p></div>
@@ -49,7 +49,7 @@ function JoinClan(){
                 </div>
                 <div className="col">
                     <div className='clan-container d-flex flex-column justify-content-center '>
-                            <div><img src={sentinalsVect} alt="" /></div>
+                            <div><img src={sentinalsVect} alt="Sentinals Clan Image" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>The Sentinels</p></div>
                             <div><p className='clan-description'>Dedicated to maximising gaming potential and community engagement. </p></div>
@@ -59,7 +59,7 @@ function JoinClan(){
                 </div>
                 <div className="col">
                     <div className='clan-container d-flex flex-column justify-content-center '>
-                            <div><img src={wolfGangVect} alt="" /></div>
+                            <div><img src={wolfGangVect} alt="WolfGang Clan Image" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>WolfGang</p></div>
                             <div><p className='clan-description'>On a mission to create a thriving community of like-minded individuals.</p></div>
@@ -87,11 +87,11 @@ function JoinClan(){
         </div>
 
         <div className='skull-img-left'>
-            <img src={skullVect} alt="" />
+            <img src={skullVect} alt="skull vector image" />
         </div>
 
         <div className='skull-img-right'>
-            <img src={skullVect} alt="" />
+            <img src={skullVect} alt="skull vector image" />
         </div>
 
         </div>

@@ -5,6 +5,7 @@ import './index.css'
 import Home from './Components/Banner/Home.jsx'
 import TermsAndConditions from './Components/termsandconditions/termsandconditions.jsx'
 import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy.jsx'
+import NotFound from './Components/NotFound/NotFound.jsx'
 import './clash-display.css';
 import './Montage-Grunge.css';
 import {
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
     element: <App/>
   },
   {
-    path: '/#leaderboards',
-    element: <Link to="/leaderboards" />,
+    path: '*',
+    element: <NotFound/>,
   }
 ]);
 

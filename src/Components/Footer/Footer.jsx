@@ -16,43 +16,43 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-vect-line">
-        <img src={vectLine} alt="" />
+        <img src={vectLine} alt="vector line" />
       </div>
 
       <div className="d-flex flex-column justify-content-between align-items-center  text-center">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 footer-main container">
           <div className="col ">
             <div className="row footer-strayshot-logo">
-              <img src={strayshotlogo} alt="" />
+              <img src={strayshotlogo} alt="strayshot logo" />
             </div>
             <div className="row gx-0 footer-socials-logo mt-3 ">
               <div className="col footer-social">
-                <a href="https://www.instagram.com/strayshotgame/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="" /></a>
+                <a href="https://www.instagram.com/strayshotgame/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt="instagram icon" /></a>
               </div>
               <div className="col footer-social">
-                <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={discordIcon} alt="" /> </a>
+                <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer"> <img src={discordIcon} alt="discord icon" /> </a>
               </div>
               <div className="col footer-social">
-                <a href="https://t.me/StrayShot_Chat" target="_blank" rel="noopener noreferrer"> <img src={telegramIcon} alt="" /> </a>
+                <a href="https://t.me/StrayShot_Chat" target="_blank" rel="noopener noreferrer"> <img src={telegramIcon} alt="telegram icon" /> </a>
               </div>
               <div className="col footer-social">
-               <a href="https://twitter.com/StrayShotGame" target="_blank" rel="noopener noreferrer">  <img src={xIcon} alt="" /> </a>
+               <a href="https://twitter.com/StrayShotGame" target="_blank" rel="noopener noreferrer">  <img src={xIcon} alt="x icon" /> </a>
               </div>
               <div className="col footer-social">
-                <a href="https://www.facebook.com/groups/strayshotchathttps://www.facebook.com/groups/strayshotchat" target="_blank" rel="noopener noreferrer"> <img src={facebookIcon} alt="" /></a>
+                <a href="https://www.facebook.com/groups/strayshotchathttps://www.facebook.com/groups/strayshotchat" target="_blank" rel="noopener noreferrer"> <img src={facebookIcon} alt="facebook icon" /></a>
               </div>
               <div className="col footer-social">
-                <a href="https://www.tiktok.com/@strayshot.game" target="_blank" rel="noopener noreferrer"> <img src={tiktokIcon} alt="" /></a>
+                <a href="https://www.tiktok.com/@strayshot.game" target="_blank" rel="noopener noreferrer"> <img src={tiktokIcon} alt="tiktok icon" /></a>
               </div>
               <div className="col footer-social">
-                <a href="https://www.youtube.com/@StrayShotgame" target="_blank" rel="noopener noreferrer"> <img src={youtubeIcon} alt="" /></a>
+                <a href="https://www.youtube.com/@StrayShotgame" target="_blank" rel="noopener noreferrer"> <img src={youtubeIcon} alt="youtube icon" /></a>
               </div>
             </div>
             <div className="row mt-4 text-start">
               <a className="mb-0 footer-text" href="mailto:info@ibloxx.com" target="_blank" rel="nofollow noreferrer">
                 {" "}
                 <span>
-                  <img src={emailIcon} alt="" />
+                  <img src={emailIcon} alt="email icon" />
                 </span>{" "}
                 info@ibloxx.com
               </a>
@@ -61,7 +61,7 @@ function Footer() {
               <a className="footer-text" href="mailto:info@strayshot.game.com" target="_blank" rel="nofollow noreferrer">
                 {" "}
                 <span>
-                  <img src={emailIcon} alt="" />
+                  <img src={emailIcon} alt="email icon" />
                 </span>{" "}
                 info@strayshot.game
               </a>
@@ -110,7 +110,7 @@ function Footer() {
         </div>
 
         <div className="footer-line">
-          <img src={footerLine} alt="" />
+          <img src={footerLine} alt="footer line vector" />
         </div>
 
         <div class="footer-bottom container">

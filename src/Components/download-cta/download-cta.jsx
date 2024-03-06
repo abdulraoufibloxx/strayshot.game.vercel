@@ -11,7 +11,7 @@ function downloadCta() {
       <div className="d-flex download-cta-inner-container flex-column justify-content-center align-items-center  text-center">
         <div className="download-cta-text-container">
           <div className="row justify-content-center " >
-            <img className="mt-5 download-cta-header-img" src={doownloadCTAVect} alt="" />
+            <img className="mt-5 download-cta-header-img" src={doownloadCTAVect} alt="downlaod vector line" />
           </div>
 
           <div className="container">
@@ -24,26 +24,26 @@ function downloadCta() {
             </p>
           </div>
           <div className="mt-4 ">
-          <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer"> <img src={downloadBtn} alt="" /></a>
+          <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer"> <img src={downloadBtn} alt="stray shot download" /></a>
           </div>
           </div>
         </div>
         <div className="mt-5 row donwload-cta-bottom-line">
-           <img src={downloadCTABottomLine} alt="" />
+           <img src={downloadCTABottomLine} alt="vector line" />
         </div>
 
         <div className="power-hand">
-          <img src={powerHand} alt="" />
+          <img src={powerHand} alt="hand vector image" />
         </div>
 
       </div>
 
       <div className="splash-left">
-          <img src={splashIcon} alt="" />
+          <img src={splashIcon} alt="splash left image" />
         </div>
 
         <div className="splash-right">
-          <img src={splashIcon} alt="" />
+          <img src={splashIcon} alt="splash right image" />
         </div>
 
     </div>

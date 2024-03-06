@@ -55,9 +55,7 @@ function LeaderBoard(){
         <div className='leader-board-container my-5' id='LeaderBoard'>
             
             <div className='leader-board-inner-container container d-flex flex-column justify-content-center align-items-center'>
-                {/* <div className='leader-board-title'>
-                    <img src={leaderBoardTitle} alt="" />
-                </div> */}
+               
 
                 <div className='d-flex leaderboard-heading-tab'>
                     <div className="leaderboard-col row d-flex justify-content-between align-items-center w-100">
@@ -162,9 +160,7 @@ function LeaderBoard(){
                     </div>
             </div>
                 
-                {/* <div className='leader-board-score mb-5'>
-                    <img className='img-fluid container leader-board-score-img' src={leaderBoardScore} alt="" />
-                </div> */}
+                
             </div>
 
             <div className='top-line'>

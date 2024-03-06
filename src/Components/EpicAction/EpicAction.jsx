@@ -39,8 +39,8 @@ function EpicAction() {
       </div>
 
       <div className="epic-img-container container d-flex flex-column justify-content-center align-items-center">
-        <img className="epic-img-lg" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action.png" alt="" />
-        <img className="epic-img-sm" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action-img-sm.png" alt="" />
+        <img className="epic-img-lg" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action.png" alt="epic action image large" />
+        <img className="epic-img-sm" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action-img-sm.png" alt="Epic Action Image Small" />
       </div>
 
       {/* team up contianer starts here */}
@@ -48,18 +48,7 @@ function EpicAction() {
 
       <div className="team-up-container mb-5 mt-5">
         <div className="team-up-header d-flex justify-content-center align-items-center">
-          {/* <div className="row mb-3">
-            <img
-              src={teamUp}
-              className="img-fluid teamup-header-img-lg"
-              alt=""
-            />
-            <img
-              className="team-up-dominate-img teamup-header-img-sm img-fluid"
-              src={epicActioHeaderSm}
-              alt="Epic Action Header SVG"
-            />
-          </div> */}
+        
         </div>
         <div className="teanm-rewards-container mt-5">
           <div className="container text-center pb-4 px-4" style={{ width: "75%" }}>

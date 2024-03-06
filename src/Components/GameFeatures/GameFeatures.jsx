@@ -5,10 +5,10 @@ import GameFeatureSvg from "../../assets/GameFeature-g.svg";
 import mapImg from "../../assets/Rookie League-map.png";
 import vectLine from "../../assets/vector-bottom.svg";
 
-import map1 from "../../assets/tropicalisland.png";
-import map2 from "../../assets/deathvalley.png";
-import map3 from "../../assets/industrealarea.png";
-import map4 from "../../assets/urbanareas.png";
+// import map1 from "../../assets/tropicalisland.png";
+// import map2 from "../../assets/deathvalley.png";
+// import map3 from "../../assets/industrealarea.png";
+// import map4 from "../../assets/urbanareas.png";
 
 import GameModes from "./GameModes/GameModes.jsx";
 import CharactersandWeapons from "./CharactersandWeapons/charactersandweapons.jsx";
@@ -24,6 +24,11 @@ import "swiper/css/autoplay";
 
 
 function GameFeatures() {
+  const map1="https://webassets.strayshot.game/newstrayshot/maps/tropicalisland.png"
+  const map2="https://webassets.strayshot.game/newstrayshot/maps/deathvalley.png"
+  const map3="https://webassets.strayshot.game/newstrayshot/maps/rustyard.png"
+  const map4="https://webassets.strayshot.game/newstrayshot/maps/urbanareas.png"
+
   const [mapBackgroundImage, setMapBackgroundImage] = useState(map1);
 
   // const [selectedMap, setSelectedMap] = useState(map1);
@@ -76,13 +81,11 @@ function GameFeatures() {
 
             <div className="map-img">
               <div className="vect-top ">
-                <img src={vectLine} className="vect-top-game-features" alt="" />
+                <img src={vectLine} className="vect-top-game-features" alt="vecor line" />
               </div>
               <div className="vect-bottom-game-features">
-              <img src={vectLine} alt="" />
+              <img src={vectLine} alt="vector line" />
             </div>
-
-              {/* <img className="map-main-background" src={mapImg} alt="" /> */}
               <img
                 className="map-main-background"
                 src={mapBackgroundImage}
@@ -121,7 +124,7 @@ function GameFeatures() {
                           "A cityscape that has looted downtown towers, empty neighborhoods, and crashed aircraft for you to fight through."
                         )
                       }
-                      alt=""
+                      alt="Tropical Island map"
                     />
                     <div className="row map-item-title mt-3">
                       <p className="">TROPICAL ISLAND</p>
@@ -146,7 +149,7 @@ function GameFeatures() {
                           "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match."
                         )
                       }
-                      alt=""
+                      alt="Guerra Hills Map"
                     />
                     <div className="row map-item-title mt-3">
                       <p className="">GUERRA HILLS</p>
@@ -172,7 +175,7 @@ function GameFeatures() {
                           "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection."
                         )
                       }
-                      alt=""
+                      alt="Rust Yard Map"
                     />
                     <div className="row map-item-title mt-3">
                       <p className="">RUST YARD</p>
@@ -198,7 +201,7 @@ function GameFeatures() {
                               "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment."
                             )
                           }
-                          alt=""
+                          alt="Urban Ruins Map"
                         />
                         <div className="row map-item-title mt-3">
                       <p className="">URBAN RUINS</p>
@@ -230,7 +233,7 @@ function GameFeatures() {
                               "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through."
                             )
                           }
-                          alt=""
+                          alt="Tropical Island map"
                         />
                       </div>
                       <div className="row map-item-title mt-3">
@@ -252,7 +255,7 @@ function GameFeatures() {
                               "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match."
                             )
                           }
-                          alt=""
+                          alt="Guerra Hills Map"
                         />
                       </div>
                       <div className="row map-item-title mt-3">
@@ -274,7 +277,7 @@ function GameFeatures() {
                               "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection."
                             )
                           }
-                          alt=""
+                          alt="Rust Yard Map"
                         />
                       </div>
                       <div className="row map-item-title mt-3">
@@ -295,7 +298,7 @@ function GameFeatures() {
                               "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment."
                             )
                           }
-                          alt=""
+                          alt="Urban Ruins Map"
                         />
                       </div>
                       <div className="row map-item-title mt-3">

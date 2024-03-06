@@ -3,7 +3,7 @@ import gameUpdatesHeader from "../../assets/GameUpdates/game-updates-title.svg";
 
 import textGraphic from '../../assets/text-left-graphic.svg'
 
-import news1 from "../../assets/GameUpdates/beta-session-roundUp.png";
+// import news1 from "../../assets/GameUpdates/beta-session-roundUp.png";
 import news2 from "../../assets/GameUpdates/developmentUpdate.png";
 import news3 from "../../assets/GameUpdates/news-3.png";
 
@@ -23,6 +23,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function GameUpdates() {
+
+  const news1="https://webassets.strayshot.game/newstrayshot/maps/urbanareas.png"
+
   const responsive = {
     mobile: {
       breakpoint: { max: 768, min: 0 },
@@ -65,11 +68,11 @@ function GameUpdates() {
                   <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer"> <img
                     src={news1}
                     class="card-img-top"
-                    alt="Fissure in Sandstone"
+                    alt="card image"
                   /></a>
                  
                   <div className="game-update-card-line">
-                    <img src={cardImageLine} alt="" />
+                    <img src={cardImageLine} alt="vector line" />
                   </div>
                 </div>
                 <div class="card-body">
@@ -110,11 +113,11 @@ function GameUpdates() {
                     <img
                       src={news3}
                       class="card-img-top"
-                      alt="Fissure in Sandstone"
+                      alt="card image"
                     />
                   </a>
                   <div className="game-update-card-line">
-                    <img src={cardImageLine} alt="" />
+                    <img src={cardImageLine} alt="vector line" />
                   </div>
                 </div>
                 <div class="card-body">
@@ -154,11 +157,11 @@ function GameUpdates() {
                   <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer" ><img
                     src={news2}
                     class="card-img-top"
-                    alt="Fissure in Sandstone"
+                    alt="card image"
                   /></a>
                   
                   <div className="game-update-card-line">
-                    <img src={cardImageLine} alt="" />
+                    <img src={cardImageLine} alt="vactor line" />
                   </div>
                 </div>
                 <div class="card-body">
@@ -210,13 +213,13 @@ function GameUpdates() {
                     <img
                       src={news1}
                       class="card-img-top"
-                      alt="Fissure in Sandstone"
+                      alt="card image"
                     />
                     </a>
 
                    
                     <div className="game-update-card-line">
-                      <img src={cardImageLine} alt="" />
+                      <img src={cardImageLine} alt="vector line" />
                     </div>
                   </div>
                   <div class="card-body">
@@ -266,13 +269,13 @@ function GameUpdates() {
                       <img
                       src={news3}
                       class="card-img-top"
-                      alt="Fissure in Sandstone"
+                      alt="card image"
                     />
                       </a>
                     
                     
                     <div className="game-update-card-line">
-                      <img src={cardImageLine} alt="" />
+                      <img src={cardImageLine} alt="vector line" />
                     </div>
                   </div>
                   <div class="card-body">
@@ -319,12 +322,12 @@ function GameUpdates() {
                   <img
                       src={news2}
                       class="card-img-top"
-                      alt="Fissure in Sandstone"
+                      alt="card image"
                     />
                   </a>
                     
                     <div className="game-update-card-line">
-                      <img src={cardImageLine} alt="" />
+                      <img src={cardImageLine} alt="vector line" />
                     </div>
                   </div>
                   <div class="card-body">
@@ -375,17 +378,8 @@ function GameUpdates() {
           <div>
             <div className="ibloxx-news-header d-flex flex-column justify-content-center align-items-center">
               <div className="mt-5 mb-4">
-                {/* <img
-                  className="ibloxx-news-header-lg"
-                  src={ibloxxNews}
-                  alt=""
-                /> */}
+                
                 <p className="text-uppercase game-updates-header">IBLOXX NEWS</p>
-                {/* <img
-                  className="ibloxx-news-header-sm"
-                  src={ibloxxUpdatesHeaderMb}
-                  alt=""
-                /> */}
               </div>
 
               {/* iblox news carousal sm starts here */}
@@ -416,13 +410,13 @@ function GameUpdates() {
                           <img
                             src={ibloxxNewsImg1}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                           </a>
                           
                           
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
@@ -467,12 +461,12 @@ function GameUpdates() {
                           <img
                             src={ibloxxNewsImg2}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                           </a>
                           
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
@@ -516,12 +510,12 @@ function GameUpdates() {
                           <img
                             src={ibloxxNewsImg3}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                           </a>
                          
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
@@ -575,13 +569,13 @@ function GameUpdates() {
                         <img
                             src={ibloxxNewsImg1}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                         </a>
 
                           
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
@@ -632,13 +626,13 @@ function GameUpdates() {
                         <img
                             src={ibloxxNewsImg2}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                         </a>
 
                           
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
@@ -689,13 +683,13 @@ function GameUpdates() {
                         <img
                             src={ibloxxNewsImg3}
                             class="card-img-top"
-                            alt="Fissure in Sandstone"
+                            alt="card image"
                           />
                         </a>
 
                          
                           <div className="game-update-card-line">
-                            <img src={cardImageLine} alt="" />
+                            <img src={cardImageLine} alt="vector line" />
                           </div>
                         </div>
                         <div class="card-body">
