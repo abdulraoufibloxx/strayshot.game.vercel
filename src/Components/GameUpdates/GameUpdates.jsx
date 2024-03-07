@@ -3,7 +3,7 @@ import gameUpdatesHeader from "../../assets/GameUpdates/game-updates-title.svg";
 
 import textGraphic from '../../assets/text-left-graphic.svg'
 
-// import news1 from "../../assets/GameUpdates/beta-session-roundUp.png";
+import news1 from "../../assets/GameUpdates/news-1.webp";
 import news2 from "../../assets/GameUpdates/developmentUpdate.png";
 import news3 from "../../assets/GameUpdates/news-3.png";
 
@@ -16,15 +16,14 @@ import ibloxxNewsImg1 from "../../assets/GameUpdates/epic-gamestore-launch.png";
 import ibloxxNewsImg2 from "../../assets/GameUpdates/nba-stars.png";
 import ibloxxNewsImg3 from "../../assets/GameUpdates/grow-gaming-division.png";
 
-import gameUpdatesHeaderMb from "../../assets/GameUpdates/game-updates-mb.svg";
-import ibloxxUpdatesHeaderMb from "../../assets/GameUpdates/ibloxx-news-mb.svg";
+// import gameUpdatesHeaderMb from "../../assets/GameUpdates/game-updates-mb.svg";
+// import ibloxxUpdatesHeaderMb from "../../assets/GameUpdates/ibloxx-news-mb.svg";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function GameUpdates() {
 
-  const news1="https://webassets.strayshot.game/newstrayshot/maps/urbanareas.png"
 
   const responsive = {
     mobile: {
@@ -65,7 +64,7 @@ function GameUpdates() {
             <div className="item-1">
               <div class="card game-updates-card text-start game-udpates-card-first">
                 <div className="game-update-card-img">
-                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer"> <img
+                  <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer"> <img
                     src={news1}
                     class="card-img-top"
                     alt="card image"
@@ -79,12 +78,12 @@ function GameUpdates() {
                   <p className="game-update-card-date">FEBRUARY 28, 2024</p>
 
                   
-                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" ><h5 class="card-title game-update-card-title text-uppercase">
+                  <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer" ><h5 class="card-title game-update-card-title text-uppercase">
                   LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
                   </h5></a> 
                   
 
-                  <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                  <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                     READ MORE{" "}
                     <span className="ms-1">
                       <svg
@@ -209,7 +208,7 @@ function GameUpdates() {
                 <div class="card game-updates-card text-start game-udpates-card-first">
                   <div className="game-update-card-img">
                     
-                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer" >
                     <img
                       src={news1}
                       class="card-img-top"
@@ -225,7 +224,7 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 28, 2024</p> 
 
-                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer"> <h5 class="card-title game-update-card-title text-uppercase">
+                    <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer"> <h5 class="card-title game-update-card-title text-uppercase">
                     LATEST BETA TEST RECAP, WINNERS, AND WHAT'S NEXT
                     </h5></a>
 
@@ -237,7 +236,7 @@ function GameUpdates() {
                     </p> */}
                   
 
-                    <a href="https://strayshot.game/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                    <a href="https://medium.com/@StrayShot/strayshots-feb-25-2024-beta-test-recap-winners-and-what-s-next-31dc1474e410" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                       READ MORE{" "}
                       <span className="ms-1">
                         <svg

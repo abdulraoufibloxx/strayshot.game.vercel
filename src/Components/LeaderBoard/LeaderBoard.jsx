@@ -1,4 +1,5 @@
 import './LeaderBoard.css'
+
 import leaderBoardTitle from '../../assets/LeaderBoard/leaderboard-title.svg'
 import leaderBoardLine from '../../assets/LeaderBoard/leaderboard-line.svg'
 import leaderBoardVectorRight from '../../assets/LeaderBoard/right-vector.svg'
@@ -9,6 +10,10 @@ import leaderBoardScore from '../../assets/LeaderBoard/leaderboard-score.svg'
 import player1 from '../../assets/LeaderBoard/player1.png'
 import player2 from '../../assets/LeaderBoard/player2.png'
 import strayshot from '../../assets/navbar-img.png'
+
+import Table from './Table'
+
+
 
 function LeaderBoard(){
 
@@ -50,6 +55,7 @@ function LeaderBoard(){
         { rank: 9, player: 'oqame', points: 231 },
         { rank: 10, player: 'abyss', points: 230 }
       ];
+
 
     return(
         <div className='leader-board-container my-5' id='LeaderBoard'>
@@ -108,6 +114,7 @@ function LeaderBoard(){
                     </div>
                     <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                             <div className='leaderboard-container'>
+
                                 <table className='leaderboard-table leader-board-score'>
                                 <thead>
                                 <tr>
@@ -130,6 +137,11 @@ function LeaderBoard(){
                                     <img className='leaderboard-vector-left' src={leaderBoardVectorLeft} />
                                     <img className='leaderboard-vector-bottom' src={leaderBoardVectorBottom} />
                                 </table>
+
+                                {/* <Table /> */}
+
+                               
+
                             </div>
                     </div>
                     <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
