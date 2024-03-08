@@ -33,31 +33,31 @@ function LeaderBoard(){
         { rank: 10, player: 'sonic4', points: 100 }
       ];
 
-    // const tdmData = [
-    //     { rank: 1, player: 'billyashe', points: 606 },
-    //     { rank: 2, player: 'tatam', points: 582 },
-    //     { rank: 3, player: 'hatred', points: 561 },
-    //     { rank: 4, player: 'uranium', points: 534 },
-    //     { rank: 5, player: 'markelo', points: 507 },
-    //     { rank: 6, player: 'gentelman', points: 483 },
-    //     { rank: 7, player: 'inzanity', points: 435 },
-    //     { rank: 8, player: 'niot', points: 432 },
-    //     { rank: 9, player: 'moistsquid', points: 420 },
-    //     { rank: 10, player: 'immafishy', points: 411 }
-    //   ];
+    const tdmData = [
+        { rank: 1, player: 'billyashe', points: 606 },
+        { rank: 2, player: 'tatam', points: 582 },
+        { rank: 3, player: 'hatred', points: 561 },
+        { rank: 4, player: 'uranium', points: 534 },
+        { rank: 5, player: 'markelo', points: 507 },
+        { rank: 6, player: 'gentelman', points: 483 },
+        { rank: 7, player: 'inzanity', points: 435 },
+        { rank: 8, player: 'niot', points: 432 },
+        { rank: 9, player: 'moistsquid', points: 420 },
+        { rank: 10, player: 'immafishy', points: 411 }
+      ];
 
-    //   const brData = [
-    //     { rank: 1, player: 'billyashe', points: 323 },
-    //     { rank: 2, player: 'tatam', points: 323 },
-    //     { rank: 3, player: 'markelo', points: 315 },
-    //     { rank: 4, player: 'gentelman', points: 279 },
-    //     { rank: 5, player: 'niot', points: 272 },
-    //     { rank: 6, player: 'uranium', points: 262 },
-    //     { rank: 7, player: 'fvded', points: 256 },
-    //     { rank: 8, player: 'bloppo', points: 233 },
-    //     { rank: 9, player: 'oqame', points: 231 },
-    //     { rank: 10, player: 'abyss', points: 230 }
-    //   ];
+      const brData = [
+        { rank: 1, player: 'billyashe', points: 323 },
+        { rank: 2, player: 'tatam', points: 323 },
+        { rank: 3, player: 'markelo', points: 315 },
+        { rank: 4, player: 'gentelman', points: 279 },
+        { rank: 5, player: 'niot', points: 272 },
+        { rank: 6, player: 'uranium', points: 262 },
+        { rank: 7, player: 'fvded', points: 256 },
+        { rank: 8, player: 'bloppo', points: 233 },
+        { rank: 9, player: 'oqame', points: 231 },
+        { rank: 10, player: 'abyss', points: 230 }
+      ];
 
 
     return(
@@ -118,7 +118,7 @@ function LeaderBoard(){
                     <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                             <div className='leaderboard-container'>
 
-                                {/* <table className='leaderboard-table leader-board-score'>
+                                <table className='leaderboard-table leader-board-score'>
                                 <thead>
                                 <tr>
                                     <th>Rank</th>
@@ -139,9 +139,9 @@ function LeaderBoard(){
                                     <img className='leaderboard-vector-right' src={leaderBoardVectorRight} />
                                     <img className='leaderboard-vector-left' src={leaderBoardVectorLeft} />
                                     <img className='leaderboard-vector-bottom' src={leaderBoardVectorBottom} />
-                                </table> */}
+                                </table>
 
-                                <Table apiUrl={rookieLeagueApiUrl} />
+                                {/* <Table apiUrl={rookieLeagueApiUrl} /> */}
 
                                
 
@@ -150,7 +150,7 @@ function LeaderBoard(){
                     <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                         <div className='leaderboard-container'>
 
-                        {/* <table className='leaderboard-table leader-board-score'>
+                        <table className='leaderboard-table leader-board-score'>
                             <thead>
                             <tr>
                                 <th>Rank</th>
@@ -171,9 +171,9 @@ function LeaderBoard(){
                                 <img className='leaderboard-vector-right' src={leaderBoardVectorRight} />
                                 <img className='leaderboard-vector-left' src={leaderBoardVectorLeft} />
                                 <img className='leaderboard-vector-bottom' src={leaderBoardVectorBottom} />
-                        </table> */}
+                        </table>
 
-                        <Table apiUrl={teamDeathMatchApiUrl}/>
+                        {/* <Table apiUrl={teamDeathMatchApiUrl}/> */}
 
                         </div> 
                     </div>

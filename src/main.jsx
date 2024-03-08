@@ -8,12 +8,14 @@ import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy.jsx'
 import NotFound from './Components/NotFound/NotFound.jsx'
 import './clash-display.css';
 import './Montage-Grunge.css';
+import RedirectToGalaxe from './Components/RedirectToGalaxe.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
   Link,
   redirect,
+  useNavigate
 } from "react-router-dom";
 
 
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
   {
     path: "/game",
     element: <App/>
+  },
+  {
+    path:"/rewards",
+    element: <RedirectToGalaxe/>
+  },
+  {
+    path:"/reward",
+    element: <RedirectToGalaxe/>
   },
   {
     path: '*',
