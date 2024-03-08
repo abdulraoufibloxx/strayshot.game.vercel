@@ -43,6 +43,7 @@ function FAQ() {
         <li>RAM: 8 GB</li>
         <li>GPU: NVIDIA GTX 1660</li>
         <li>Hard drive space: 14 GB</li>
+        <li>Make sure to always have up-to-date drivers for your GPU and latest windows updates.</li>
     </ul> 
         `,
     },
