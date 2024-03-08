@@ -217,6 +217,49 @@
     width: 100%;
 }
 
+.pagination-container{
+    position: relative;
+    z-index: 3000!important;
+}
+
+.leaderboard-pagination-btn{
+    padding:0 10px;
+    background-color: #111214;
+    color: white;
+    border: 1px solid  white;
+    margin-right: 3px;
+    font-family: var(--secondary-font-regular);
+    letter-spacing: 1px;
+}
+
+.leaderboard-pagination-btn:disabled{
+    background-color: rgba(119, 119, 119, 0.815);
+}
+
+input[type=number]{
+    padding: 0px 10px;
+    margin-right: 3px;
+    font-family: var(--secondary-font-regular);
+}
+
+input[type=number]:focus{
+    outline: none;
+}
+
+/* input[type=number]::-webkit-inner-spin-button {
+    background-color: red;
+  } */
+
+.leaderboard-span-element{
+    font-family: var(--secondary-font-regular);
+    letter-spacing: 1px;
+}
+
+.table-pagination-container{
+    position: relative;
+    z-index: 1000;
+}
+
 @media (max-width: 1200px){
     .leaderboard-nav{
         justify-content: center;

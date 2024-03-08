@@ -1,34 +1,28 @@
 import { useTable, usePagination } from "react-table";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import leaderBoardVectorRight from "../../assets/LeaderBoard/right-vector.svg";
+import leaderBoardVectorLeft from "../../assets/LeaderBoard/left-vector.svg";
+import leaderBoardVectorBottom from "../../assets/LeaderBoard/bottom-vector.svg";
+import leaderBoardTabTop from "../../assets/LeaderBoard/leaderboard-tab-btn-top.svg";
+
 import "./LeaderBoard.css";
-function Table() {
-  const brData = [
-    { rank: 1, player: "billyashe", points: 323 },
-    { rank: 2, player: "tatam", points: 323 },
-    { rank: 3, player: "markelo", points: 315 },
-    { rank: 4, player: "gentelman", points: 279 },
-    { rank: 5, player: "niot", points: 272 },
-    { rank: 6, player: "uranium", points: 262 },
-    { rank: 7, player: "fvded", points: 256 },
-    { rank: 8, player: "bloppo", points: 233 },
-    { rank: 9, player: "oqame", points: 231 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-    { rank: 10, player: "abyss", points: 230 },
-  ];
+import axios from "axios";
+
+function Table({ apiUrl }) {
+  const [leaderboardData, setLeaderboardData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(apiUrl);
+        setLeaderboardData(response.data.leaderboard);
+        console.log("Leaderboard Data---->", leaderboardData);
+      } catch (err) {
+        console.log("Error fetching leaderboard data", err);
+      }
+    };
+    fetchData();
+  }, []);
 
   const brColumns = [
     {
@@ -37,16 +31,27 @@ function Table() {
     },
     {
       Header: "PLAYER",
-      accessor: "player",
+      accessor: "playerId",
     },
     {
       Header: "POINTS",
-      accessor: "points",
+      accessor: "last10MatchPoints",
     },
   ];
 
   const columns = useMemo(() => brColumns, []);
-  const data = useMemo(() => brData, []);
+
+  //   const data = useMemo(() => brData, []);
+
+  const data = useMemo(
+    () =>
+      leaderboardData.map((entry, index) => ({
+        ...entry,
+        rank: index + 1,
+        last10MatchPoints: parseInt(entry.last10MatchPoints),
+      })),
+    [leaderboardData]
+  );
 
   const tableInstance = useTable({ columns, data }, usePagination);
 
@@ -64,10 +69,11 @@ function Table() {
     pageOptions,
     gotoPage,
     pageCount,
+    SetPageSize,
     state,
   } = tableInstance;
 
-  const { pageIndex } = state;
+  const { pageIndex, pageSize } = state;
 
   return (
     <div>
@@ -99,24 +105,80 @@ function Table() {
             );
           })}
         </tbody>
+        <img className="leaderboard-vector-top" src={leaderBoardVectorBottom} />
+        <img
+          className="leaderboard-vector-right"
+          src={leaderBoardVectorRight}
+        />
+        <img className="leaderboard-vector-left" src={leaderBoardVectorLeft} />
+        <img
+          className="leaderboard-vector-bottom"
+          src={leaderBoardVectorBottom}
+        />
       </table>
 
-      <div className="d-flex justify-content-center mt-5">
-        <span>
-          Page{" "}
-          <strong>
+      <div className="d-flex justify-content-center pagination-container text-center container mt-5 ">
+        <div className="row">
+          <div className="col-md-8 mb-3">
             {" "}
-            {pageIndex + 1} of {pageOptions.length}
-          </strong>{" "}
-        </span>
-        <button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>{'<<'}</button>
-        <button onClick={() => previousPage()} disabled={!canPreviousPage}>
-          Previous
-        </button>
-        <button onClick={() => nextPage()} disabled={!canNextPage}>
-          Next
-        </button>
-        <button onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>{'>>'}</button>
+            {/* Use col-md-6 to make it take up half the width on medium and larger screens */}
+            <div className="leaderboard-span-element">
+              Page{" "}
+              <strong>
+                {" "}
+                {pageIndex + 1} of {pageOptions.length}{" "}
+              </strong>
+              | Go to page:{" "}
+              <input
+                type="number"
+                defaultValue={pageIndex + 1}
+                onChange={(e) => {
+                  const pageNumber = e.target.value
+                    ? Number(e.target.value) - 1
+                    : 0;
+                  gotoPage(pageNumber);
+                }}
+                min={1}
+                max={pageOptions.length}
+                style={{ width: "50px" }}
+              />
+            </div>
+          </div>
+          <div className="col-md-4">
+            {" "}
+            {/* Use col-md-6 to make it take up half the width on medium and larger screens */}
+            <div className="leaderboard-pagination-btn-container d-flex justify-content-center">
+              <button
+                className="leaderboard-pagination-btn"
+                onClick={() => gotoPage(0)}
+                disabled={!canPreviousPage}
+              >
+                {"<<"}
+              </button>
+              <button
+                className="leaderboard-pagination-btn"
+                onClick={() => previousPage()}
+                disabled={!canPreviousPage}
+              >
+                Previous
+              </button>
+              <button
+                className="leaderboard-pagination-btn"
+                onClick={() => nextPage()}
+                disabled={!canNextPage}
+              >
+                Next
+              </button>
+              <button
+                className="leaderboard-pagination-btn"
+                onClick={() => gotoPage(pageCount - 1)}
+                disabled={!canNextPage}
+              >
+                {">>"}
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* react table ends here */}
