@@ -14,9 +14,17 @@ function Table({ apiUrl }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(apiUrl);
-        setLeaderboardData(response.data.leaderboard);
+        const response = await axios.get(apiUrl, {
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+                
+            },
+            method: "GET",
+            withCredentials: false
+        });
         console.log("Leaderboard Data---->", leaderboardData);
+        setLeaderboardData(response.data.leaderboard);
+       
       } catch (err) {
         console.log("Error fetching leaderboard data", err);
       }
