@@ -116,7 +116,7 @@ function Footer() {
         <div class="footer-bottom container">
     <div class="row container">
         <div class="col-md-6 d-flex justify-content-start text-start footer-copyright">
-            <p className="strayshot-reserved">&copy; {new Date().getFullYear()} Strayshot. All rights reserved. By iBLOXX Studios DMCC</p>
+            <p className="strayshot-reserved">&copy; {new Date().getFullYear()} StrayShot. All rights reserved. By iBLOXX Studios DMCC</p>
         </div>
         <div class="col-md-6 d-flex footer-links-terms footer-copyright justify-custom-footer">
             <div className="footer-link-item">
