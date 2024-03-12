@@ -15,11 +15,15 @@ function EpicAction() {
     <div className="epic-action" id="Epic-Action">
       <div className="epic-action-container">
         <div className="container epic-container  d-flex flex-column justify-content-center align-items-center">
-          <img
+          {/* <img
             className="epic-action-header-img"
             src={epicActioHeader}
             alt="Epic Action Header SVG"
-          />
+          /> */}
+          <div className="about-strayshot-header-container">
+            <h3 className="about-strayshot-header">ABOUT STRAYSHOT</h3>
+          </div>
+
           <div className="row justify-content-center">
             <div className=" epic-action-text-container">
               {/* <p className="epic-action-text mx-auto">
@@ -28,12 +32,11 @@ function EpicAction() {
           </p> */}
 
               <p className="epic-action-text mx-auto">
-                In a ruthless battlefield where only the strongest survive,
-                StrayShot throws you into the heart of intense battle royale
-                actions in stunning environments with high-quality graphics and
-                fast-paced shooter game mechanics suitable for squad-based or
-                solo battles. No unnecessary complexities; Only your skills
-                matter here.
+                StrayShot is a third-person shooter that throws you into the
+                heart of intense battle royale actions set in stunning
+                environments with high-quality graphics and fast-paced shooter
+                mechanics. Suitable for both squad-based and solo play, only the
+                strongest survive in these ruthless battlefields.
               </p>
             </div>
           </div>
