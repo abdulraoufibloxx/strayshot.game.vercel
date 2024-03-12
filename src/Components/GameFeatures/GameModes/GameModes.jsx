@@ -107,7 +107,7 @@ function GameModes() {
                     <img className="game-modes-img" src={battleRoyale} alt="last man standing icon" />
                   </div>
                   <div>
-                    <h5 className="game-modes-title mt-2 text-uppercase">last man standing</h5>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Extraction</h5>
                   </div>
                   <p className="game-modes-description">
                   Be the last one standing in a single-elimination tournament! 
@@ -148,6 +148,63 @@ function GameModes() {
                   </div>
                   <p className="game-modes-description">
                   Challenge your skills and teamwork to the max in collaborative battles against rival clans.
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+              </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div>
+              <div className="game-modes-card mb-3">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Extraction</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  An objective-based mode that requires extracting vital resources while outsmarting the enemy squad. Locate and secure the resources, then escort them to the extraction point.
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+              </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div>
+              <div className="game-modes-card mb-3">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Training</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  Sharpen your skills and master your arsenal in StrayShot's Training mode. Designed for players to practice techniques, test out load-outs, and prepare for competitive matches. 
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+              </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div>
+              <div className="game-modes-card mb-3">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Tournament</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  Where legends are made. StrayShot's prestigious tournaments clash with the top contenders for glory and prizes. Climb the brackets and carve your path to the championship.
                   </p>
                   <div></div>
                 </div>
@@ -214,7 +271,7 @@ function GameModes() {
             </div>
             <div className="col">
               <div className="game-modes-card">
-                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                <div className="d-flex flex-column justify-content-center align-items-center mt-5  text-center p-1 ">
                   <div className="">
                     <img className="game-modes-img" src={tdm} alt="survivor league icon" />
                   </div>
@@ -222,7 +279,7 @@ function GameModes() {
                     <h5 className="game-modes-title mt-2 text-uppercase">survivor league</h5>
                   </div>
                   <p className="game-modes-description">
-                  Put your skills to the ultimate test in a series of high-stakes battles
+                  The ultimate test for elite StrayShot players. In the Survivor League, only the best of the best fight in highly competitive ranked matches against other top players. 
                   </p>
                   <div></div>
                 </div>
@@ -244,7 +301,61 @@ function GameModes() {
                 </div>
               </div>
             </div>
+
+            <div className="col">
+              <div className="game-modes-card">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Extraction</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  An objective-based mode that requires extracting vital resources while outsmarting the enemy squad. Locate and secure the resources, then escort them to the extraction point.
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="game-modes-card">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Training</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  Sharpen your skills and master your arsenal in StrayShot's Training mode. Designed for players to practice techniques, test out load-outs, and prepare for competitive matches. 
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="game-modes-card">
+                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                  <div className="">
+                    <img className="game-modes-img" src={tdm} alt="clan wars icon" />
+                  </div>
+                  <div>
+                    <h5 className="game-modes-title mt-2 text-uppercase">Tournament</h5>
+                  </div>
+                  <p className="game-modes-description">
+                  Where legends are made. StrayShot's prestigious tournaments clash with the top contenders for glory and prizes. Climb the brackets and carve your path to the championship. 
+                  </p>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
+   
           </div>
           <div className="game-modes-splash">
             <img className="game-modes-splash-img" src={splashIcon} alt="splash icon" />

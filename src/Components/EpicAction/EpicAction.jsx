@@ -32,11 +32,7 @@ function EpicAction() {
           </p> */}
 
               <p className="epic-action-text mx-auto">
-                StrayShot is a third-person shooter that throws you into the
-                heart of intense battle royale actions set in stunning
-                environments with high-quality graphics and fast-paced shooter
-                mechanics. Suitable for both squad-based and solo play, only the
-                strongest survive in these ruthless battlefields.
+              StrayShot is a third-person shooter that throws you into a Heart-pounding battle royale actionset in stunning environments with high-quality graphics and fast-paced shooter mechanics. Suitable for both squad-based and solo play, only the strongest survive in these ruthless battlefields.
               </p>
             </div>
           </div>

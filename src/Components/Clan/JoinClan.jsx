@@ -23,7 +23,7 @@ function JoinClan(){
           </div>
           <div className="my-5">
             <p className="text-uppercase game-modes-subtitle">
-            Forge Alliances, Coordinate Strategies, and Rise to Bounty-Hunting Glory as a Clan
+            Challenge your skills and teamwork to the max in collaborative battles against rival clans.
             </p>
           </div>
 
