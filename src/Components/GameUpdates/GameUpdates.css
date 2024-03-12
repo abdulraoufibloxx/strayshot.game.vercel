@@ -190,4 +190,8 @@
       display: block;
     }
 
+    .game-updates-header{
+      font-size: 2.5rem;
+    }
+
 }

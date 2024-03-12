@@ -14,7 +14,7 @@
 
 .map-header{
     color: var(--primary-color);
-    font-size: 4.3331em;
+    font-size: 3rem;
 }
 
 
@@ -208,12 +208,58 @@
 }
 
 
+.strayshot-locations-container{
+    position: relative;
+}
+
+.strayshot-locations-container::before{
+    content: url('../../assets/text-line-vect.svg');
+    position: absolute;
+    top: -15px;
+    width: 335px;
+    z-index: -1;
+}
+
+.strayshot-locations-container::after{
+    content: url('../../assets/text-line-vect.svg');
+    position: absolute;
+    bottom: -14px;
+    width: 335px;
+    z-index: -1;
+}
+
+.strayshot-locations-header{
+    position: relative;
+}
+
+.strayshot-locations-header::before{
+    content: url('../../assets/text-left-graphic.svg');
+    z-index: -1;
+    position: absolute;
+    top: -5px;
+    left: -289px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.strayshot-locations-header::after{
+    content: url('../../assets/text-left-graphic.svg');
+    z-index: -1;
+    position: absolute;
+    top: -5px;
+    right: -289px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+
+
 
 @media (max-width: 768px){
 
-    .map-header{
-        font-size: 2.333rem;
-    }
+   
 
     /* .vect-top{
         top: 16px !important;
@@ -289,6 +335,28 @@
             font-style: italic;
             width: 80%;
         }
+
+        .strayshot-locations-header{
+            font-size: 2.5rem;
+        }
+
+        .strayshot-locations-container::before{
+            width: 280px;
+        }
     
+        .strayshot-locations-container::after{
+            width: 280px;
+            bottom: -6px;
+        }
+
+        .strayshot-locations-header::before {
+            left: -265px;
+            top: -2px;
+        }
+
+        .strayshot-locations-header::after{
+            right: -265px;
+            top: -2px;
+        }
 
 }

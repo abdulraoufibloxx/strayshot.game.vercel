@@ -20,7 +20,7 @@ function Home() {
         <div className="home-text d-flex flex-column justify-content-center align-items-center">
           <div className="row text-center">
             <p className="overlay-text-main">
-              <span className="banner-color-change">BOUNTY HUNTERS WANTED!</span> <br />ADRENALINE-FUELED BATTLE <span className="mobile-home-banner-text">& HIGH-STAKES REWARDS</span>
+              <span className="banner-color-change">BOUNTY HUNTERS WANTED!</span> <br />THE FIRST WEB3 GAME<span className="mobile-home-banner-text"> FOR WEB2 GAMERS</span>
             </p>
           </div>
           <div className="row container ">

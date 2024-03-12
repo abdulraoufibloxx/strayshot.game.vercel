@@ -17,7 +17,9 @@ function JoinClan(){
         <div class="d-flex flex-column justify-content-center  align-items-center text-center ">
         <div className="clan-text-container ">
           <div className='row join-clan-header-img justify-content-center'>
-            <img className='img-fluid' src={joinClanVect} alt="vector line" />
+            <div className='join-clan-header-container'>
+                <h3 className="join-clan-header">JOIN A CLAN</h3>
+            </div>
           </div>
           <div className="my-5">
             <p className="text-uppercase game-modes-subtitle">

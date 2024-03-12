@@ -61,8 +61,8 @@ function GameFeatures() {
             </p>
           </div>
 
-          <div className="my-5">
-            <h3 className="map-header text-center header-text">
+          <div className="my-5 strayshot-locations-container">
+            <h3 className="map-header text-center header-text strayshot-locations-header">
               STRAYSHOT LOCATIONS
             </h3>
           </div>

@@ -1,14 +1,67 @@
+.faq-header-text{
+    font-size: 3rem;
+    color:var(--primary-color);
+    font-family:var(--main-heading-font);
+    position: relative;
+}
 
+
+.faq-header-text::before{
+    content: url('../../assets/text-left-graphic.svg');
+    z-index: -1;
+    position: absolute;
+    top: -10px;
+    left: -350px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+
+}
+
+.faq-header-text::after{
+    content: url('../../assets/text-left-graphic.svg');
+    z-index: -1;
+    position: absolute;
+    top: -10px;
+    right: -350px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    transform: scaleX(-1);
+
+}
 
 .faq-main-container{
     position: relative;
 }
-
 .faq-main-title{
     font-family: var(--secondary-font-medium);
     letter-spacing: 1px;
 }
 
+.faq-header-container{
+    position: relative;
+}
+
+.faq-header-container::before {
+    content: url('../../assets/text-line-vect.svg');
+    position: absolute;
+    top: -15px;
+    width: 450px;
+    left: 10px;
+    z-index: -1;
+   
+}
+
+.faq-header-container::after {
+    content: url('../../assets/text-line-vect.svg');
+    position: absolute;
+    bottom: -14px;
+    width: 450px;
+    left: 10px;
+    z-index: -1;
+   
+}
 
 
 .accordion{
@@ -162,5 +215,28 @@ button.accordion-button:focus{
 
     .duke-faq{
         display: none;
+    }
+
+    .faq-header-text{
+        font-size: 2rem;
+    }
+
+    .faq-header-container::before{
+        width: 300px;
+    }
+
+    .faq-header-container::after{
+        width: 300px;
+        bottom: -4px;
+    }
+
+    .faq-header-text::before{
+        left: -265px;
+        top: 1px;
+    }
+
+    .faq-header-text::after{
+        right: -265px;
+        top: 1px;
     }
 }

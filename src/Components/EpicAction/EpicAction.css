@@ -1,7 +1,7 @@
 
 .about-strayshot-header{
     color: var(--primary-color);
-    font-size: 4.3331em;
+    font-size: 3rem;
     font-family: var(--main-heading-font);
 }
 
@@ -13,7 +13,7 @@
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
     top: -15px;
-    width: 400px;
+    width: 280px;
     z-index: -1;
    
 }
@@ -23,8 +23,8 @@
 .about-strayshot-header-container::after {
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
-    bottom: -15px;
-    width: 400px;
+    bottom: -14px;
+    width: 280px;
     z-index: -1;
    
 }
@@ -206,15 +206,15 @@
       }
 
       .about-strayshot-header{
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
 
       .about-strayshot-header-container::before{
-        width: 260px;
+        width: 230px;
       }
 
       .about-strayshot-header-container::after{
-        width: 260px;
+        width: 230px;
         bottom: -5px;
       }
 }
