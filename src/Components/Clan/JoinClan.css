@@ -77,7 +77,7 @@
 .join-clan-header-container::before{
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
-    top: -15px;
+    top: -20px;
     width: 205px;
     z-index: -1;
     left: 0;
@@ -86,7 +86,7 @@
 .join-clan-header-container::after{
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
-    bottom: -7px;
+    bottom: -20px;
     width: 205px;
     z-index: -1;
     left:0 ;
