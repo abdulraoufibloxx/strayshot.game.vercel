@@ -28,10 +28,12 @@ function EpicAction() {
           </p> */}
 
               <p className="epic-action-text mx-auto">
-                Gear up with cutting-edge weaponry and find yourself in
-                heart-pounding battles across amazing locations. Put your skills
-                to the test in this shooter game – where every move could be the
-                difference between victory and defeat.
+                In a ruthless battlefield where only the strongest survive,
+                StrayShot throws you into the heart of intense battle royale
+                actions in stunning environments with high-quality graphics and
+                fast-paced shooter game mechanics suitable for squad-based or
+                solo battles. No unnecessary complexities; Only your skills
+                matter here.
               </p>
             </div>
           </div>
@@ -39,23 +41,36 @@ function EpicAction() {
       </div>
 
       <div className="epic-img-container container d-flex flex-column justify-content-center align-items-center">
-        <img className="epic-img-lg" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action.png" alt="epic action image large" />
-        <img className="epic-img-sm" src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action-img-sm.png" alt="Epic Action Image Small" />
+        <img
+          className="epic-img-lg"
+          src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action.png"
+          alt="epic action image large"
+        />
+        <img
+          className="epic-img-sm"
+          src="https://webassets.strayshot.game/newstrayshot/epic-action/epic-action-img-sm.png"
+          alt="Epic Action Image Small"
+        />
       </div>
 
       {/* team up contianer starts here */}
       {/* team up contianer ends here */}
 
       <div className="team-up-container mb-5 mt-5">
-        <div className="team-up-header d-flex justify-content-center align-items-center">
-        
-        </div>
+        <div className="team-up-header d-flex justify-content-center align-items-center"></div>
         <div className="teanm-rewards-container mt-5">
-          <div className="container text-center pb-4 px-4" style={{ width: "75%" }}>
+          <div
+            className="container text-center pb-4 px-4"
+            style={{ width: "75%" }}
+          >
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
               <div className="col mb-3">
                 <div className="row">
-                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/teamupimg.svg" alt="team up icon" />
+                  <img
+                    className="img"
+                    src="https://webassets.strayshot.game/newstrayshot/epic-action/teamupimg.svg"
+                    alt="team up icon"
+                  />
                 </div>
                 <div className="row">
                   <p className="text-heading mt-3">TEAM UP</p>
@@ -69,7 +84,11 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/survive.svg" alt="Survive icon" />
+                  <img
+                    className="img"
+                    src="https://webassets.strayshot.game/newstrayshot/epic-action/survive.svg"
+                    alt="Survive icon"
+                  />
                 </div>
                 <div className="row">
                   <p className="text-heading mt-3">SURVIVAL OF THE FITTEST</p>
@@ -83,7 +102,11 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/rewards.svg" alt="earn rewards icon" />
+                  <img
+                    className="img"
+                    src="https://webassets.strayshot.game/newstrayshot/epic-action/rewards.svg"
+                    alt="earn rewards icon"
+                  />
                 </div>
                 <div className="row mt-3 ">
                   <p className="text-heading ">EARN REWARDS</p>
@@ -97,7 +120,11 @@ function EpicAction() {
               </div>
               <div className="col mb-3">
                 <div className="row ">
-                  <img className="img" src="https://webassets.strayshot.game/newstrayshot/epic-action/collect&sell.svg" alt="collect and sell icon" />
+                  <img
+                    className="img"
+                    src="https://webassets.strayshot.game/newstrayshot/epic-action/collect&sell.svg"
+                    alt="collect and sell icon"
+                  />
                 </div>
                 <div className="row mt-3 ">
                   <p className="text-heading">COLLECT & SELL</p>

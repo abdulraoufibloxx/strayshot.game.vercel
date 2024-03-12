@@ -118,7 +118,7 @@ function LeaderBoard(){
                     <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                             <div className='leaderboard-container'>
 
-                                <table className='leaderboard-table leader-board-score'>
+                                {/* <table className='leaderboard-table leader-board-score'>
                                 <thead>
                                 <tr>
                                     <th>Rank</th>
@@ -139,9 +139,9 @@ function LeaderBoard(){
                                     <img className='leaderboard-vector-right' src={leaderBoardVectorRight} />
                                     <img className='leaderboard-vector-left' src={leaderBoardVectorLeft} />
                                     <img className='leaderboard-vector-bottom' src={leaderBoardVectorBottom} />
-                                </table>
+                                </table> */}
 
-                                {/* <Table apiUrl={rookieLeagueApiUrl} /> */}
+                                <Table apiUrl={rookieLeagueApiUrl} />
 
                                
 
@@ -150,7 +150,7 @@ function LeaderBoard(){
                     <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                         <div className='leaderboard-container'>
 
-                        <table className='leaderboard-table leader-board-score'>
+                        {/* <table className='leaderboard-table leader-board-score'>
                             <thead>
                             <tr>
                                 <th>Rank</th>
@@ -171,9 +171,9 @@ function LeaderBoard(){
                                 <img className='leaderboard-vector-right' src={leaderBoardVectorRight} />
                                 <img className='leaderboard-vector-left' src={leaderBoardVectorLeft} />
                                 <img className='leaderboard-vector-bottom' src={leaderBoardVectorBottom} />
-                        </table>
+                        </table> */}
 
-                        {/* <Table apiUrl={teamDeathMatchApiUrl}/> */}
+                        <Table apiUrl={teamDeathMatchApiUrl}/>
 
                         </div> 
                     </div>
