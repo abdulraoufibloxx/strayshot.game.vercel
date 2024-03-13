@@ -12,6 +12,13 @@
     margin: auto;
 }
 
+.map-read-more{
+    color: black;
+    font-family: var(--secondary-font-normal);
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
 .map-header{
     color: var(--primary-color);
     font-size: 3rem;

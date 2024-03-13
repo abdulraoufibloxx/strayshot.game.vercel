@@ -65,11 +65,11 @@ function GameModes() {
                     <div className=""> 
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 " >
-                  <div className="mt-5">
+                  <div>
                     <img className="game-modes-img" src={tdm} alt="team death match icon" />
                   </div>
                   <div>
-                    <h5 className="game-modes-title mt-2">TEAM DEATHMATCH</h5>
+                    <h5 className="game-modes-title ">TEAM DEATHMATCH</h5>
                   </div>
                   <p className="game-modes-description">
                   Join forces with your team to eliminate opposing teams, secure the most kills before time runs out, and claim victory for your side.
@@ -84,7 +84,7 @@ function GameModes() {
                     <div>
               <div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="Rookie League Icon" />
                   </div>
                   <div>
@@ -103,7 +103,7 @@ function GameModes() {
                     <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={battleRoyale} alt="last man standing icon" />
                   </div>
                   <div>
@@ -121,7 +121,7 @@ function GameModes() {
                     <SwiperSlide>
                     <div><div className="game-modes-card mb-3 ">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="survivor league icon" />
                   </div>
                   <div>
@@ -140,7 +140,7 @@ function GameModes() {
                 <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
@@ -159,7 +159,7 @@ function GameModes() {
                 <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
@@ -178,7 +178,7 @@ function GameModes() {
                 <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
@@ -197,7 +197,7 @@ function GameModes() {
                 <div>
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                  <div className="">
+                  <div >
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
                   <div>
@@ -220,7 +220,7 @@ function GameModes() {
           {/* carousel in mobile end  */}
 
           <div className="game-modes-card-lg">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
             <div className="col">
               <div className="game-modes-card mb-3">
                 <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
@@ -270,8 +270,8 @@ function GameModes() {
               </div>
             </div>
             <div className="col">
-              <div className="game-modes-card">
-                <div className="d-flex flex-column justify-content-center align-items-center mt-5  text-center p-1 ">
+              <div className="game-modes-card mb-3">
+                <div className="d-flex flex-column justify-content-center align-items-center mt-4  text-center p-1 ">
                   <div className="">
                     <img className="game-modes-img" src={tdm} alt="survivor league icon" />
                   </div>
@@ -304,7 +304,7 @@ function GameModes() {
 
             <div className="col">
               <div className="game-modes-card">
-                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                <div className="d-flex flex-column justify-content-center align-items-center mt-4  text-center p-1 ">
                   <div className="">
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>
@@ -338,7 +338,7 @@ function GameModes() {
 
             <div className="col">
               <div className="game-modes-card">
-                <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                <div className="d-flex flex-column justify-content-center align-items-center  mt-4 text-center p-1 ">
                   <div className="">
                     <img className="game-modes-img" src={tdm} alt="clan wars icon" />
                   </div>

@@ -6,9 +6,10 @@ import mapImg from "../../assets/Rookie League-map.png";
 import vectLine from "../../assets/vector-bottom.svg";
 
 // import map1 from "../../assets/tropicalisland.png";
-// import map2 from "../../assets/deathvalley.png";
+// import map2 from "../../assets/guerra-hills-resized.png";
 // import map3 from "../../assets/industrealarea.png";
 // import map4 from "../../assets/urbanareas.png";
+import map5 from "../../assets/sierra-altos.png";
 
 import GameModes from "./GameModes/GameModes.jsx";
 import CharactersandWeapons from "./CharactersandWeapons/charactersandweapons.jsx";
@@ -25,9 +26,10 @@ import "swiper/css/autoplay";
 
 function GameFeatures() {
   const map1="https://webassets.strayshot.game/newstrayshot/maps/tropicalisland.png"
-  const map2="https://webassets.strayshot.game/newstrayshot/maps/deathvalley.png"
+  const map2="https://webassets.strayshot.game/newstrayshot/maps/guerra-hills-resized.png"
   const map3="https://webassets.strayshot.game/newstrayshot/maps/rustyard.png"
   const map4="https://webassets.strayshot.game/newstrayshot/maps/urbanareas.png"
+  // const map5="https://webassets.strayshot.game/newstrayshot/maps/urbanareas.png"
 
   const [mapBackgroundImage, setMapBackgroundImage] = useState(map1);
 
@@ -37,14 +39,17 @@ function GameFeatures() {
     name: "TROPICAL ISLAND",
     description:
       "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through. ",
+    readMoreLink:"https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-tropical-island-map/"
+    
   });
 
-  const handleImageClick = (imageSrc, mapName, mapDescription) => {
+  const handleImageClick = (imageSrc, mapName, mapDescription,mapBlogLink) => {
     setMapBackgroundImage(imageSrc);
     setSelectedMap({
       map1: imageSrc,
       name: mapName,
       description: mapDescription,
+      readMoreLink:mapBlogLink
     });
   };
 
@@ -75,6 +80,9 @@ function GameFeatures() {
                 </div>
                 <div>
                   <p>{selectedMap.description}</p>
+                </div>
+                <div>
+                  <a className="map-read-more" target="_blank" rel="noreferrer" href={selectedMap.readMoreLink}>Explore this map</a>
                 </div>
               </div>
             </div>
@@ -209,6 +217,32 @@ function GameFeatures() {
                   </div>
                 </div>
               </SwiperSlide>
+
+              <SwiperSlide className="pt-4">
+                <div className={`row ${
+                        selectedMap.map1 == map5 ? "selected-map-pointer" : ""
+                      }`}>
+                  <div className="d-flex flex-column align-items-center justify-content-center">
+                  <img
+                          className={`map-item-img-sm img-fluid ${
+                            selectedMap.map1 == map5 ? "selected-map" : ""
+                          }`}
+                          src={map5}
+                          onClick={() =>
+                            handleImageClick(
+                              map5,
+                              "SIERRA ALTOS",
+                              "SierraAltos is a charming map set in a mountainous coastal village. With its unique architecture, lush vegetation, and rocky cliffs, the map offers areas that enhance your tactical gameplay experience."
+                            )
+                          }
+                          alt="Urban Ruins Map"
+                        />
+                        <div className="row map-item-title mt-3">
+                      <p className="">SIERRA ALTOS</p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
               
             </Swiper>
             </div>
@@ -230,7 +264,8 @@ function GameFeatures() {
                             handleImageClick(
                               map1,
                               "TROPICAL ISLAND",
-                              "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through."
+                              "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through.",
+                              "https://blog.strayshot.game/2024/03/12/mastering-the-guerra-hills-map-in-strayshot-a-strategic-overview/"
                             )
                           }
                           alt="Tropical Island map"
@@ -240,6 +275,8 @@ function GameFeatures() {
                         <p className="">TROPICAL ISLAND</p>
                       </div>
                     </div>
+
+                    
 
                     <div className="col">
                       <div className={`row map-hover ${
@@ -252,7 +289,8 @@ function GameFeatures() {
                             handleImageClick(
                               map2,
                               "GUERRA HILLS",
-                              "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match."
+                              "An open area that leaves players with little to no cover. A minor slip-up here can cost you an entire match.",
+                              "https://blog.strayshot.game/2024/03/12/mastering-the-guerra-hills-map-in-strayshot-a-strategic-overview/"
                             )
                           }
                           alt="Guerra Hills Map"
@@ -262,6 +300,10 @@ function GameFeatures() {
                         <p className="">GUERRA HILLS</p>
                       </div>
                     </div>
+
+                   
+
+                    
 
                     <div className="col">
                       <div className={`row map-hover ${
@@ -274,7 +316,8 @@ function GameFeatures() {
                             handleImageClick(
                               map3,
                               "RUST YARD",
-                              "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection."
+                              "This abandoned factory has closed spaces for battles where players must use containers scattered around for protection.",
+                              "https://blog.strayshot.game/category/game-maps/"
                             )
                           }
                           alt="Rust Yard Map"
@@ -284,6 +327,7 @@ function GameFeatures() {
                         <p className="">RUST YARD</p>
                       </div>
                     </div>
+
                     <div className="col">
                       <div className={`row map-hover ${
                             selectedMap.map1 == map4 ? "selected-map" : ""
@@ -295,7 +339,8 @@ function GameFeatures() {
                             handleImageClick(
                               map4,
                               "URBAN RUINS",
-                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment."
+                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment.",
+                              "https://blog.strayshot.game/2024/03/12/an-overview-of-the-urban-ruins-map/"
                             )
                           }
                           alt="Urban Ruins Map"
@@ -305,6 +350,30 @@ function GameFeatures() {
                         <p className="">URBAN RUINS </p>
                       </div>
                     </div>
+
+                    <div className="col">
+                      <div className={`row map-hover ${
+                            selectedMap.map1 == map5 ? "selected-map" : ""
+                          }`}>
+                        <img
+                          className={`map-item-img img-fluid`}
+                          src={map5}
+                          onClick={() =>
+                            handleImageClick(
+                              map5,
+                              "SIERRA ALTOS",
+                              "SierraAltos is a charming map set in a mountainous coastal village. With its unique architecture, lush vegetation, and rocky cliffs, the map offers areas that enhance your tactical gameplay experience.",
+                              "https://blog.strayshot.game/2024/03/12/tactical-guide-to-the-sierraaltos-map/"
+                            )
+                          }
+                          alt="SierraAltos Map"
+                        />
+                      </div>
+                      <div className="row map-item-title mt-3">
+                        <p className="">SIERRA ALTOS</p>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
