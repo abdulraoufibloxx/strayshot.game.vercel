@@ -191,5 +191,17 @@
         margin-top: -5px !important;
     }
 
+    .game-modes-card-btn-container::before{
+        width: 96px;
+        top: -13px;
+        left: -6px;
+    }
+
+    .game-modes-card-btn-container::after{
+        width: 96px;
+        bottom: -8px;
+        left: -6px;
+    }
+
   
 }
