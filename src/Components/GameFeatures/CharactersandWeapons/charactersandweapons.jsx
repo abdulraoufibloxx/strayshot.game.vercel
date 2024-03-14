@@ -92,7 +92,7 @@ function CharactersandWeapons() {
                       },
                     }}
                     autoplay={{
-                      delay: 1000, // Adjust this value to control the autoplay speed
+                      delay: 3000, // Adjust this value to control the autoplay speed
                       disableOnInteraction: false,
                     }}
                   >
@@ -210,7 +210,7 @@ function CharactersandWeapons() {
 
                   }}
                   autoplay={{
-                    delay: 1000, // Adjust this value to control the autoplay speed
+                    delay: 3000, // Adjust this value to control the autoplay speed
                     disableOnInteraction: false,
                   }}
                 >
