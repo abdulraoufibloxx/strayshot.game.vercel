@@ -44,11 +44,11 @@
     border-radius: 1rem;
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 380px;
     width: 100%;
     /* height: 295px ;
     width: 245px; */
-    padding: 0px 5px;
+    padding: 10px 15px;
     margin: 0;
 }
 
@@ -87,6 +87,60 @@
 .game-modes-card-lg .col{
     padding:3px;
 }
+
+.game-modes-card-btn-container{
+    position: relative;
+}
+
+
+.game-modes-card-btn-container::before{
+    content: url('../../../assets/btn-line.svg');
+    position: absolute;
+    width: 100%;
+    top: -13px;
+    left: -10px;
+
+}
+
+.game-modes-card-btn-container::after{
+    content: url('../../../assets/btn-line.svg');
+    position: absolute;
+    /* width: 153px; */
+    width: 100%;
+    bottom: -13px;
+    left: -10px;
+
+}
+
+
+
+.game-modes-card-cta{
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    font-family: var(--main-heading-font);
+    color: black;
+    font-size: 22px;
+   
+}
+.game-modes-card-cta:hover{
+    color: black;
+
+}
+
+.game-modes-card-btn-container{
+    transition: transform 0.2s ease;
+}
+.game-modes-card-btn-container:hover{
+    transform: translate(1.5px, 1.5px);
+    cursor: pointer;
+}
+
+.game-modes-download-icon{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+
 
 @media (max-width: 1200px){
     .game-modes-card{
