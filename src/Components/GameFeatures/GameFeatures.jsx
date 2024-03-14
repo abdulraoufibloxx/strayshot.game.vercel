@@ -109,7 +109,7 @@ function GameFeatures() {
             modules={[Autoplay]}
             loop
                     autoplay={{
-                      delay: 1000, // Adjust this value to control the autoplay speed
+                      delay: 2500, // Adjust this value to control the autoplay speed
                       disableOnInteraction: false,
                     }}
            

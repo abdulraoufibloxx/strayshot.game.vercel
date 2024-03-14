@@ -51,7 +51,7 @@
 
 .overlay-text{
     /* font-family: 'ClashDisplay-Light', sans-serif; */
-    font-family: var(--secondary-font-normal);
+    font-family: var( --secondary-font-medium);
     font-weight: 600;
     letter-spacing: 2.5px;
     font-size: 14px;
