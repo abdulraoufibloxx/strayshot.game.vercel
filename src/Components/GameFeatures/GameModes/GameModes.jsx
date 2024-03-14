@@ -7,12 +7,13 @@ import clanWars from "../../../assets/GameModes/ClanWars.svg";
 import tutorialMap from "../../../assets/GameModes/TutorialMap.svg";
 import splashIcon from "../../../assets/GameModes/GameModeSplash.svg";
 import bottomLine from "../../../assets/GameModes/game-modes-bottom-line.svg";
+import { Link } from 'react-router-dom';
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay,Pagination } from "swiper/modules";
 // import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -20,13 +21,14 @@ import "swiper/css/autoplay";
 function Button({link}){
   return (
     <>
-    <div className="game-modes-card-btn-container mt-3">
-                      <a className="game-modes-card-cta " href={link} target="_blank" rel="noreferrer">
+    <Link to={link} target="_blank" rel="noreferrer" ><div className="game-modes-card-btn-container mt-2">
+                      <a className="game-modes-card-cta " >
                         LEARN MORE{" "}
                         
                        
                       </a>
-                    </div>
+                    </div></Link>
+    
     </>
   )
 }
@@ -64,23 +66,41 @@ function GameModes() {
         <div className="game-modes-card-container container justify-content-center align-items-center text-center">
           {/* carousel in mobile start  */}
 
-          <div className="game-modes-carousel-sm">
+          
             <div className="row">
-              <Swiper
-                className="swiper-custom"
-                spaceBetween={5}
-                slidesPerView={2}
-                modules={[Autoplay]}
-                loop
-                autoplay={{
-                  delay: 1000, // Adjust this value to control the autoplay speed
-                  disableOnInteraction: false,
-                }}
-              >
+            <Swiper
+                    className="swiper-custom"
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    modules={[Autoplay, Pagination]}
+                    // pagination={{
+                    //   clickable: true,
+                    // }}
+                    loop
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      768: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                      },
+                      992:{
+                        slidesPerView: 5,
+                        spaceBetween: 10,
+                      },
+                    }}
+                    // autoplay={{
+                    //   delay: 2000, // Adjust this value to control the autoplay speed
+                    //   disableOnInteraction: false,
+                    //   pauseOnMouseEnter: true,
+                    // }}
+                  >
                 <SwiperSlide>
                   <div className="">
                     <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center tdm-mt text-center p-1 mt-mb">
                         <div>
                           <img
                             className="game-modes-img"
@@ -92,11 +112,12 @@ function GameModes() {
                           <h5 className="game-modes-title ">TEAM DEATHMATCH</h5>
                         </div>
                         <p className="game-modes-description">
-                          Join forces with your team to eliminate opposing
-                          teams, secure the most kills before time runs out, and
-                          claim victory for your side.
+                        Join forces with your team to eliminate opposing teams and secure the most kills before time runs out.
                         </p>
-                        <Button link="https://blog.strayshot.game/2024/03/13/mastering-coordinated-battles-in-team-deathmatch/"/>
+                        <div > 
+                        <Button 
+                        link="https://blog.strayshot.game/2024/03/13/mastering-coordinated-battles-in-team-deathmatch/"/>
+                        </div>
                         <div></div>
                       </div>
                     </div>
@@ -106,7 +127,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3 ">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 mt-mb  ">
                         <div>
                           <img
                             className="game-modes-img"
@@ -132,7 +153,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3 ">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 mt-mb ">
                         <div>
                           <img
                             className="game-modes-img"
@@ -160,7 +181,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 mt-mb ">
                         <div>
                           <img
                             className="game-modes-img"
@@ -187,7 +208,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 mt-mb ">
                         <div>
                           <img
                             className="game-modes-img"
@@ -214,7 +235,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 mt-mb ">
                         <div>
                           <img
                             className="game-modes-img"
@@ -227,7 +248,7 @@ function GameModes() {
                             Training
                           </h5>
                         </div>
-                        <p className="game-modes-description">
+                        <p className="game-modes-description" style={{marginBottom:"2.4rem"}}>
                           Designed for players to practice techniques, test out
                           load-outs, and prepare for competitive matches.
                         </p>
@@ -241,7 +262,7 @@ function GameModes() {
                 <SwiperSlide>
                   <div>
                     <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
+                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1  mt-mb">
                         <div>
                           <img
                             className="game-modes-img"
@@ -267,11 +288,13 @@ function GameModes() {
                 </SwiperSlide>
               </Swiper>
             </div>
-          </div>
+          
 
           {/* carousel in mobile end  */}
 
-          <div className="game-modes-card-lg">
+
+
+          {/* <div className="game-modes-card-lg">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
               <div className="col">
                 <div className="game-modes-card mb-3">
@@ -445,7 +468,7 @@ function GameModes() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="game-modes-splash">
             <img
               className="game-modes-splash-img"

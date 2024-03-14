@@ -18,12 +18,10 @@
    
 }
 
-
-
 .about-strayshot-header-container::after {
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     width: 280px;
     z-index: -1;
    

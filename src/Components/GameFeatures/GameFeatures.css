@@ -230,7 +230,7 @@
 .strayshot-locations-container::after{
     content: url('../../assets/text-line-vect.svg');
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     width: 335px;
     z-index: -1;
 }

@@ -166,7 +166,7 @@ function GameFeatures() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide className="pt-4">
+              {/* <SwiperSlide className="pt-4">
                 <div className={`row ${
                         selectedMap.map1 == map3 ? "selected-map-pointer" : ""
                       }`}>
@@ -190,7 +190,7 @@ function GameFeatures() {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
 
               <SwiperSlide className="pt-4">
                 <div className={`row ${
@@ -301,11 +301,7 @@ function GameFeatures() {
                       </div>
                     </div>
 
-                   
-
-                    
-
-                    <div className="col">
+                    {/* <div className="col">
                       <div className={`row map-hover ${
                             selectedMap.map1 == map3 ? "selected-map" : ""
                           }`}>
@@ -326,7 +322,7 @@ function GameFeatures() {
                       <div className="row map-item-title mt-3">
                         <p className="">RUST YARD</p>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="col">
                       <div className={`row map-hover ${
