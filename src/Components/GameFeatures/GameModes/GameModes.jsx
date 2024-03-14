@@ -131,33 +131,6 @@ function GameModes() {
 
                 <SwiperSlide>
                   <div>
-                    <div className="game-modes-card mb-3">
-                      <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                        <div>
-                          <img
-                            className="game-modes-img"
-                            src={battleRoyale}
-                            alt="last man standing icon"
-                          />
-                        </div>
-                        <div>
-                          <h5 className="game-modes-title mt-2 text-uppercase">
-                            Extraction
-                          </h5>
-                        </div>
-                        <p className="game-modes-description">
-                          Be the last one standing in a single-elimination
-                          tournament!
-                        </p>
-                        <Button link="https://blog.strayshot.game/2024/03/12/extraction-high-stakes-resource-gathering/"/>
-                        <div></div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <div>
                     <div className="game-modes-card mb-3 ">
                       <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                         <div>
@@ -346,30 +319,7 @@ function GameModes() {
                   </div>
                 </div>
               </div>
-              <div className="col">
-                <div className="game-modes-card mb-3">
-                  <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
-                    <div className="">
-                      <img
-                        className="game-modes-img"
-                        src={battleRoyale}
-                        alt="last man standing icon"
-                      />
-                    </div>
-                    <div>
-                      <h5 className="game-modes-title mt-3 text-uppercase">
-                        last man standing
-                      </h5>
-                    </div>
-                    <p className="game-modes-description">
-                      Be the last one standing in a single-elimination
-                      tournament!
-                    </p>
-                    <Button link="https://blog.strayshot.game/category/game-mode/" />
-                    <div></div>
-                  </div>
-                </div>
-              </div>
+              
               <div className="col">
                 <div className="game-modes-card mb-3">
                   <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
