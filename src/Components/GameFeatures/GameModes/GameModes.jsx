@@ -68,7 +68,7 @@ function GameModes() {
             <div className="row">
               <Swiper
                 className="swiper-custom"
-                spaceBetween={2}
+                spaceBetween={5}
                 slidesPerView={2}
                 modules={[Autoplay]}
                 loop
@@ -120,8 +120,7 @@ function GameModes() {
                           </h5>
                         </div>
                         <p className="game-modes-description">
-                          Survive the treacherous beauty of a Tropical Island in
-                          a ruthless battle royale.
+                        Serves as the starting point for new StrayShot players to learn the ropes and begin their ranked competitive journey.
                         </p>
                         <Button link="https://blog.strayshot.game/2024/03/12/rookie-league-the-starting-ground-for-strayshot/"/>
                         <div></div>
@@ -303,7 +302,7 @@ function GameModes() {
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
               <div className="col">
                 <div className="game-modes-card mb-3">
-                  <div className="d-flex flex-column justify-content-center mt-2 align-items-center  text-center p-1 ">
+                  <div className="d-flex flex-column justify-content-center align-items-center  text-center p-1 ">
                     <div className="mt-4">
                       <img
                         className="game-modes-img"
@@ -340,8 +339,7 @@ function GameModes() {
                       </h5>
                     </div>
                     <p className="game-modes-description">
-                      Survive the treacherous beauty of a Tropical Island in a
-                      ruthless battle royale.
+                    Serves as the starting point for new StrayShot players to learn the ropes and begin their ranked competitive journey.
                     </p>
                     <Button link="https://blog.strayshot.game/2024/03/12/rookie-league-the-starting-ground-for-strayshot/" />
                     <div></div>

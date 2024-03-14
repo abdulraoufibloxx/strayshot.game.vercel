@@ -48,7 +48,7 @@
     width: 100%;
     /* height: 295px ;
     width: 245px; */
-    padding: 10px 15px;
+    padding: 10px 5px;
     margin: 0;
 }
 
@@ -96,8 +96,8 @@
 .game-modes-card-btn-container::before{
     content: url('../../../assets/btn-line.svg');
     position: absolute;
-    width: 102px;
-    top: -16px;
+    width: 97px;
+    top: -14px;
     left: -6px;
    
 
@@ -106,8 +106,8 @@
 .game-modes-card-btn-container::after{
     content: url('../../../assets/btn-line.svg');
     position: absolute;
-    width: 102px;
-    bottom: -12px;
+    width: 97px;
+    bottom: -10px;
     left: -6px;
 
 
@@ -117,10 +117,10 @@
 
 .game-modes-card-cta{
     background-color: var(--primary-color);
-    padding: 5px 10px;
+    padding: 3px 8px;
     font-family: var(--main-heading-font);
     color: black;
-    font-size: 22px;
+    font-size: 20px;
    
 }
 .game-modes-card-cta:hover{
@@ -129,7 +129,7 @@
 }
 
 .game-modes-card-btn-container{
-    transition: transform 0.2s ease;
+    transition: transform 0.1s ease;
 }
 .game-modes-card-btn-container:hover{
     transform: translate(1.5px, 1.5px);
