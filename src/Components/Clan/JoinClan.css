@@ -64,7 +64,7 @@
 .game-modes-subtitle{
     font-family: var(--secondary-font-medium);
     font-size: 16px;
-    letter-spacing: 1.28px;
+    letter-spacing: 0.1rem;
 
 }
 

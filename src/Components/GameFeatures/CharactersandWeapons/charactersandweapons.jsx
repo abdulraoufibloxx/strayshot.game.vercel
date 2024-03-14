@@ -65,8 +65,6 @@ function CharactersandWeapons() {
               justify
             >
               <Tab eventKey="characters" title="CHARACTERS">
-               
-
                 <div className="character-card-lg container mx-auto">
                   <Swiper
                     className="swiper-custom"
@@ -86,7 +84,7 @@ function CharactersandWeapons() {
                         slidesPerView: 3,
                         spaceBetween: 10,
                       },
-                      992:{
+                      992: {
                         slidesPerView: 4,
                         spaceBetween: 10,
                       },
@@ -112,7 +110,11 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">SAM</h5>
-                            <p class="card-text text-start">Behind Sam's cool gaze is a master strategist. He reads the battlefield like a book, turning data into winning plays. </p>
+                            <p class="card-text text-start">
+                              Behind Sam's cool gaze is a master strategist. He
+                              reads the battlefield like a book, turning data
+                              into winning plays. 
+                            </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -131,7 +133,12 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">KANE</h5>
-                            <p class="card-text text-start">Kane stands firm on the battlefield as a heavy juggernaut dishing - and absorbing - extreme damage. One look at his face tells you he's here to crush anyone in his way. </p>
+                            <p class="card-text text-start">
+                              Kane stands firm on the battlefield as a heavy
+                              juggernaut dishing - and absorbing - extreme
+                              damage. One look at his face tells you he's here
+                              to crush anyone in his way. 
+                            </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -150,7 +157,12 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">HECTOR</h5>
-                            <p class="card-text text-start">Wild and fiery, Hector charges in with his massive weapons, leaving enemies in smoldering ruins. No wonder they call him the Demolisher - he's a one-man wrecking crew. </p>
+                            <p class="card-text text-start">
+                              Wild and fiery, Hector charges in with his massive
+                              weapons, leaving enemies in smoldering ruins. No
+                              wonder they call him the Demolisher - he's a
+                              one-man wrecking crew. 
+                            </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -169,7 +181,12 @@ function CharactersandWeapons() {
                           </div>
                           <div class="card-body c-and-w-body">
                             <h5 class="card-title text-start">DUKE</h5>
-                            <p class="card-text text-start">Duke's suit blends with the shadows, making him a ghost on the battlefield. He warps through walls, strikes silently, and eliminates enemies before they know what hit them.</p>
+                            <p class="card-text text-start">
+                              Duke's suit blends with the shadows, making him a
+                              ghost on the battlefield. He warps through walls,
+                              strikes silently, and eliminates enemies before
+                              they know what hit them.
+                            </p>
                           </div>
                         </div>
                       </SwiperSlide>
@@ -179,41 +196,39 @@ function CharactersandWeapons() {
               </Tab>
 
               <Tab eventKey="profile" title="WEAPONS">
-
                 <div className="weapon-container-lg container">
                   <Swiper
-                  className="swiper-custom"
-                  spaceBetween={10}
-                  slidesPerView={1}
-                  modules={[Autoplay, Pagination]}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  loop
-                  breakpoints={{
-                    640: {
-                      slidesPerView: 2,
-                      spaceBetween: 10,
-                    },
-                    768: {
-                      slidesPerView: 3,
-                      spaceBetween: 10,
-                    },
-                    992:{
-                      slidesPerView: 4,
-                      spaceBetween: 10,
-                    },
-                    1200:{
-                      slidesPerView: 5,
-                      spaceBetween: 10,
-                    }
-
-                  }}
-                  autoplay={{
-                    delay: 3000, // Adjust this value to control the autoplay speed
-                    disableOnInteraction: false,
-                  }}
-                >
+                    className="swiper-custom"
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    modules={[Autoplay, Pagination]}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    loop
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                      },
+                      768: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                      },
+                      992: {
+                        slidesPerView: 4,
+                        spaceBetween: 10,
+                      },
+                      1200: {
+                        slidesPerView: 5,
+                        spaceBetween: 10,
+                      },
+                    }}
+                    autoplay={{
+                      delay: 3000, // Adjust this value to control the autoplay speed
+                      disableOnInteraction: false,
+                    }}
+                  >
                     <SwiperSlide>
                       <div className="card">
                         <div className="char-img-contianer">
@@ -258,10 +273,10 @@ function CharactersandWeapons() {
                             ASSAULT RIFLE
                           </h5>
                           <p className="weapon-description text-start">
-                            Unleash a hail of bullets with the assault rifle,
-                            the versatile workhorse of any squad, perfect for
-                            mid-range engagements and laying down suppressing
-                            fire.
+                            The assault rifle is a versatile workhorse. Its
+                            steady stream of bullets shreds through opponents,
+                            making it a reliable companion for conquering your
+                            battlefield objectives.
                           </p>
                         </div>
                       </div>
@@ -284,9 +299,10 @@ function CharactersandWeapons() {
                             Pistol
                           </h5>
                           <p className="weapon-description text-start">
-                            The pistol is the trusty sidearm every soldier
-                            relies on, offering quick and precise firepower when
-                            you need it most.
+                            The pistol is your trusty sidearm. Use it for
+                            unexpected close encounters. Its compact size and
+                            rapid firing rate are ideal for eliminating enemies
+                            in tight spaces.
                           </p>
                         </div>
                       </div>
@@ -309,10 +325,10 @@ function CharactersandWeapons() {
                             sniper
                           </h5>
                           <p className="weapon-description text-start">
-                            Bring explosive mayhem to the fight with the grenade
-                            launcher, raining down destruction on enemy
-                            positions and turning the tide of battle in your
-                            favour.
+                            The sniper rifle offers unparalleled precision at
+                            long distances for those who prefer a more strategic
+                            approach. Take down enemies from afar and
+                            unsuspecting angles
                           </p>
                         </div>
                       </div>
@@ -335,10 +351,9 @@ function CharactersandWeapons() {
                             Rocket launcher
                           </h5>
                           <p className="weapon-description text-start">
-                            For when you absolutely, positively need to
-                            obliterate everything in your path, the rocket
-                            launcher is your go-to weapon for delivering
-                            explosive justice.
+                            When brute force is needed, the rocket launcher
+                            delivers nothing but destruction. Flush out an
+                            entire camp of enemies with just a single launch.
                           </p>
                         </div>
                       </div>
@@ -396,7 +411,6 @@ function CharactersandWeapons() {
                       </div>
                     </SwiperSlide>
                   </Swiper>
-            
                 </div>
               </Tab>
             </Tabs>

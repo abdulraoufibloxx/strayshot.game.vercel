@@ -22,7 +22,7 @@
 .download-cta-subtitle {
   font-family: var(--secondary-font-medium);
   color: #e7e8e8;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   line-height: 1.5rem;
   width: 70%;
   margin: auto;

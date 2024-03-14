@@ -58,8 +58,7 @@ function GameModes() {
           </div>
           <div className="mb-5 mt-4">
             <p className="text-uppercase  game-modes-subtitle">
-              Learn more about the Game Modes WHERE YOU’ll EXPERIENCE Your
-              Bounty Hunting Journey
+            Master the Island, conquer your rivals, and book your spot in the ultimate monthly tournament where only the best of the best compete.
             </p>
           </div>
         </div>

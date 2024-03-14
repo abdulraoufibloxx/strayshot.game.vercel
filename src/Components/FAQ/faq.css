@@ -36,7 +36,7 @@
 }
 .faq-main-title{
     font-family: var(--secondary-font-medium);
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 }
 
 .faq-header-container{
