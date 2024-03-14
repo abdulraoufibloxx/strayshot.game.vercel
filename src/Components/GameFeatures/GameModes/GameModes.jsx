@@ -91,11 +91,11 @@ function GameModes() {
                         spaceBetween: 10,
                       },
                     }}
-                    // autoplay={{
-                    //   delay: 2000, // Adjust this value to control the autoplay speed
-                    //   disableOnInteraction: false,
-                    //   pauseOnMouseEnter: true,
-                    // }}
+                    autoplay={{
+                      delay: 2000, // Adjust this value to control the autoplay speed
+                      disableOnInteraction: false,
+                      pauseOnMouseEnter: true,
+                    }}
                   >
                 <SwiperSlide>
                   <div className="">
