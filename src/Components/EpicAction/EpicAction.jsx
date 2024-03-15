@@ -94,8 +94,7 @@ function EpicAction() {
                 </div>
                 <div className="row ">
                   <p>
-                    Survive epic battles! Outsmart, outmaneuver, and outgun your
-                    opponents. The power’s in your hands!
+                  Survive, outsmart, and outgun other hunters on the battlefield. The power's in your hands!
                   </p>
                 </div>
               </div>

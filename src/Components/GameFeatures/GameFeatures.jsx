@@ -57,14 +57,14 @@ function GameFeatures() {
     <>
       <div className="game-features-container" id="Game-Features">
         <div className="main-heading d-flex flex-column justify-content-center align-items-center">
-          <div>
+          {/* <div>
             <img src={GameFeatureSvg} alt="GameFeatureSVG" />
           </div>
           <div className="container">
             <p className="game-features-heading text-center header-text text-uppercase my-5">
             ARMED WITH YOUR SKILLS AND AN INSATIABLE HUNGER TO WIN, YOU MUST OUTMANOEUVRE AND OUTGUN YOUR OPPONENTS IF YOU HOPE TO CLIMB THE LEADERBOARD
             </p>
-          </div>
+          </div> */}
 
           <div className="my-5 strayshot-locations-container">
             <h3 className="map-header text-center header-text strayshot-locations-header">
@@ -206,7 +206,7 @@ function GameFeatures() {
                             handleImageClick(
                               map4,
                               "URBAN RUINS",
-                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment."
+                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore."
                             )
                           }
                           alt="Urban Ruins Map"
@@ -335,7 +335,7 @@ function GameFeatures() {
                             handleImageClick(
                               map4,
                               "URBAN RUINS",
-                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore. Be prepared for intense battles in this compact and treacherous environment.",
+                              "Perfect for close-range combat with tunnels, underground passages, and small stairs to explore.",
                               "https://blog.strayshot.game/2024/03/12/an-overview-of-the-urban-ruins-map/"
                             )
                           }

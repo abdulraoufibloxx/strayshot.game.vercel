@@ -9,12 +9,11 @@ function FAQ() {
     {
       question: "What is StrayShot?",
       answer:
-        "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches. In StrayShot, you'll discover a world of unique characters and engaging game modes. It's all about accumulating points and proving your skills to qualify for exclusive prizes in high-stakes weekly and monthly challenges. StrayShot brings you fast-paced action, deep customization, and a variety of game modes like Hostage Rescue, Extraction Shooter, and Team Deathmatch. So, gear up and get ready for intense gaming adventures in StrayShot.",
+        "StrayShot is an exciting third-person shooter where you battle rivals using distinct characters and weapons. Prove your skills in various modes, earn points, and qualify for exclusive prizes in weekly and monthly challenges. With fast-paced action and deep customization, StrayShot delivers an immersive battle royale experience you won't find anywhere else in web3.",
     },
     {
       question: "How do I play the beta?",
-      answer:
-        "To get started, download the game. Do note that you might not be able to play right away, as our servers are only operational specifically during public test sessions. However, joining or creating a clan in the server allows you to participate in test plays more frequently, with sessions occurring up to three times a week. Join Discord to learn more.",
+      answer: `To get started <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> download the game.</a> Please note that we won't be able to play immediately, as our servers are only operational during public test sessions. However, <a href="https://blog.strayshot.game/2024/03/12/how-the-clan-system-works-within-strayshot/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> joining or creating a clan</a> allows you to participate in test plays more frequently, with sessions occurring up to three times a week. Join Discord to <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> learn more.</a>`,
     },
     {
       question: "How do I Install StrayShot?",
@@ -61,7 +60,7 @@ function FAQ() {
       question:
         "HOW TO TROUBLESHOOT Log-in and  Reporting Installation Problems?",
       answer: `
-        If you encounter sign-in issues on StrayShot, start by refreshing the page. Clear the cache in the StrayShot client settings. If the problem persists, please open a  <a className="support-ticket" target="_blank" rel="noopener noreferrer" style="
+      Always make sure your GPU and Windows drivers are up-to-date. Refresh your browser and clear your cache settings for any sign-in issues. Also, uninstall the game launcher and redownload it if you encounter any game installation problems. If a problem persists after trying all these, kindly open a <a className="support-ticket" target="_blank" rel="noopener noreferrer" style="
         text-decoration: underline;
     " href="https://forms.clickup.com/9010090140/f/8cgp44w-507/Z3YMAV6X5EPV9OC5FH">support ticket here</a>
         .

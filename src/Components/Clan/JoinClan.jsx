@@ -54,7 +54,7 @@ function JoinClan(){
                             <div><img src={sentinalsVect} alt="Sentinals Clan Image" /></div>
                             <div className='clan-text-content'>
                             <div><p className='clan-name'>The Sentinels</p></div>
-                            <div><p className='clan-description'>Dedicated to maximising gaming potential and community engagement. </p></div>
+                            <div><p className='clan-description'>The fastest rising clan, yet packed with hunters ready for battles at any time.</p></div>
                             </div>
                             
                         </div>
