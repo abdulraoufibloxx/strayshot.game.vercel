@@ -163,7 +163,7 @@ function Header() {
               </div>
               <div className="mb-3">
                 <Link
-                  to="/#Game-Features"
+                  to="/#GameModes"
                   smooth
                   onClick={handleClose}
                   className="link-style "
