@@ -43,7 +43,7 @@ function GameModes() {
   };
 
   return (
-    <div className="game-modes-container mb-4">
+    <div className="game-modes-container mb-4" id="GameModes">
       <div className="d-flex flex-column justify-content-center align-items-center  text-center">
         <div className="row">
           <img

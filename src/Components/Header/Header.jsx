@@ -44,7 +44,7 @@ function Header() {
             </Link>
           </div>
           <div>
-            <Link to="/#Game-Features" smooth>
+            <Link to="/#GameModes" smooth>
               GAME FEATURES
             </Link>
           </div>
