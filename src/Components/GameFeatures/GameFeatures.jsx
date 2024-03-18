@@ -39,7 +39,7 @@ function GameFeatures() {
     name: "WHITE PALMS ISLAND",
     description:
       "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through. ",
-    readMoreLink:"https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-tropical-island-map/"
+    readMoreLink:"https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/"
     
   });
 
@@ -265,7 +265,7 @@ function GameFeatures() {
                               map1,
                               "WHITE PALMS ISLAND",
                               "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through.",
-                              "https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-tropical-island-map/"
+                              "https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/"
                             )
                           }
                           alt="WHITE PALMS ISLAND map"

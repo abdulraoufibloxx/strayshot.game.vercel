@@ -108,7 +108,7 @@ function GameUpdates() {
             <div className="item-2">
               <div class="card game-updates-card text-start">
                 <div className="game-update-card-img">
-                  <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank">
+                  <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank">
                     <img
                       src="https://webassets.strayshot.game/newstrayshot/maps/tropicalislandmap.webp"
                       class="card-img-top"
@@ -123,12 +123,12 @@ function GameUpdates() {
                   <p className="game-update-card-date text-uppercase">FEBRUARY 28, 2024</p>
 
                   
-                  <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank" rel="noopener noreferrer"><h5 class="card-title game-update-card-title text-uppercase">
-                  An Insider Look at the TDM Tropical Map
+                  <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank" rel="noopener noreferrer"><h5 class="card-title game-update-card-title text-uppercase">
+                  An Insider Look at the White Palms Island
                   </h5></a> 
       
 
-                  <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank" rel="noopener noreferrer"  className="game-update-card-read-more text-uppercase">
+                  <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank" rel="noopener noreferrer"  className="game-update-card-read-more text-uppercase">
                     READ MORE{" "}
                     <span className="ms-1">
                       <svg
@@ -264,7 +264,7 @@ function GameUpdates() {
                 <div class="card game-updates-card text-start">
                   <div className="game-update-card-img">
 
-                      <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank">
+                      <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank">
                       <img
                       src="https://webassets.strayshot.game/newstrayshot/maps/tropicalislandmap.webp"
                       class="card-img-top"
@@ -280,9 +280,9 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 28, 2024</p>
 
-                     <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank" rel="noopener noreferrer">
+                     <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank" rel="noopener noreferrer">
                      <h5 class="card-title game-update-card-title text-uppercase">
-                     An Insider Look at the TDM Tropical Map
+                     An Insider Look at the White Palms Island
                     </h5></a> 
                     
                     
@@ -292,7 +292,7 @@ function GameUpdates() {
                       leo viverra euismod risus varius mattis.
                     </p> */}
 
-                    <a href="https://medium.com/@StrayShot/an-insider-look-at-the-tropical-island-map-7a83a7bb9321" target="_blank" className="game-update-card-read-more text-uppercase">
+                    <a href="https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-white-palms-island/" target="_blank" className="game-update-card-read-more text-uppercase">
                       READ MORE{" "}
                       <span className="ms-1">
                         <svg
