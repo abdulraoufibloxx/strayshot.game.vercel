@@ -32,7 +32,7 @@ function EpicAction() {
           </p> */}
 
               <p className="epic-action-text mx-auto">
-              StrayShot is a third-person shooter that throws you into a Heart-pounding battle royale action set in stunning environments with high-quality graphics and fast-paced shooter mechanics. Suitable for both squad-based and solo play, only the strongest survive in these ruthless battlefields.
+              StrayShot is a third-person shooter that throws you into Heart-pounding battle royale action set in stunning environments with high-quality graphics and fast-paced shooter mechanics. Suitable for both squad-based and solo play, only the strongest survive in these ruthless battlefields.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ function EpicAction() {
                 </div>
                 <div className="row">
                   <p>
-                    Win battles & earn exclusive rewards, like in-game items and
+                    Win battles & earn exclusive rewards,such as in-game items and
                     unique skins. Every collectible shows how good you are!
                   </p>
                 </div>
@@ -130,7 +130,7 @@ function EpicAction() {
                 <div className="row">
                   <p>
                     Everything you earn is yours! You can keep, sell, trade or
-                    use them to upgrade your gear. It's all up to you!
+                    use these items to upgrade your gear. It's all up to you!
                   </p>
                 </div>
               </div>

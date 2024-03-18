@@ -58,7 +58,7 @@ function GameModes() {
           </div>
           <div className="mb-5 mt-4">
             <p className="text-uppercase  game-modes-subtitle">
-            Master the Island, conquer your rivals, and book your spot in the ultimate monthly tournament where only the best of the best compete.
+            PROVE YOU'RE A TOP HUNTER, CONQUER RIVALS, AND BOOK A SPOT IN THE ULTIMATE MONTHLY TOURNAMENT WHERE ONLY THE BEST OF THE BEST COMPETE.
             </p>
           </div>
         </div>

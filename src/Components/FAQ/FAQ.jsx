@@ -9,11 +9,11 @@ function FAQ() {
     {
       question: "What is StrayShot?",
       answer:
-        "StrayShot is an exciting third-person shooter where you battle rivals using distinct characters and weapons. Prove your skills in various modes, earn points, and qualify for exclusive prizes in weekly and monthly challenges. With fast-paced action and deep customization, StrayShot delivers an immersive battle royale experience you won't find anywhere else in web3.",
+        "StrayShot is an exciting third-person shooter where you battle rivals using distinct characters and weapons. With fast-paced action and deep customization, our game delivers an immersive battle royale experience to test your combating skills.",
     },
     {
       question: "How do I play the beta?",
-      answer: `To get started <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> download the game.</a> Please note that we won't be able to play immediately, as our servers are only operational during public test sessions. However, <a href="https://blog.strayshot.game/2024/03/12/how-the-clan-system-works-within-strayshot/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> joining or creating a clan</a> allows you to participate in test plays more frequently, with sessions occurring up to three times a week. Join Discord to <a href="https://discord.com/invite/Strayshot" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> learn more.</a>`,
+      answer: `To get started <a href="https://play.strayshot.game/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> download the game.</a>  Then, <a href="https://blog.strayshot.game/2024/03/12/how-the-clan-system-works-within-strayshot/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;"> join a clan</a> to participate in test plays more frequently, with sessions occurring up to three times a week.`,
     },
     {
       question: "How do I Install StrayShot?",

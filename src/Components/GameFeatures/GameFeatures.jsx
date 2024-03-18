@@ -36,7 +36,7 @@ function GameFeatures() {
   // const [selectedMap, setSelectedMap] = useState(map1);
   const [selectedMap, setSelectedMap] = useState({
     map1,
-    name: "TROPICAL ISLAND",
+    name: "WHITE PALMS ISLAND",
     description:
       "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through. ",
     readMoreLink:"https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-tropical-island-map/"
@@ -128,14 +128,14 @@ function GameFeatures() {
                       onClick={() =>
                         handleImageClick(
                           map1,
-                          "TROPICAL ISLAND",
+                          "WHITE PALMS ISLAND",
                           "A cityscape that has looted downtown towers, empty neighborhoods, and crashed aircraft for you to fight through."
                         )
                       }
-                      alt="Tropical Island map"
+                      alt="WHITE PALMS ISLAND map"
                     />
                     <div className="row map-item-title mt-3">
-                      <p className="">TROPICAL ISLAND</p>
+                      <p className="">WHITE PALMS ISLAND</p>
                     </div>
                   </div>
                 </div>
@@ -232,7 +232,7 @@ function GameFeatures() {
                             handleImageClick(
                               map5,
                               "SIERRA ALTOS",
-                              "SierraAltos is a charming map set in a mountainous coastal village. With its unique architecture, lush vegetation, and rocky cliffs, the map offers areas that enhance your tactical gameplay experience."
+                              "SierraAltos is a charming map set in a mountainous coastal village requiring players to master the art of positioning and engaging enemies from above and below."
                             )
                           }
                           alt="Urban Ruins Map"
@@ -263,16 +263,16 @@ function GameFeatures() {
                           onClick={() =>
                             handleImageClick(
                               map1,
-                              "TROPICAL ISLAND",
+                              "WHITE PALMS ISLAND",
                               "A cityscape that has looted downtown towers, empty neighborhoods, and a crashed aircraft for you to fight through.",
-                              "https://blog.strayshot.game/2024/03/12/mastering-the-guerra-hills-map-in-strayshot-a-strategic-overview/"
+                              "https://blog.strayshot.game/2024/03/07/an-insider-look-at-the-tropical-island-map/"
                             )
                           }
-                          alt="Tropical Island map"
+                          alt="WHITE PALMS ISLAND map"
                         />
                       </div>
                       <div className="row map-item-title mt-3">
-                        <p className="">TROPICAL ISLAND</p>
+                        <p className="">WHITE PALMS ISLAND</p>
                       </div>
                     </div>
 
@@ -358,7 +358,7 @@ function GameFeatures() {
                             handleImageClick(
                               map5,
                               "SIERRA ALTOS",
-                              "SierraAltos is a charming map set in a mountainous coastal village. With its unique architecture, lush vegetation, and rocky cliffs, the map offers areas that enhance your tactical gameplay experience.",
+                              "SierraAltos is a charming map set in a mountainous coastal village requiring players to master the art of positioning and engaging enemies from above and below.",
                               "https://blog.strayshot.game/2024/03/12/tactical-guide-to-the-sierraaltos-map/"
                             )
                           }
