@@ -45,9 +45,10 @@
 
 .faq-header-container::before {
     content: url('../../assets/text-line-vect.svg');
-    position: absolute;
-    top: -20px;
     width: 450px;
+    position: absolute;
+    top: 0;
+    margin-top: -15px;
     left: 10px;
     z-index: -1;
    
@@ -55,9 +56,10 @@
 
 .faq-header-container::after {
     content: url('../../assets/text-line-vect.svg');
-    position: absolute;
-    bottom: -10px;
     width: 450px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -10px;
     left: 10px;
     z-index: -1;
    

@@ -10,24 +10,28 @@
 }
 
 .about-strayshot-header-container::before {
-    content: url('../../assets/text-line-vect.svg');
+    content: url(/src/assets/text-line-vect.svg);
     position: absolute;
-    top: -20px;
+    display: block;
+    top: 0;
+    margin-top: -15px;
     width: 280px;
     z-index: -1;
-   
 }
 
 .about-strayshot-header-container::after {
-    content: url('../../assets/text-line-vect.svg');
+    content: url(/src/assets/text-line-vect.svg);
     position: absolute;
-    bottom: -10px;
+    display: block;
     width: 280px;
+    bottom: 0;
     z-index: -1;
-   
+    margin-bottom: -5px;
+
 }
 
 .about-strayshot-header{
+    text-align: center;
     position: relative;
 }
 
