@@ -111,8 +111,8 @@ function EpicAction() {
                 </div>
                 <div className="row">
                   <p>
-                    Win battles & earn exclusive rewards,such as in-game items and
-                    unique skins. Every collectible shows how good you are!
+                    Win battles & earn exclusive rewards, such as in-game items and
+                    unique skins.
                   </p>
                 </div>
               </div>
