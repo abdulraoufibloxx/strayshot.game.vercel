@@ -232,7 +232,7 @@ function GameFeatures() {
                             handleImageClick(
                               map5,
                               "SIERRA ALTOS",
-                              "SierraAltos is a charming map set in a mountainous coastal village requiring players to master the art of positioning and engaging enemies from above and below."
+                              "A mountainous location that requires hunters to master the art of engaging enemies from above and below"
                             )
                           }
                           alt="Urban Ruins Map"
@@ -358,7 +358,7 @@ function GameFeatures() {
                             handleImageClick(
                               map5,
                               "SIERRA ALTOS",
-                              "SierraAltos is a charming map set in a mountainous coastal village requiring players to master the art of positioning and engaging enemies from above and below.",
+                              "A mountainous location that requires hunters to master the art of engaging enemies from above and below",
                               "https://blog.strayshot.game/2024/03/12/tactical-guide-to-the-sierraaltos-map/"
                             )
                           }

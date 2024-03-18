@@ -9,7 +9,7 @@ function FAQ() {
     {
       question: "What is StrayShot?",
       answer:
-        "StrayShot is an exciting third-person shooter where you battle rivals using distinct characters and weapons. With fast-paced action and deep customization, our game delivers an immersive battle royale experience to test your combating skills.",
+        "StrayShot is an exciting third-person shooter where you battle rivals using distinct characters and weapons. With fast-paced action and deep customization, our game delivers an immersive battle royale experience that tests your combating skills.",
     },
     {
       question: "How do I play the beta?",
