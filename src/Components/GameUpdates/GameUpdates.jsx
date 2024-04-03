@@ -334,7 +334,7 @@ function GameUpdates() {
 
                       <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer">
                       <h5 class="card-title game-update-card-title text-uppercase">
-                    Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/02/2024
+                    Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/03/2024
                     </h5>
                       </a>
 
