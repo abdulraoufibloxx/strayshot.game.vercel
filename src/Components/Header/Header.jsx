@@ -68,6 +68,11 @@ function Header() {
               FAQS
             </Link>
           </div>
+          <div>
+            <Link to="https://blog.strayshot.game/" target="_blank" rel="noreferrer" smooth>
+              BLOG
+            </Link>
+          </div>
         </div>
 
         <div className="nav-right  align-items-center justify-content-between">
@@ -100,7 +105,7 @@ function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={downloadBtn} alt="download button" />
+                <img src={downloadBtn} className="download-btn-header" alt="download button" />
               </a>
             </button>
           </div>
@@ -209,6 +214,18 @@ function Header() {
                   className="link-style"
                 >
                   FAQS
+                </Link>
+              </div>
+              <div className="mb-3">
+                <Link
+                  to="https://blog.strayshot.game/"
+                  smooth
+                  target="_blank" 
+                  rel="noreferrer"
+                  onClick={handleClose}
+                  className="link-style"
+                >
+                  BLOG
                 </Link>
               </div>
             </div>
