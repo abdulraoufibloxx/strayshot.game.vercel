@@ -153,7 +153,7 @@ function GameUpdates() {
             <div className="item-3">
               <div class="card game-updates-card text-start">
                 <div className="game-update-card-img">
-                  <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer" ><img
+                  <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer" ><img
                     src={news2}
                     class="card-img-top"
                     alt="card image"
@@ -165,15 +165,15 @@ function GameUpdates() {
                 </div>
                 <div class="card-body">
                   <p className="game-update-card-date text-uppercase">FEBRUARY 21, 2024</p>
-                  <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer">
+                  <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer">
                   <h5 class="card-title game-update-card-title text-uppercase">
-                  Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/02/2024
+                  Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/03/2024
                   </h5>
                   </a>
                  
           
 
-                  <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                  <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                     READ MORE{" "}
                     <span className="ms-1">
                       <svg
@@ -317,7 +317,7 @@ function GameUpdates() {
               <div className="col mb-3">
                 <div class="card game-updates-card text-start game-udpates-card-last">
                   <div className="game-update-card-img">
-                  <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer">
+                  <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer">
                   <img
                       src={news2}
                       class="card-img-top"
@@ -332,7 +332,7 @@ function GameUpdates() {
                   <div class="card-body">
                     <p className="game-update-card-date">FEBRUARY 21, 2024</p>
 
-                      <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer">
+                      <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer">
                       <h5 class="card-title game-update-card-title text-uppercase">
                     Latest StrayShot Release Notes&nbsp;&mdash;&nbsp;21/02/2024
                     </h5>
@@ -345,7 +345,7 @@ function GameUpdates() {
                       leo viverra euismod risus varius mattis.
                     </p> */}
                     
-                    <a href="https://medium.com/@StrayShot/latest-strayshot-release-notes-21-02-2023-30c7aaf182c8" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
+                    <a href="https://blog.strayshot.game/2024/03/21/latest-strayshot-release-notes-21-03-2024/" target="_blank" rel="noopener noreferrer" className="game-update-card-read-more text-uppercase">
                       READ MORE{" "}
                       <span className="ms-1">
                         <svg
